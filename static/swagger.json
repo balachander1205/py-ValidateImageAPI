@@ -1,0 +1,136 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "centre for good governance",
+    "version": "1.0.0",
+    "title": "CGG Image Validation API"
+  },
+  "tags": [
+    {
+      "name": "Validate Image",
+      "description": "validate Image"
+    }
+  ],
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "components": {
+    "schemas": {
+	    "validateImage": {
+	        "type": "object",
+	        "properties": {
+	          "imageFilePath": {
+	            "type": "string"
+	          },
+	          "id": {
+	            "type": "string"
+	          },
+	          "fileType": {
+	            "type": "string"
+	          },
+	          "appid": {
+	            "type": "string"
+	          }
+	        }
+	    },
+	    "ValidateResponse": {
+	        "type": "object",
+	        "properties": {
+	          "imagefile": {
+	            "type": "string"
+	          },
+	          "id": {
+	            "type": "string"
+	          },
+	          "type": {
+	            "type": "string"
+	          },
+	          "appid": {
+	            "type": "string"
+	          },
+	          "isblur": {
+	            "type": "boolean"
+	          },
+	          "isvalidimage": {
+	            "type": "boolean"
+	          },
+	          "remarks": {
+	            "type": "string"
+	          },
+	          "uid": {
+	            "type": "string"
+	          },
+	          "createdatetime": {
+	            "type": "string"
+	          },
+	          "status": {
+	            "type": "string"
+	          }
+	        }
+	    }
+    }
+  },
+  "paths": {
+  	"/index": {
+      "get": {
+        "tags": [
+          "Validate Image"
+        ],
+        "summary": "Add todo",
+        "requestBody": {
+          "description": "Validate Image",
+          "required": false,
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/ValidateResponse"
+            }
+          },
+          "404": {
+            "description": "NOT FOUND",
+            "schema": {
+              "$ref": "#/components/schemas/ValidateResponse"
+            }
+          }
+        }
+      }
+    },
+    "/validateImage": {
+      "post": {
+        "tags": [
+          "Validate Image"
+        ],
+        "summary": "Add todo",
+        "requestBody": {
+          "description": "Validate Image",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/validateImage"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/ValidateResponse"
+            }
+          },
+          "404": {
+            "description": "NOT FOUND",
+            "schema": {
+              "$ref": "#/components/schemas/ValidateResponse"
+            }
+          }
+        }
+      }
+    }
+  }
+}
