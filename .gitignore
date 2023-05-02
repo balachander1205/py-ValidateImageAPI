@@ -3,4 +3,5 @@ __pycache__
 /__pycache__
 /venv
 static/logs/middleware.log
+/static/logs/middleware.log
 middleware.log
