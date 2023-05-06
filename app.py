@@ -64,6 +64,6 @@ def validateImage():
 if __name__=="__main__":
     logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)    
     logging.info('Started')
-    print("Started")
-    print("Serving on http://127.0.0.1:5001")
-    serve(app, host="127.0.0.1", port=5001)
+    print("Started Image validation server")
+    print("Serving on http://0.0.0.0:5001")
+    serve(app, host="0.0.0.0", port=5001)
