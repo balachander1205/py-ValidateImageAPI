@@ -80,8 +80,8 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 			'appid':app_id,            
 			'uid': uid,
 			'type': img_type,
-			'isblur':'',
-			'isvalidimage':'',
+			'isblur':'false',
+			'isvalidimage':'false',
 			'remarks':msg
 			}
 		return data		
@@ -97,8 +97,10 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 	logging.info("Actual face Dim=height="+str(face_hi)+ " width="+str(face_wi))
 	logging.info("Required face Dim=height="+str(face_h)+ " width="+str(face_w))
 	try:
-		if(validate_face1=="true"):
-			if(((int(face_hi) <= int(face_h)) and (int(face_wi) <= int(face_w))) and isblur1=="false"):
+		if(isblur1=="true"):
+			isvalidimage = "false"
+		if(validate_face1=="true" and isblur1=="false"):
+			if(((int(face_hi) <= int(face_h)) and (int(face_wi) <= int(face_w)))):
 				isvalidimage = "true"
 		return isvalidimage
 	except Exception as e:
@@ -113,6 +115,8 @@ def validate_sign_params(image_file_path, isblur1):
 	logging.info("Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
 	logging.info("Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
 	try:
+		if(isblur1=="true"):
+			isvalidimage = "false"
 		if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w))) and isblur1=="false"):
 			isvalidimage = "true"
 		return isvalidimage
