@@ -48,3 +48,52 @@
 2023-05-05 17:02:23,485 INFO root waitress-1 : validate_input_file:isfile=False isurl=False
 2023-05-05 17:02:23,487 INFO root waitress-1 : validate_input_file2:isfile=False isurl=False
 2023-05-05 17:02:23,488 INFO root waitress-1 : >>----->>> END:UUID:=811722dd-eb38-11ed-820e-141333e62825 <<<-----<<
+2023-05-06 08:11:59,815 INFO root MainThread : Started
+2023-05-06 08:11:59,850 INFO waitress MainThread : Serving on http://127.0.0.1:5001
+2023-05-06 08:12:16,095 INFO root waitress-0 : /validateImage....
+2023-05-06 08:12:16,096 INFO root waitress-0 : >>----->>> START:UUID:=9cd2f28c-ebb7-11ed-9b3a-141333e62825 <<<-----<<
+2023-05-06 08:12:16,097 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
+2023-05-06 08:12:16,100 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
+2023-05-06 08:12:16,101 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
+2023-05-06 08:12:16,102 INFO root waitress-0 : >>----->>> END:UUID:=9cd2f28c-ebb7-11ed-9b3a-141333e62825 <<<-----<<
+2023-05-06 08:14:05,491 INFO root MainThread : Started
+2023-05-06 08:14:05,524 INFO waitress MainThread : Serving on http://127.0.0.1:5001
+2023-05-06 08:14:11,996 INFO root waitress-0 : /validateImage....
+2023-05-06 08:14:11,998 INFO root waitress-0 : >>----->>> START:UUID:=e1e83736-ebb7-11ed-9f19-141333e62825 <<<-----<<
+2023-05-06 08:14:12,000 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
+2023-05-06 08:14:12,002 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
+2023-05-06 08:14:12,003 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
+2023-05-06 08:14:12,004 INFO root waitress-0 : >>----->>> END:UUID:=e1e83736-ebb7-11ed-9f19-141333e62825 <<<-----<<
+2023-05-06 08:15:00,570 INFO root MainThread : Started
+2023-05-06 08:15:00,589 INFO waitress MainThread : Serving on http://127.0.0.1:5001
+2023-05-06 08:15:03,554 INFO root waitress-0 : /validateImage....
+2023-05-06 08:15:03,556 INFO root waitress-0 : >>----->>> START:UUID:=00a32418-ebb8-11ed-8556-141333e62825 <<<-----<<
+2023-05-06 08:15:03,557 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
+2023-05-06 08:15:03,558 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
+2023-05-06 08:15:03,559 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
+2023-05-06 08:15:03,561 INFO root waitress-0 : >>----->>> END:UUID:=00a32418-ebb8-11ed-8556-141333e62825 <<<-----<<
+2023-05-06 08:15:10,352 INFO root waitress-1 : /validateImage....
+2023-05-06 08:15:10,354 INFO root waitress-1 : >>----->>> START:UUID:=04b0a663-ebb8-11ed-a4b2-141333e62825 <<<-----<<
+2023-05-06 08:15:10,356 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
+2023-05-06 08:15:10,357 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-06 08:15:10,358 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-06 08:15:10,557 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-06 08:15:30,129 INFO root waitress-1 : Face Locations=[(96, 135, 186, 46)]
+2023-05-06 08:15:30,131 INFO root waitress-1 : is_face_valid=true
+2023-05-06 08:15:30,135 INFO root waitress-1 : Actual face Dim=height=279 width=198
+2023-05-06 08:15:30,137 INFO root waitress-1 : Required face Dim=height=1920 width=1080
+2023-05-06 08:15:30,139 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-06 08:15:30,140 INFO root waitress-1 : >>----->>> END:UUID:=04b0a663-ebb8-11ed-a4b2-141333e62825 <<<-----<<
+2023-05-06 08:15:59,661 INFO root MainThread : Started
+2023-05-06 08:15:59,681 INFO waitress MainThread : Serving on http://127.0.0.1:5001
+2023-05-06 08:16:02,734 INFO root waitress-0 : /validateImage....
+2023-05-06 08:16:02,736 INFO root waitress-0 : >>----->>> START:UUID:=23e9753a-ebb8-11ed-808a-141333e62825 <<<-----<<
+2023-05-06 08:16:02,738 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
+2023-05-06 08:16:02,739 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-06 08:16:02,740 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-06 08:16:02,935 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-06 08:16:03,021 INFO root waitress-0 : Face Locations=[(96, 135, 186, 46)]
+2023-05-06 08:16:03,023 INFO root waitress-0 : is_face_valid=true
+2023-05-06 08:16:03,026 INFO root waitress-0 : Actual face Dim=height=279 width=198
+2023-05-06 08:16:03,027 INFO root waitress-0 : Required face Dim=height=1920 width=1080
+2023-05-06 08:16:03,028 INFO root waitress-0 : _isblur1_=false isvalidface=true

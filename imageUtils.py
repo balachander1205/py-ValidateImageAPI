@@ -87,6 +87,18 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 		return data		
 	except Exception as e:
 		logging.debug("process_image:Exception="+e)
+		return {
+			'status':'ERROR',
+			'imagefile':image_file_path,
+			'createdatetime':cur_datetime,
+			'id':id,
+			'appid':app_id,            
+			'uid': uid,
+			'type': img_type,
+			'isblur':'false',
+			'isvalidimage':'false',
+			'remarks': str(e)
+			}
 
 def validate_face_params(image_file_path, isblur1, validate_face1):
 	isvalidimage = "false"

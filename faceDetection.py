@@ -24,11 +24,11 @@ def is_face_valid(imagePath):
 		image = face_recognition.load_image_file(imagePath)
 		face_locations = face_recognition.face_locations(image)
 		
-		for face_location in face_locations:
-		    top, right, bottom, left = face_location
-		    cv2.rectangle(image, (left-15, top-50), (right+15, bottom+15), (0, 255, 0), 1)
-		cv2.imshow("Image", image)
-		cv2.waitKey(0)
+		# for face_location in face_locations:
+		#     top, right, bottom, left = face_location
+		#     cv2.rectangle(image, (left-15, top-50), (right+15, bottom+15), (0, 255, 0), 1)
+		# cv2.imshow("Image", image)
+		# cv2.waitKey(0)
 		
 		print("Face Locations=",face_locations)
 		logging.info("Face Locations="+str(face_locations))
@@ -41,5 +41,5 @@ def is_face_valid(imagePath):
 	except Exception as e:
 		logging.debug("Xception:is_face_valid="+e)	
 
-is_face_valid(imagePath)
+# is_face_valid(imagePath)
 #do_validate_face(imagePath)
