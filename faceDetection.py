@@ -15,7 +15,7 @@ def is_face_valid(imagePath):
 			return "NA"
 		if ('http://' in imagePath) or ('https://' in imagePath):
 			isurl = 'true'
-		print("is_face_valid:isurl=",isurl)
+		# print("is_face_valid:isurl=",isurl)
 		logging.info("is_face_valid:isurl="+isurl)
 		if(isurl=='true'):
 			response = requests.get(imagePath)

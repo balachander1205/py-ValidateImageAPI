@@ -32,7 +32,7 @@ def validate_input_file(image_file_path):
 		logging.info("validate_input_file:isfile="+str(isfile)+ " isurl="+str(isurl))
 		if(isurl==False and isfile==False):
 			msg = 'File not found / invalid file'
-		print("isfile=",isfile, " isurl=",isurl)
+		# print("isfile=",isfile, " isurl=",isurl)
 		logging.info("validate_input_file2:isfile="+str(isfile)+ " isurl="+str(isurl))
 	except Exception as e:
 		logging.debug(e)
@@ -43,20 +43,21 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 		logging.info('process_image:image_file_path='+image_file_path+" img_type="+img_type)
 		is_valid_file, msg = validate_input_file(image_file_path)
 		if(is_valid_file):
+			remarks = ""
 			isblur1 = do_blur_detection(image_file_path)		
 			# validate image background
-			validate_bg_img1 = binarize(image_file_path, img_type)
+			# validate_bg_img1 = binarize(image_file_path, img_type)
 			isvalidimage = "false"
 			# face
 			if(img_type=="face"):
 				# validate face
 				validate_face1 = is_face_valid(image_file_path)		
-				isvalidimage = validate_face_params(image_file_path, isblur1, validate_face1)
+				isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
 			# signature		
 			if(img_type=="sign"):
 				isblur1 = do_blur_detection(image_file_path)
-				isvalidimage = validate_sign_params(image_file_path, isblur1)
-			print("_isblur1_=",isblur1," isvalidface=",isvalidimage)
+				isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+			print("process_image::_isblur1_=",isblur1," isvalidface=",isvalidimage)
 			logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
 
 			data = {
@@ -69,7 +70,7 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 			'type': img_type,
 			'isblur': isblur1,
 			'isvalidimage': isvalidimage,
-			'remarks':''
+			'remarks':remarks
 			}
 		else:
 			data = {
@@ -82,7 +83,7 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 			'type': img_type,
 			'isblur':'false',
 			'isvalidimage':'false',
-			'remarks':msg
+			'remarks': ("Invalid Image" if(img_type=="face") else "Invalid Signature")
 			}
 		return data		
 	except Exception as e:
@@ -102,35 +103,57 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 
 def validate_face_params(image_file_path, isblur1, validate_face1):
 	isvalidimage = "false"
+	remarks = ""
 	face_h, face_w = get_face_img_dim()
 	face_hi, face_wi = get_resolution(image_file_path)
-	print("Actual face Dim=",face_hi, face_wi)
-	print("Required face Dim=",face_h, face_w)
+	print("validate_face_params::Actual face Dim=",face_hi, face_wi)
+	print("validate_face_params::Required face Dim=",face_h, face_w)
 	logging.info("Actual face Dim=height="+str(face_hi)+ " width="+str(face_wi))
 	logging.info("Required face Dim=height="+str(face_h)+ " width="+str(face_w))
 	try:
+		# Blur Image
 		if(isblur1=="true"):
 			isvalidimage = "false"
+			remarks = "Blur Image"
+		# Invalid Image
+		if(validate_face1=="false" and isblur1=="false"):
+			isvalidimage = "false"
+			remarks = "Invalid Image"
 		if(validate_face1=="true" and isblur1=="false"):
+			# Valid Image
 			if(((int(face_hi) <= int(face_h)) and (int(face_wi) <= int(face_w)))):
 				isvalidimage = "true"
-		return isvalidimage
+				remarks = "Valid Image"
+			# Full Scan Image
+			elif(((int(face_hi) >= int(face_h)) or (int(face_wi) >= int(face_w)))):
+				isvalidimage = "false"
+				remarks = "Full Scan Image"
+		print("validate_face_params::remarks=",remarks)
+		return isvalidimage, remarks
 	except Exception as e:
 		logging.debug("Xception:validate_face_params="+e)
 
 def validate_sign_params(image_file_path, isblur1):
 	isvalidimage = "false"
+	remarks = ""
 	sign_h, sign_w = get_sign_img_dim()
 	sign_hi, sign_wi = get_resolution(image_file_path)
-	print("Actual sign Dim=",sign_hi, sign_wi)
-	print("Required sign Dim=",sign_h, sign_w)
+	print("validate_sign_params::Actual sign Dim=",sign_hi, sign_wi)
+	print("validate_sign_params::Required sign Dim=",sign_h, sign_w)
 	logging.info("Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
 	logging.info("Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
 	try:
 		if(isblur1=="true"):
 			isvalidimage = "false"
-		if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w))) and isblur1=="false"):
-			isvalidimage = "true"
-		return isvalidimage
+			remarks = "Blur Signature"
+		if(isblur1=="false"):
+			if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+				isvalidimage = "true"
+				remarks = "Valid Signature"
+			elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
+				isvalidimage = "false"
+				remarks = "Full Scan Signature"
+		print("validate_sign_params::remarks=",remarks)
+		return isvalidimage, remarks
 	except Exception as e:
 		logging.debug("Xception:validate_sign_params="+e)

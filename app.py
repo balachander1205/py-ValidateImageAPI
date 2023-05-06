@@ -47,6 +47,7 @@ def validateImage():
     logging.info('/validateImage....')
     cur_datetime, uid = get_uuid()
     logging.info(">>----->>> START:UUID:="+str(uid)+" <<<-----<<")
+    print(">>----->>> START:UUID:="+str(uid)+" <<<-----<<")
     data = json.loads(request.data)
     # REQUEST BODY
     id = data.get('id', '')
@@ -57,6 +58,7 @@ def validateImage():
 
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
     logging.info(">>----->>> END:UUID:="+str(uid)+" <<<-----<<")
+    print(">>----->>> END:UUID:="+str(uid)+" <<<-----<<")
     return Response(json.dumps(data),mimetype='application/json')
 
 if __name__=="__main__":

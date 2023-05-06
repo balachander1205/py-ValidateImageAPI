@@ -20,7 +20,7 @@ def get_image(url, type):
 		isurl = 'false'
 		if ('http://' in url) or ('https://' in url):
 			isurl = 'true'
-		print("isurl=",isurl, " type="+type)
+		# print("isurl=",isurl, " type="+type)
 		# type=PIL
 		if(isurl=='true' and type=='pil'):
 			im = Image.open(requests.get(url, stream=True).raw)
