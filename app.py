@@ -8,6 +8,7 @@ from waitress import serve
 from imageUtils import process_image
 from commons import get_uuid
 from flask_swagger_ui import get_swaggerui_blueprint
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -45,6 +46,7 @@ def home():
 @crossdomain(origin='*')
 def validateImage():
     logging.info('/validateImage....')
+    start_time = datetime.now()
     cur_datetime, uid = get_uuid()
     logging.info(">>----->>> START:UUID:="+str(uid)+" <<<-----<<")
     print(">>----->>> START:UUID:="+str(uid)+" <<<-----<<")
@@ -58,6 +60,8 @@ def validateImage():
 
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
     logging.info(">>----->>> END:UUID:="+str(uid)+" <<<-----<<")
+    end_time = datetime.now()
+    print('Duration: {}'.format(end_time - start_time))
     print(">>----->>> END:UUID:="+str(uid)+" <<<-----<<")
     return Response(json.dumps(data),mimetype='application/json')
 

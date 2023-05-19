@@ -777,3 +777,228 @@ json.decoder.JSONDecodeError: Expecting ',' delimiter: line 6 column 5 (char 174
 2023-05-10 22:18:34,482 INFO root waitress-1 : Required face Dim=height=1000 width=1000
 2023-05-10 22:18:34,484 INFO root waitress-1 : _isblur1_=false isvalidface=true
 2023-05-10 22:18:34,485 INFO root waitress-1 : >>----->>> END:UUID:=808a00a5-ef52-11ed-980a-005056c00008 <<<-----<<
+2023-05-19 07:29:52,838 INFO root MainThread : Started
+2023-05-19 07:29:52,856 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-19 07:30:03,051 INFO root waitress-0 : /validateImage....
+2023-05-19 07:30:03,051 INFO root waitress-0 : >>----->>> START:UUID:=de61b724-f5e8-11ed-b695-161333e62825 <<<-----<<
+2023-05-19 07:30:03,053 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
+2023-05-19 07:30:03,054 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-19 07:30:03,055 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-19 07:30:03,103 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-19 07:30:03,127 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
+2023-05-19 07:30:03,130 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
+2023-05-19 07:30:03,130 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
+2023-05-19 07:30:03,132 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
+2023-05-19 07:30:03,135 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
+2023-05-19 07:30:03,137 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
+2023-05-19 07:30:03,139 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
+2023-05-19 07:30:03,161 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
+2023-05-19 07:30:03,164 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
+2023-05-19 07:30:03,166 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
+2023-05-19 07:30:03,168 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
+2023-05-19 07:30:03,171 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-05-19 07:30:03,171 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
+2023-05-19 07:30:03,174 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
+2023-05-19 07:30:03,176 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
+2023-05-19 07:30:03,176 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
+2023-05-19 07:30:03,178 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
+2023-05-19 07:30:03,180 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
+2023-05-19 07:30:03,186 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
+2023-05-19 07:30:03,188 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
+2023-05-19 07:30:03,190 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
+2023-05-19 07:30:03,192 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
+2023-05-19 07:30:03,194 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
+2023-05-19 07:30:03,196 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
+2023-05-19 07:30:03,196 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
+2023-05-19 07:30:03,198 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
+2023-05-19 07:30:03,200 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-05-19 07:30:03,200 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
+2023-05-19 07:30:03,203 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
+2023-05-19 07:30:03,211 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
+2023-05-19 07:30:03,213 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
+2023-05-19 07:30:03,219 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
+2023-05-19 07:30:03,220 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
+2023-05-19 07:30:03,221 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
+2023-05-19 07:30:03,232 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
+2023-05-19 07:30:03,234 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
+2023-05-19 07:30:03,234 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
+2023-05-19 07:30:03,235 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
+2023-05-19 07:30:03,239 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
+2023-05-19 07:30:03,241 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
+2023-05-19 07:30:03,242 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
+2023-05-19 07:30:03,245 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
+2023-05-19 07:30:03,246 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
+2023-05-19 07:30:03,247 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
+2023-05-19 07:30:03,248 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
+2023-05-19 07:30:03,257 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
+2023-05-19 07:30:03,260 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
+2023-05-19 07:30:03,263 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
+2023-05-19 07:30:03,264 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
+2023-05-19 07:30:03,611 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
+2023-05-19 07:30:03,613 INFO root waitress-0 : is_face_valid=true
+2023-05-19 07:30:03,625 INFO root waitress-0 : Actual face Dim=height=700 width=467
+2023-05-19 07:30:03,626 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-19 07:30:03,626 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-19 07:30:03,627 INFO root waitress-0 : >>----->>> END:UUID:=de61b724-f5e8-11ed-b695-161333e62825 <<<-----<<
+2023-05-19 07:30:03,628 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 63, in validateImage
+    print('Duration: {}'.format(end_time - cur_datetime))
+                                ~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2023-05-19 07:30:18,302 INFO root waitress-1 : /validateImage....
+2023-05-19 07:30:18,303 INFO root waitress-1 : >>----->>> START:UUID:=e778f720-f5e8-11ed-a239-161333e62825 <<<-----<<
+2023-05-19 07:30:18,304 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
+2023-05-19 07:30:18,305 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-19 07:30:18,306 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-19 07:30:18,325 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-19 07:30:18,629 INFO root waitress-1 : Face Locations=[(166, 265, 255, 175)]
+2023-05-19 07:30:18,631 INFO root waitress-1 : is_face_valid=true
+2023-05-19 07:30:18,643 INFO root waitress-1 : Actual face Dim=height=700 width=467
+2023-05-19 07:30:18,644 INFO root waitress-1 : Required face Dim=height=1000 width=1000
+2023-05-19 07:30:18,645 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-19 07:30:18,646 INFO root waitress-1 : >>----->>> END:UUID:=e778f720-f5e8-11ed-a239-161333e62825 <<<-----<<
+2023-05-19 07:30:18,646 ERROR app waitress-1 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 63, in validateImage
+    print('Duration: {}'.format(end_time - cur_datetime))
+                                ~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2023-05-19 07:31:01,113 INFO root waitress-2 : /validateImage....
+2023-05-19 07:31:01,115 INFO root waitress-2 : >>----->>> START:UUID:=00fd8e17-f5e9-11ed-a71f-161333e62825 <<<-----<<
+2023-05-19 07:31:01,117 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
+2023-05-19 07:31:01,117 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
+2023-05-19 07:31:01,118 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
+2023-05-19 07:31:01,139 INFO root waitress-2 : is_face_valid:isurl=false
+2023-05-19 07:31:01,433 INFO root waitress-2 : Face Locations=[(166, 265, 255, 175)]
+2023-05-19 07:31:01,434 INFO root waitress-2 : is_face_valid=true
+2023-05-19 07:31:01,447 INFO root waitress-2 : Actual face Dim=height=700 width=467
+2023-05-19 07:31:01,448 INFO root waitress-2 : Required face Dim=height=1000 width=1000
+2023-05-19 07:31:01,449 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-19 07:31:01,450 INFO root waitress-2 : >>----->>> END:UUID:=00fd8e17-f5e9-11ed-a71f-161333e62825 <<<-----<<
+2023-05-19 07:31:01,451 ERROR app waitress-2 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 63, in validateImage
+    print('Duration: {}'.format(end_time - cur_datetime))
+                                ~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2023-05-19 07:32:00,273 INFO root MainThread : Started
+2023-05-19 07:32:00,286 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-19 07:32:10,992 INFO root waitress-0 : /validateImage....
+2023-05-19 07:32:10,995 INFO root waitress-0 : >>----->>> START:UUID:=2aa41c8f-f5e9-11ed-be1d-161333e62825 <<<-----<<
+2023-05-19 07:32:10,996 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
+2023-05-19 07:32:10,997 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-19 07:32:10,998 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-19 07:32:11,022 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-19 07:32:11,044 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
+2023-05-19 07:32:11,047 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
+2023-05-19 07:32:11,048 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
+2023-05-19 07:32:11,050 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
+2023-05-19 07:32:11,052 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
+2023-05-19 07:32:11,054 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
+2023-05-19 07:32:11,057 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
+2023-05-19 07:32:11,086 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
+2023-05-19 07:32:11,088 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
+2023-05-19 07:32:11,090 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
+2023-05-19 07:32:11,092 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
+2023-05-19 07:32:11,095 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-05-19 07:32:11,096 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
+2023-05-19 07:32:11,097 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
+2023-05-19 07:32:11,100 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
+2023-05-19 07:32:11,100 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
+2023-05-19 07:32:11,102 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
+2023-05-19 07:32:11,103 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
+2023-05-19 07:32:11,108 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
+2023-05-19 07:32:11,110 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
+2023-05-19 07:32:11,112 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
+2023-05-19 07:32:11,114 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
+2023-05-19 07:32:11,116 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
+2023-05-19 07:32:11,117 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
+2023-05-19 07:32:11,117 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
+2023-05-19 07:32:11,119 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
+2023-05-19 07:32:11,121 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-05-19 07:32:11,122 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
+2023-05-19 07:32:11,124 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
+2023-05-19 07:32:11,132 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
+2023-05-19 07:32:11,135 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
+2023-05-19 07:32:11,137 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
+2023-05-19 07:32:11,139 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
+2023-05-19 07:32:11,140 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
+2023-05-19 07:32:11,150 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
+2023-05-19 07:32:11,154 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
+2023-05-19 07:32:11,155 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
+2023-05-19 07:32:11,155 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
+2023-05-19 07:32:11,157 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
+2023-05-19 07:32:11,158 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
+2023-05-19 07:32:11,160 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
+2023-05-19 07:32:11,162 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
+2023-05-19 07:32:11,164 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
+2023-05-19 07:32:11,166 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
+2023-05-19 07:32:11,167 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
+2023-05-19 07:32:11,172 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
+2023-05-19 07:32:11,174 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
+2023-05-19 07:32:11,177 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
+2023-05-19 07:32:11,178 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
+2023-05-19 07:32:11,511 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
+2023-05-19 07:32:11,512 INFO root waitress-0 : is_face_valid=true
+2023-05-19 07:32:11,525 INFO root waitress-0 : Actual face Dim=height=700 width=467
+2023-05-19 07:32:11,526 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-19 07:32:11,527 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-19 07:32:11,528 INFO root waitress-0 : >>----->>> END:UUID:=2aa41c8f-f5e9-11ed-be1d-161333e62825 <<<-----<<
+2023-05-19 07:32:53,388 INFO root waitress-1 : /validateImage....
+2023-05-19 07:32:53,389 INFO root waitress-1 : >>----->>> START:UUID:=43e94596-f5e9-11ed-9c68-161333e62825 <<<-----<<
+2023-05-19 07:32:53,390 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
+2023-05-19 07:32:53,391 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-19 07:32:53,392 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-19 07:32:53,415 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-19 07:32:53,729 INFO root waitress-1 : Face Locations=[(166, 265, 255, 175)]
+2023-05-19 07:32:53,730 INFO root waitress-1 : is_face_valid=true
+2023-05-19 07:32:53,743 INFO root waitress-1 : Actual face Dim=height=700 width=467
+2023-05-19 07:32:53,743 INFO root waitress-1 : Required face Dim=height=1000 width=1000
+2023-05-19 07:32:53,744 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-19 07:32:53,746 INFO root waitress-1 : >>----->>> END:UUID:=43e94596-f5e9-11ed-9c68-161333e62825 <<<-----<<
