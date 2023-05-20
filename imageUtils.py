@@ -6,6 +6,10 @@ from binarizeImage import binarize
 import os
 from urllib.request import urlopen
 from commons import get_sign_img_dim, get_face_img_dim, get_resolution
+import configparser
+
+config = configparser.RawConfigParser()
+config.read('static/config/config.properties')
 
 def validate_image_url(image_file_path):
 	try:
@@ -55,7 +59,6 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 				isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
 			# signature		
 			if(img_type=="sign"):
-				isblur1 = do_blur_detection(image_file_path)
 				isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
 			print("process_image::_isblur1_=",isblur1," isvalidface=",isvalidimage)
 			logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
@@ -114,20 +117,20 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 		# Blur Image
 		if(isblur1=="true"):
 			isvalidimage = "false"
-			remarks = "Blur Image"
+			remarks = config.get('face', 'blur_image')
 		# Invalid Image
 		if(validate_face1=="false" and isblur1=="false"):
 			isvalidimage = "false"
-			remarks = "Invalid Image"
+			remarks = config.get('face', 'invalid_image')
 		if(validate_face1=="true" and isblur1=="false"):
 			# Valid Image
 			if(((int(face_hi) <= int(face_h)) and (int(face_wi) <= int(face_w)))):
 				isvalidimage = "true"
-				remarks = "Valid Image"
+				remarks = config.get('face', 'valid_image')
 			# Full Scan Image
 			elif(((int(face_hi) >= int(face_h)) or (int(face_wi) >= int(face_w)))):
 				isvalidimage = "false"
-				remarks = "Full Scan Image"
+				remarks = config.get('face', 'full_scan_image')
 		print("validate_face_params::remarks=",remarks)
 		return isvalidimage, remarks
 	except Exception as e:
@@ -145,14 +148,14 @@ def validate_sign_params(image_file_path, isblur1):
 	try:
 		if(isblur1=="true"):
 			isvalidimage = "false"
-			remarks = "Blur Signature"
+			remarks = config.get('signature', 'blur_sign')
 		if(isblur1=="false"):
 			if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
 				isvalidimage = "true"
-				remarks = "Valid Signature"
+				remarks = config.get('signature', 'valid_sign')
 			elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
 				isvalidimage = "false"
-				remarks = "Full Scan Signature"
+				remarks = config.get('signature', 'full_scan_sign')
 		print("validate_sign_params::remarks=",remarks)
 		return isvalidimage, remarks
 	except Exception as e:

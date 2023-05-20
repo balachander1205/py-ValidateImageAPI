@@ -7,6 +7,10 @@ from PIL import Image
 import numpy as np
 from numpy import asarray
 from commons import get_image
+import configparser
+
+config = configparser.RawConfigParser()
+config.read('static/config/config.properties')
 
 def variance_of_laplacian(image):
 	return cv2.Laplacian(image, cv2.CV_64F).var()
@@ -19,12 +23,19 @@ def do_blur_detection(imagePath):
 		if(len(str(imagePath)) == 0):
 			return "NA"
 		image = get_image(imagePath, 'cv2')
-		gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+		print("do_blur_detection|image_shape=",len(image.shape))
+		if(len(image.shape)<=2):
+			gray = image
+		if(len(image.shape)>2):
+			gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 		fm = variance_of_laplacian(gray)
 		text = "false"
+		print("blurness value=",str(fm))
 		# if the focus measure is less than the supplied threshold,
 		# then the image should be considered "blur"
-		if fm < 100:
+		start = config.get('image', 'blurness_threshold_start')
+		end = config.get('image', 'blurness_threshold_end')
+		if int(start) < fm < int(end):
 			text = "true"
 		print("isblur=",text)
 		return text
