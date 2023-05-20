@@ -1753,3 +1753,23 @@ TypeError: can only concatenate str (not "TypeError") to str
 2023-05-20 15:31:49,421 INFO root waitress-1 : Required sign Dim=height=400 width=1000
 2023-05-20 15:31:49,422 INFO root waitress-1 : _isblur1_=false isvalidface=true
 2023-05-20 15:31:49,423 INFO root waitress-1 : >>----->>> END:UUID:=5636683c-f6f5-11ed-bfa4-161333e62825 <<<-----<<
+2023-05-20 15:47:53,852 INFO root MainThread : Started
+2023-05-20 15:47:53,862 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-20 15:48:09,385 INFO root waitress-0 : /validateImage....
+2023-05-20 15:48:09,386 INFO root waitress-0 : >>----->>> START:UUID:=9e7046d4-f6f7-11ed-b458-161333e62825 <<<-----<<
+2023-05-20 15:48:09,387 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-20 15:48:09,456 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-20 15:48:09,457 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-20 15:48:09,565 INFO root waitress-0 : Actual sign Dim=height=80 width=344
+2023-05-20 15:48:09,566 INFO root waitress-0 : Required sign Dim=height=400 width=1000
+2023-05-20 15:48:09,566 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-20 15:48:09,567 INFO root waitress-0 : >>----->>> END:UUID:=9e7046d4-f6f7-11ed-b458-161333e62825 <<<-----<<
+2023-05-20 15:48:11,968 INFO root waitress-1 : /validateImage....
+2023-05-20 15:48:11,969 INFO root waitress-1 : >>----->>> START:UUID:=9ffa6496-f6f7-11ed-923b-161333e62825 <<<-----<<
+2023-05-20 15:48:11,969 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-20 15:48:12,021 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-20 15:48:12,022 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-20 15:48:12,133 INFO root waitress-1 : Actual sign Dim=height=80 width=344
+2023-05-20 15:48:12,134 INFO root waitress-1 : Required sign Dim=height=400 width=1000
+2023-05-20 15:48:12,135 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-20 15:48:12,135 INFO root waitress-1 : >>----->>> END:UUID:=9ffa6496-f6f7-11ed-923b-161333e62825 <<<-----<<

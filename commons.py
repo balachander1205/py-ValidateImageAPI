@@ -52,10 +52,12 @@ def get_resolution(image):
 		im = get_image(image, "cv2")
 		print("im.shape value..")
 		print(im.shape)
-		h, w, c = im.shape
+		if(len(im.shape)<=2):
+			h,w = im.shape
+		if(len(im.shape)>2):
+			h, w, c = im.shape
 	except Exception as e:
-		print(e)
-		h, w= im.shape
+		print(e)		
 	return (h, w)
 
 def get_uuid():
