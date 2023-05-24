@@ -1,1385 +1,22 @@
-2023-05-02 09:38:02,742 INFO root MainThread : Started
-2023-05-02 09:38:02,759 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-02 09:58:29,638 INFO root MainThread : Started
-2023-05-02 09:58:29,648 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-03 07:43:28,988 INFO root MainThread : Started
-2023-05-03 07:43:29,015 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-03 07:47:50,591 INFO root waitress-0 : /validateImage....
-2023-05-03 07:47:50,593 INFO root waitress-0 : >>----->>> START:UUID:=b4138f90-e958-11ed-b1c8-161333e62825 <<<-----<<
-2023-05-03 07:47:50,595 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_007.jpg img_type=face
-2023-05-03 07:47:50,598 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
-2023-05-03 07:47:50,599 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
-2023-05-03 07:47:50,601 INFO root waitress-0 : >>----->>> END:UUID:=b4138f90-e958-11ed-b1c8-161333e62825 <<<-----<<
-2023-05-03 07:48:29,693 INFO root waitress-1 : /validateImage....
-2023-05-03 07:48:29,694 INFO root waitress-1 : >>----->>> START:UUID:=cb6207f7-e958-11ed-b5e9-161333e62825 <<<-----<<
-2023-05-03 07:48:29,696 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
-2023-05-03 07:48:29,698 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-03 07:48:29,699 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-03 07:48:29,909 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-03 07:48:29,988 INFO root waitress-1 : Face Locations=[(96, 135, 186, 46)]
-2023-05-03 07:48:29,989 INFO root waitress-1 : is_face_valid=true
-2023-05-03 07:48:29,994 INFO root waitress-1 : Actual face Dim=height=279 width=198
-2023-05-03 07:48:29,995 INFO root waitress-1 : Required face Dim=height=1920 width=1080
-2023-05-03 07:48:29,996 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-03 07:48:29,997 INFO root waitress-1 : >>----->>> END:UUID:=cb6207f7-e958-11ed-b5e9-161333e62825 <<<-----<<
-2023-05-03 08:57:57,552 INFO root waitress-0 : /validateImage....
-2023-05-03 08:57:57,553 INFO root waitress-0 : >>----->>> START:UUID:=7f9ec4cf-e962-11ed-9868-161333e62825 <<<-----<<
-2023-05-03 08:57:57,554 INFO root waitress-0 : process_image:image_file_path=string img_type=string
-2023-05-03 08:57:57,554 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
-2023-05-03 08:57:57,555 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
-2023-05-03 08:57:57,555 INFO root waitress-0 : >>----->>> END:UUID:=7f9ec4cf-e962-11ed-9868-161333e62825 <<<-----<<
-2023-05-05 17:02:12,284 INFO root MainThread : Started
-2023-05-05 17:02:12,303 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-05 17:02:15,109 INFO root waitress-0 : /validateImage....
-2023-05-05 17:02:15,110 INFO root waitress-0 : >>----->>> START:UUID:=7c19a32a-eb38-11ed-a3f1-141333e62825 <<<-----<<
-2023-05-05 17:02:15,111 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
-2023-05-05 17:02:15,112 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-05 17:02:15,113 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-05 17:02:15,308 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-05 17:02:15,372 INFO root waitress-0 : Face Locations=[(96, 135, 186, 46)]
-2023-05-05 17:02:15,373 INFO root waitress-0 : is_face_valid=true
-2023-05-05 17:02:15,376 INFO root waitress-0 : Actual face Dim=height=279 width=198
-2023-05-05 17:02:15,377 INFO root waitress-0 : Required face Dim=height=1920 width=1080
-2023-05-05 17:02:15,378 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-05 17:02:15,379 INFO root waitress-0 : >>----->>> END:UUID:=7c19a32a-eb38-11ed-a3f1-141333e62825 <<<-----<<
-2023-05-05 17:02:23,481 INFO root waitress-1 : /validateImage....
-2023-05-05 17:02:23,482 INFO root waitress-1 : >>----->>> START:UUID:=811722dd-eb38-11ed-820e-141333e62825 <<<-----<<
-2023-05-05 17:02:23,484 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
-2023-05-05 17:02:23,485 INFO root waitress-1 : validate_input_file:isfile=False isurl=False
-2023-05-05 17:02:23,487 INFO root waitress-1 : validate_input_file2:isfile=False isurl=False
-2023-05-05 17:02:23,488 INFO root waitress-1 : >>----->>> END:UUID:=811722dd-eb38-11ed-820e-141333e62825 <<<-----<<
-2023-05-06 08:11:59,815 INFO root MainThread : Started
-2023-05-06 08:11:59,850 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 08:12:16,095 INFO root waitress-0 : /validateImage....
-2023-05-06 08:12:16,096 INFO root waitress-0 : >>----->>> START:UUID:=9cd2f28c-ebb7-11ed-9b3a-141333e62825 <<<-----<<
-2023-05-06 08:12:16,097 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
-2023-05-06 08:12:16,100 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
-2023-05-06 08:12:16,101 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
-2023-05-06 08:12:16,102 INFO root waitress-0 : >>----->>> END:UUID:=9cd2f28c-ebb7-11ed-9b3a-141333e62825 <<<-----<<
-2023-05-06 08:14:05,491 INFO root MainThread : Started
-2023-05-06 08:14:05,524 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 08:14:11,996 INFO root waitress-0 : /validateImage....
-2023-05-06 08:14:11,998 INFO root waitress-0 : >>----->>> START:UUID:=e1e83736-ebb7-11ed-9f19-141333e62825 <<<-----<<
-2023-05-06 08:14:12,000 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
-2023-05-06 08:14:12,002 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
-2023-05-06 08:14:12,003 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
-2023-05-06 08:14:12,004 INFO root waitress-0 : >>----->>> END:UUID:=e1e83736-ebb7-11ed-9f19-141333e62825 <<<-----<<
-2023-05-06 08:15:00,570 INFO root MainThread : Started
-2023-05-06 08:15:00,589 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 08:15:03,554 INFO root waitress-0 : /validateImage....
-2023-05-06 08:15:03,556 INFO root waitress-0 : >>----->>> START:UUID:=00a32418-ebb8-11ed-8556-141333e62825 <<<-----<<
-2023-05-06 08:15:03,557 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_008.jpg img_type=face
-2023-05-06 08:15:03,558 INFO root waitress-0 : validate_input_file:isfile=False isurl=False
-2023-05-06 08:15:03,559 INFO root waitress-0 : validate_input_file2:isfile=False isurl=False
-2023-05-06 08:15:03,561 INFO root waitress-0 : >>----->>> END:UUID:=00a32418-ebb8-11ed-8556-141333e62825 <<<-----<<
-2023-05-06 08:15:10,352 INFO root waitress-1 : /validateImage....
-2023-05-06 08:15:10,354 INFO root waitress-1 : >>----->>> START:UUID:=04b0a663-ebb8-11ed-a4b2-141333e62825 <<<-----<<
-2023-05-06 08:15:10,356 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
-2023-05-06 08:15:10,357 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 08:15:10,358 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 08:15:10,557 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-06 08:15:30,129 INFO root waitress-1 : Face Locations=[(96, 135, 186, 46)]
-2023-05-06 08:15:30,131 INFO root waitress-1 : is_face_valid=true
-2023-05-06 08:15:30,135 INFO root waitress-1 : Actual face Dim=height=279 width=198
-2023-05-06 08:15:30,137 INFO root waitress-1 : Required face Dim=height=1920 width=1080
-2023-05-06 08:15:30,139 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-06 08:15:30,140 INFO root waitress-1 : >>----->>> END:UUID:=04b0a663-ebb8-11ed-a4b2-141333e62825 <<<-----<<
-2023-05-06 08:15:59,661 INFO root MainThread : Started
-2023-05-06 08:15:59,681 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 08:16:02,734 INFO root waitress-0 : /validateImage....
-2023-05-06 08:16:02,736 INFO root waitress-0 : >>----->>> START:UUID:=23e9753a-ebb8-11ed-808a-141333e62825 <<<-----<<
-2023-05-06 08:16:02,738 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
-2023-05-06 08:16:02,739 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 08:16:02,740 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 08:16:02,935 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 08:16:03,021 INFO root waitress-0 : Face Locations=[(96, 135, 186, 46)]
-2023-05-06 08:16:03,023 INFO root waitress-0 : is_face_valid=true
-2023-05-06 08:16:03,026 INFO root waitress-0 : Actual face Dim=height=279 width=198
-2023-05-06 08:16:03,027 INFO root waitress-0 : Required face Dim=height=1920 width=1080
-2023-05-06 08:16:03,028 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 08:16:03,030 INFO root waitress-0 : >>----->>> END:UUID:=23e9753a-ebb8-11ed-808a-141333e62825 <<<-----<<
-2023-05-06 14:22:45,880 INFO root MainThread : Started
-2023-05-06 14:22:45,891 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:23:07,066 INFO root waitress-0 : /validateImage....
-2023-05-06 14:23:07,067 INFO root waitress-0 : >>----->>> START:UUID:=6b6fa7d9-ebeb-11ed-b756-005056c00008 <<<-----<<
-2023-05-06 14:23:07,067 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_005.jpg img_type=face
-2023-05-06 14:23:07,068 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:23:07,068 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:23:08,190 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:23:08,780 INFO root waitress-0 : Face Locations=[]
-2023-05-06 14:23:08,781 INFO root waitress-0 : is_face_valid=false
-2023-05-06 14:23:08,789 INFO root waitress-0 : Actual face Dim=height=1080 width=1050
-2023-05-06 14:23:08,790 INFO root waitress-0 : Required face Dim=height=1920 width=1080
-2023-05-06 14:23:08,790 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-06 14:23:08,790 INFO root waitress-0 : >>----->>> END:UUID:=6b6fa7d9-ebeb-11ed-b756-005056c00008 <<<-----<<
-2023-05-06 14:23:57,555 INFO root MainThread : Started
-2023-05-06 14:23:57,566 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:24:01,192 INFO root waitress-0 : /validateImage....
-2023-05-06 14:24:01,193 INFO root waitress-0 : >>----->>> START:UUID:=8bb29c39-ebeb-11ed-9c8d-005056c00008 <<<-----<<
-2023-05-06 14:24:01,194 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_005.jpg img_type=sign
-2023-05-06 14:24:01,194 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:24:01,195 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:24:02,312 INFO root waitress-0 : Actual sign Dim=height=1080 width=1050
-2023-05-06 14:24:02,313 INFO root waitress-0 : Required sign Dim=height=1080 width=1920
-2023-05-06 14:24:02,313 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 14:24:02,314 INFO root waitress-0 : >>----->>> END:UUID:=8bb29c39-ebeb-11ed-9c8d-005056c00008 <<<-----<<
-2023-05-06 14:27:32,590 INFO root MainThread : Started
-2023-05-06 14:27:32,601 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:27:37,743 INFO root waitress-0 : /validateImage....
-2023-05-06 14:27:37,744 INFO root waitress-0 : >>----->>> START:UUID:=0cc5b6a0-ebec-11ed-bd7c-005056c00008 <<<-----<<
-2023-05-06 14:27:37,745 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_005.jpg img_type=sign
-2023-05-06 14:27:37,746 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:27:37,746 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:27:38,852 INFO root waitress-0 : Actual sign Dim=height=1080 width=1050
-2023-05-06 14:27:38,852 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-06 14:27:38,853 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-06 14:27:38,853 INFO root waitress-0 : >>----->>> END:UUID:=0cc5b6a0-ebec-11ed-bd7c-005056c00008 <<<-----<<
-2023-05-06 14:28:38,953 INFO root waitress-1 : /validateImage....
-2023-05-06 14:28:38,954 INFO root waitress-1 : >>----->>> START:UUID:=3141a26a-ebec-11ed-a792-005056c00008 <<<-----<<
-2023-05-06 14:28:38,955 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
-2023-05-06 14:28:38,955 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:28:38,956 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:28:39,042 INFO root waitress-1 : Actual sign Dim=height=139 width=526
-2023-05-06 14:28:39,042 INFO root waitress-1 : Required sign Dim=height=400 width=1000
-2023-05-06 14:28:39,043 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-06 14:28:39,043 INFO root waitress-1 : >>----->>> END:UUID:=3141a26a-ebec-11ed-a792-005056c00008 <<<-----<<
-2023-05-06 14:35:34,227 INFO root MainThread : Started
-2023-05-06 14:35:34,238 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:35:37,631 INFO root waitress-0 : /validateImage....
-2023-05-06 14:35:37,631 INFO root waitress-0 : >>----->>> START:UUID:=2ace9924-ebed-11ed-a09d-005056c00008 <<<-----<<
-2023-05-06 14:35:37,632 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
-2023-05-06 14:35:37,632 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:35:37,632 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:35:37,716 INFO root waitress-0 : Actual sign Dim=height=139 width=526
-2023-05-06 14:35:37,716 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-06 14:35:37,717 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 14:35:37,717 INFO root waitress-0 : >>----->>> END:UUID:=2ace9924-ebed-11ed-a09d-005056c00008 <<<-----<<
-2023-05-06 14:35:42,095 INFO root waitress-1 : /validateImage....
-2023-05-06 14:35:42,095 INFO root waitress-1 : >>----->>> START:UUID:=2d77c716-ebed-11ed-9c72-005056c00008 <<<-----<<
-2023-05-06 14:35:42,096 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_resut_006.jpg img_type=sign
-2023-05-06 14:35:42,096 INFO root waitress-1 : validate_input_file:isfile=False isurl=False
-2023-05-06 14:35:42,097 INFO root waitress-1 : validate_input_file2:isfile=False isurl=False
-2023-05-06 14:35:42,097 INFO root waitress-1 : >>----->>> END:UUID:=2d77c716-ebed-11ed-9c72-005056c00008 <<<-----<<
-2023-05-06 14:36:01,143 INFO root waitress-2 : /validateImage....
-2023-05-06 14:36:01,143 INFO root waitress-2 : >>----->>> START:UUID:=38d236dc-ebed-11ed-819f-005056c00008 <<<-----<<
-2023-05-06 14:36:01,144 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=sign
-2023-05-06 14:36:01,145 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:36:01,145 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:36:01,727 INFO root waitress-2 : Actual sign Dim=height=797 width=689
-2023-05-06 14:36:01,727 INFO root waitress-2 : Required sign Dim=height=400 width=1000
-2023-05-06 14:36:01,728 INFO root waitress-2 : _isblur1_=true isvalidface=false
-2023-05-06 14:36:01,728 INFO root waitress-2 : >>----->>> END:UUID:=38d236dc-ebed-11ed-819f-005056c00008 <<<-----<<
-2023-05-06 14:36:07,495 INFO root waitress-3 : /validateImage....
-2023-05-06 14:36:07,496 INFO root waitress-3 : >>----->>> START:UUID:=3c9ba592-ebed-11ed-906f-005056c00008 <<<-----<<
-2023-05-06 14:36:07,497 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=face
-2023-05-06 14:36:07,497 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:36:07,498 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:36:08,052 INFO root waitress-3 : is_face_valid:isurl=false
-2023-05-06 14:36:08,343 INFO root waitress-3 : Face Locations=[]
-2023-05-06 14:36:08,344 INFO root waitress-3 : is_face_valid=false
-2023-05-06 14:36:08,351 INFO root waitress-3 : Actual face Dim=height=797 width=689
-2023-05-06 14:36:08,351 INFO root waitress-3 : Required face Dim=height=1920 width=1080
-2023-05-06 14:36:08,352 INFO root waitress-3 : _isblur1_=true isvalidface=false
-2023-05-06 14:36:08,352 INFO root waitress-3 : >>----->>> END:UUID:=3c9ba592-ebed-11ed-906f-005056c00008 <<<-----<<
-2023-05-06 14:36:41,829 INFO root waitress-0 : /validateImage....
-2023-05-06 14:36:41,830 INFO root waitress-0 : >>----->>> START:UUID:=5112914d-ebed-11ed-b8bc-005056c00008 <<<-----<<
-2023-05-06 14:36:41,830 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 14:36:41,831 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:36:41,831 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:36:41,854 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-06 14:36:41,857 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-06 14:36:41,857 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-06 14:36:41,859 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-06 14:36:41,860 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-06 14:36:41,861 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-06 14:36:41,862 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-06 14:36:41,874 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-06 14:36:41,877 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-06 14:36:41,878 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-06 14:36:41,879 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-06 14:36:41,880 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-06 14:36:41,880 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-06 14:36:41,881 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-06 14:36:41,883 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-06 14:36:41,883 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-06 14:36:41,884 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-06 14:36:41,885 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-06 14:36:41,887 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-06 14:36:41,888 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-06 14:36:41,890 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-06 14:36:41,892 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-06 14:36:41,893 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-06 14:36:41,893 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-06 14:36:41,893 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-06 14:36:41,894 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-06 14:36:41,895 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-06 14:36:41,895 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-06 14:36:41,896 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-06 14:36:41,902 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-06 14:36:41,903 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-06 14:36:41,905 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-06 14:36:41,906 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-06 14:36:41,906 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-06 14:36:41,911 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-06 14:36:41,912 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-06 14:36:41,913 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-06 14:36:41,913 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-06 14:36:41,915 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-06 14:36:41,916 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-06 14:36:41,916 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-06 14:36:41,918 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-06 14:36:41,920 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-06 14:36:41,921 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-06 14:36:41,921 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-06 14:36:41,926 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-06 14:36:41,927 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-06 14:36:41,928 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-06 14:36:41,929 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-06 14:36:42,239 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:36:42,415 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 14:36:42,416 INFO root waitress-0 : is_face_valid=true
-2023-05-06 14:36:42,423 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-06 14:36:42,424 INFO root waitress-0 : Required face Dim=height=1920 width=1080
-2023-05-06 14:36:42,424 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 14:36:42,424 INFO root waitress-0 : >>----->>> END:UUID:=5112914d-ebed-11ed-b8bc-005056c00008 <<<-----<<
-2023-05-06 14:36:49,772 INFO root waitress-1 : /validateImage....
-2023-05-06 14:36:49,773 INFO root waitress-1 : >>----->>> START:UUID:=55cea2d5-ebed-11ed-be37-005056c00008 <<<-----<<
-2023-05-06 14:36:49,773 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg img_type=face
-2023-05-06 14:36:49,774 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:36:49,774 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:36:50,725 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-06 14:36:51,207 INFO root waitress-1 : Face Locations=[(118, 157, 154, 121)]
-2023-05-06 14:36:51,208 INFO root waitress-1 : is_face_valid=true
-2023-05-06 14:36:51,215 INFO root waitress-1 : Actual face Dim=height=940 width=1050
-2023-05-06 14:36:51,215 INFO root waitress-1 : Required face Dim=height=1920 width=1080
-2023-05-06 14:36:51,215 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-06 14:36:51,217 INFO root waitress-1 : >>----->>> END:UUID:=55cea2d5-ebed-11ed-be37-005056c00008 <<<-----<<
-2023-05-06 14:37:35,420 INFO root MainThread : Started
-2023-05-06 14:37:35,429 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:38:24,062 INFO root MainThread : Started
-2023-05-06 14:38:24,071 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:38:28,823 INFO root waitress-0 : /validateImage....
-2023-05-06 14:38:28,824 INFO root waitress-0 : >>----->>> START:UUID:=90d8a8d8-ebed-11ed-b2f4-005056c00008 <<<-----<<
-2023-05-06 14:38:28,824 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg img_type=face
-2023-05-06 14:38:28,825 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:38:28,826 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:38:29,780 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:38:30,331 INFO root waitress-0 : Face Locations=[(118, 157, 154, 121)]
-2023-05-06 14:38:30,332 INFO root waitress-0 : is_face_valid=true
-2023-05-06 14:38:30,339 INFO root waitress-0 : Actual face Dim=height=940 width=1050
-2023-05-06 14:38:30,339 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 14:38:30,340 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-06 14:38:30,340 INFO root waitress-0 : >>----->>> END:UUID:=90d8a8d8-ebed-11ed-b2f4-005056c00008 <<<-----<<
-2023-05-06 14:39:43,781 INFO root MainThread : Started
-2023-05-06 14:39:43,789 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:39:50,037 INFO root waitress-0 : /validateImage....
-2023-05-06 14:39:50,038 INFO root waitress-0 : >>----->>> START:UUID:=c140c486-ebed-11ed-87f5-005056c00008 <<<-----<<
-2023-05-06 14:39:50,038 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg img_type=face
-2023-05-06 14:39:50,038 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:39:50,038 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:39:51,015 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:39:51,508 INFO root waitress-0 : Face Locations=[(118, 157, 154, 121)]
-2023-05-06 14:39:51,509 INFO root waitress-0 : is_face_valid=true
-2023-05-06 14:39:51,517 INFO root waitress-0 : Actual face Dim=height=940 width=1050
-2023-05-06 14:39:51,517 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 14:39:51,518 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-06 14:39:51,518 INFO root waitress-0 : >>----->>> END:UUID:=c140c486-ebed-11ed-87f5-005056c00008 <<<-----<<
-2023-05-06 14:42:54,398 INFO root MainThread : Started
-2023-05-06 14:42:54,407 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:42:56,093 INFO root waitress-0 : /validateImage....
-2023-05-06 14:42:56,093 INFO root waitress-0 : >>----->>> START:UUID:=3026a749-ebee-11ed-8785-005056c00008 <<<-----<<
-2023-05-06 14:42:56,095 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg img_type=face
-2023-05-06 14:42:56,095 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:42:56,096 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:42:57,042 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:42:57,514 INFO root waitress-0 : Face Locations=[(118, 157, 154, 121)]
-2023-05-06 14:42:57,515 INFO root waitress-0 : is_face_valid=true
-2023-05-06 14:42:57,522 INFO root waitress-0 : Actual face Dim=height=940 width=1050
-2023-05-06 14:42:57,522 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 14:42:57,523 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-06 14:42:57,523 INFO root waitress-0 : >>----->>> END:UUID:=3026a749-ebee-11ed-8785-005056c00008 <<<-----<<
-2023-05-06 14:43:07,073 INFO root waitress-1 : /validateImage....
-2023-05-06 14:43:07,075 INFO root waitress-1 : >>----->>> START:UUID:=36b251aa-ebee-11ed-b817-005056c00008 <<<-----<<
-2023-05-06 14:43:07,075 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
-2023-05-06 14:43:07,076 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:43:07,076 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:43:07,142 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-06 14:43:07,173 INFO root waitress-1 : Face Locations=[(96, 135, 186, 46)]
-2023-05-06 14:43:07,174 INFO root waitress-1 : is_face_valid=true
-2023-05-06 14:43:07,176 INFO root waitress-1 : Actual face Dim=height=279 width=198
-2023-05-06 14:43:07,177 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-06 14:43:07,177 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-06 14:43:07,177 INFO root waitress-1 : >>----->>> END:UUID:=36b251aa-ebee-11ed-b817-005056c00008 <<<-----<<
-2023-05-06 14:43:18,477 INFO root waitress-2 : /validateImage....
-2023-05-06 14:43:18,477 INFO root waitress-2 : >>----->>> START:UUID:=3d7e14de-ebee-11ed-af06-005056c00008 <<<-----<<
-2023-05-06 14:43:18,478 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_0010.jpg img_type=face
-2023-05-06 14:43:18,478 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:43:18,478 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:43:19,388 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-06 14:43:19,831 INFO root waitress-2 : Face Locations=[]
-2023-05-06 14:43:19,832 INFO root waitress-2 : is_face_valid=false
-2023-05-06 14:43:19,843 INFO root waitress-2 : Actual face Dim=height=825 width=1100
-2023-05-06 14:43:19,844 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-06 14:43:19,844 INFO root waitress-2 : _isblur1_=false isvalidface=false
-2023-05-06 14:43:19,845 INFO root waitress-2 : >>----->>> END:UUID:=3d7e14de-ebee-11ed-af06-005056c00008 <<<-----<<
-2023-05-06 14:45:55,460 INFO root MainThread : Started
-2023-05-06 14:45:55,469 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:45:57,197 INFO root waitress-0 : /validateImage....
-2023-05-06 14:45:57,198 INFO root waitress-0 : >>----->>> START:UUID:=9c191b69-ebee-11ed-9ece-005056c00008 <<<-----<<
-2023-05-06 14:45:57,199 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_0010.jpg img_type=face
-2023-05-06 14:45:57,199 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:45:57,200 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:45:58,108 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:45:58,553 INFO root waitress-0 : Face Locations=[]
-2023-05-06 14:45:58,553 INFO root waitress-0 : is_face_valid=false
-2023-05-06 14:45:58,566 INFO root waitress-0 : Actual face Dim=height=825 width=1100
-2023-05-06 14:45:58,566 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 14:45:58,567 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-06 14:45:58,567 INFO root waitress-0 : >>----->>> END:UUID:=9c191b69-ebee-11ed-9ece-005056c00008 <<<-----<<
-2023-05-06 14:47:23,212 INFO root waitress-1 : /validateImage....
-2023-05-06 14:47:23,213 INFO root waitress-1 : >>----->>> START:UUID:=cf5de513-ebee-11ed-96ae-005056c00008 <<<-----<<
-2023-05-06 14:47:23,213 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=face
-2023-05-06 14:47:23,214 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:47:23,214 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:47:23,738 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-06 14:47:24,010 INFO root waitress-1 : Face Locations=[]
-2023-05-06 14:47:24,011 INFO root waitress-1 : is_face_valid=false
-2023-05-06 14:47:24,017 INFO root waitress-1 : Actual face Dim=height=797 width=689
-2023-05-06 14:47:24,018 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-06 14:47:24,018 INFO root waitress-1 : _isblur1_=true isvalidface=false
-2023-05-06 14:47:24,018 INFO root waitress-1 : >>----->>> END:UUID:=cf5de513-ebee-11ed-96ae-005056c00008 <<<-----<<
-2023-05-06 14:47:29,254 INFO root waitress-2 : /validateImage....
-2023-05-06 14:47:29,254 INFO root waitress-2 : >>----->>> START:UUID:=d2f7a212-ebee-11ed-add2-005056c00008 <<<-----<<
-2023-05-06 14:47:29,255 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_008.jpg img_type=face
-2023-05-06 14:47:29,256 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:47:29,256 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:47:29,311 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-06 14:47:29,343 INFO root waitress-2 : Face Locations=[(96, 135, 186, 46)]
-2023-05-06 14:47:29,344 INFO root waitress-2 : is_face_valid=true
-2023-05-06 14:47:29,346 INFO root waitress-2 : Actual face Dim=height=279 width=198
-2023-05-06 14:47:29,346 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-06 14:47:29,346 INFO root waitress-2 : _isblur1_=false isvalidface=true
-2023-05-06 14:47:29,347 INFO root waitress-2 : >>----->>> END:UUID:=d2f7a212-ebee-11ed-add2-005056c00008 <<<-----<<
-2023-05-06 14:47:39,059 INFO root waitress-3 : /validateImage....
-2023-05-06 14:47:39,059 INFO root waitress-3 : >>----->>> START:UUID:=d8cfc2f9-ebee-11ed-84dc-005056c00008 <<<-----<<
-2023-05-06 14:47:39,060 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 14:47:39,060 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:47:39,060 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:47:39,073 DEBUG PIL.Image waitress-3 : Importing BlpImagePlugin
-2023-05-06 14:47:39,075 DEBUG PIL.Image waitress-3 : Importing BmpImagePlugin
-2023-05-06 14:47:39,075 DEBUG PIL.Image waitress-3 : Importing BufrStubImagePlugin
-2023-05-06 14:47:39,076 DEBUG PIL.Image waitress-3 : Importing CurImagePlugin
-2023-05-06 14:47:39,076 DEBUG PIL.Image waitress-3 : Importing DcxImagePlugin
-2023-05-06 14:47:39,078 DEBUG PIL.Image waitress-3 : Importing DdsImagePlugin
-2023-05-06 14:47:39,079 DEBUG PIL.Image waitress-3 : Importing EpsImagePlugin
-2023-05-06 14:47:39,090 DEBUG PIL.Image waitress-3 : Importing FitsImagePlugin
-2023-05-06 14:47:39,091 DEBUG PIL.Image waitress-3 : Importing FitsStubImagePlugin
-2023-05-06 14:47:39,092 DEBUG PIL.Image waitress-3 : Importing FliImagePlugin
-2023-05-06 14:47:39,093 DEBUG PIL.Image waitress-3 : Importing FpxImagePlugin
-2023-05-06 14:47:39,094 DEBUG PIL.Image waitress-3 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-06 14:47:39,094 DEBUG PIL.Image waitress-3 : Importing FtexImagePlugin
-2023-05-06 14:47:39,095 DEBUG PIL.Image waitress-3 : Importing GbrImagePlugin
-2023-05-06 14:47:39,096 DEBUG PIL.Image waitress-3 : Importing GifImagePlugin
-2023-05-06 14:47:39,096 DEBUG PIL.Image waitress-3 : Importing GribStubImagePlugin
-2023-05-06 14:47:39,097 DEBUG PIL.Image waitress-3 : Importing Hdf5StubImagePlugin
-2023-05-06 14:47:39,098 DEBUG PIL.Image waitress-3 : Importing IcnsImagePlugin
-2023-05-06 14:47:39,099 DEBUG PIL.Image waitress-3 : Importing IcoImagePlugin
-2023-05-06 14:47:39,100 DEBUG PIL.Image waitress-3 : Importing ImImagePlugin
-2023-05-06 14:47:39,101 DEBUG PIL.Image waitress-3 : Importing ImtImagePlugin
-2023-05-06 14:47:39,102 DEBUG PIL.Image waitress-3 : Importing IptcImagePlugin
-2023-05-06 14:47:39,103 DEBUG PIL.Image waitress-3 : Importing JpegImagePlugin
-2023-05-06 14:47:39,103 DEBUG PIL.Image waitress-3 : Importing Jpeg2KImagePlugin
-2023-05-06 14:47:39,103 DEBUG PIL.Image waitress-3 : Importing McIdasImagePlugin
-2023-05-06 14:47:39,104 DEBUG PIL.Image waitress-3 : Importing MicImagePlugin
-2023-05-06 14:47:39,105 DEBUG PIL.Image waitress-3 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-06 14:47:39,106 DEBUG PIL.Image waitress-3 : Importing MpegImagePlugin
-2023-05-06 14:47:39,107 DEBUG PIL.Image waitress-3 : Importing MpoImagePlugin
-2023-05-06 14:47:39,110 DEBUG PIL.Image waitress-3 : Importing MspImagePlugin
-2023-05-06 14:47:39,111 DEBUG PIL.Image waitress-3 : Importing PalmImagePlugin
-2023-05-06 14:47:39,112 DEBUG PIL.Image waitress-3 : Importing PcdImagePlugin
-2023-05-06 14:47:39,113 DEBUG PIL.Image waitress-3 : Importing PcxImagePlugin
-2023-05-06 14:47:39,113 DEBUG PIL.Image waitress-3 : Importing PdfImagePlugin
-2023-05-06 14:47:39,117 DEBUG PIL.Image waitress-3 : Importing PixarImagePlugin
-2023-05-06 14:47:39,118 DEBUG PIL.Image waitress-3 : Importing PngImagePlugin
-2023-05-06 14:47:39,119 DEBUG PIL.Image waitress-3 : Importing PpmImagePlugin
-2023-05-06 14:47:39,119 DEBUG PIL.Image waitress-3 : Importing PsdImagePlugin
-2023-05-06 14:47:39,120 DEBUG PIL.Image waitress-3 : Importing QoiImagePlugin
-2023-05-06 14:47:39,121 DEBUG PIL.Image waitress-3 : Importing SgiImagePlugin
-2023-05-06 14:47:39,122 DEBUG PIL.Image waitress-3 : Importing SpiderImagePlugin
-2023-05-06 14:47:39,123 DEBUG PIL.Image waitress-3 : Importing SunImagePlugin
-2023-05-06 14:47:39,124 DEBUG PIL.Image waitress-3 : Importing TgaImagePlugin
-2023-05-06 14:47:39,125 DEBUG PIL.Image waitress-3 : Importing TiffImagePlugin
-2023-05-06 14:47:39,125 DEBUG PIL.Image waitress-3 : Importing WebPImagePlugin
-2023-05-06 14:47:39,128 DEBUG PIL.Image waitress-3 : Importing WmfImagePlugin
-2023-05-06 14:47:39,129 DEBUG PIL.Image waitress-3 : Importing XbmImagePlugin
-2023-05-06 14:47:39,130 DEBUG PIL.Image waitress-3 : Importing XpmImagePlugin
-2023-05-06 14:47:39,131 DEBUG PIL.Image waitress-3 : Importing XVThumbImagePlugin
-2023-05-06 14:47:39,451 INFO root waitress-3 : is_face_valid:isurl=false
-2023-05-06 14:47:39,618 INFO root waitress-3 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 14:47:39,618 INFO root waitress-3 : is_face_valid=true
-2023-05-06 14:47:39,627 INFO root waitress-3 : Actual face Dim=height=700 width=467
-2023-05-06 14:47:39,627 INFO root waitress-3 : Required face Dim=height=1000 width=1000
-2023-05-06 14:47:39,627 INFO root waitress-3 : _isblur1_=false isvalidface=true
-2023-05-06 14:47:39,629 INFO root waitress-3 : >>----->>> END:UUID:=d8cfc2f9-ebee-11ed-84dc-005056c00008 <<<-----<<
-2023-05-06 14:51:33,693 INFO root MainThread : Started
-2023-05-06 14:51:33,704 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:51:35,635 INFO root waitress-0 : /validateImage....
-2023-05-06 14:51:35,637 INFO root waitress-0 : >>----->>> START:UUID:=65d2a945-ebef-11ed-83ab-005056c00008 <<<-----<<
-2023-05-06 14:51:35,637 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 14:51:35,638 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:51:35,638 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:51:35,660 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-06 14:51:35,661 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-06 14:51:35,661 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-06 14:51:35,662 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-06 14:51:35,663 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-06 14:51:35,664 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-06 14:51:35,665 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-06 14:51:35,677 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-06 14:51:35,677 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-06 14:51:35,679 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-06 14:51:35,680 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-06 14:51:35,681 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-06 14:51:35,681 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-06 14:51:35,682 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-06 14:51:35,683 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-06 14:51:35,683 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-06 14:51:35,684 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-06 14:51:35,684 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-06 14:51:35,685 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-06 14:51:35,686 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-06 14:51:35,687 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-06 14:51:35,688 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-06 14:51:35,689 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-06 14:51:35,689 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-06 14:51:35,689 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-06 14:51:35,690 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-06 14:51:35,691 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-06 14:51:35,691 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-06 14:51:35,691 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-06 14:51:35,695 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-06 14:51:35,696 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-06 14:51:35,696 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-06 14:51:35,697 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-06 14:51:35,697 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-06 14:51:35,701 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-06 14:51:35,702 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-06 14:51:35,703 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-06 14:51:35,703 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-06 14:51:35,704 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-06 14:51:35,704 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-06 14:51:35,705 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-06 14:51:35,706 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-06 14:51:35,706 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-06 14:51:35,707 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-06 14:51:35,707 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-06 14:51:35,710 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-06 14:51:35,711 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-06 14:51:35,713 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-06 14:51:35,713 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-06 14:51:36,022 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:51:36,190 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 14:51:36,192 INFO root waitress-0 : is_face_valid=true
-2023-05-06 14:51:36,199 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-06 14:51:36,200 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 14:51:36,200 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 14:51:36,200 INFO root waitress-0 : >>----->>> END:UUID:=65d2a945-ebef-11ed-83ab-005056c00008 <<<-----<<
-2023-05-06 14:54:53,057 INFO root MainThread : Started
-2023-05-06 14:54:53,067 INFO waitress MainThread : Serving on http://127.0.0.1:5001
-2023-05-06 14:54:55,160 INFO root waitress-0 : /validateImage....
-2023-05-06 14:54:55,161 INFO root waitress-0 : >>----->>> START:UUID:=dcbfc4c3-ebef-11ed-a57a-005056c00008 <<<-----<<
-2023-05-06 14:54:55,162 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 14:54:55,163 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:54:55,163 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:54:55,178 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 14:54:55,184 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-06 14:54:55,186 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-06 14:54:55,187 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-06 14:54:55,188 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-06 14:54:55,188 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-06 14:54:55,189 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-06 14:54:55,190 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-06 14:54:55,202 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-06 14:54:55,203 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-06 14:54:55,204 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-06 14:54:55,204 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-06 14:54:55,205 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-06 14:54:55,205 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-06 14:54:55,206 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-06 14:54:55,207 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-06 14:54:55,207 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-06 14:54:55,208 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-06 14:54:55,209 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-06 14:54:55,210 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-06 14:54:55,211 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-06 14:54:55,212 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-06 14:54:55,212 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-06 14:54:55,213 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-06 14:54:55,213 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-06 14:54:55,214 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-06 14:54:55,214 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-06 14:54:55,215 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-06 14:54:55,217 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-06 14:54:55,217 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-06 14:54:55,220 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-06 14:54:55,221 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-06 14:54:55,222 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-06 14:54:55,223 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-06 14:54:55,223 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-06 14:54:55,227 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-06 14:54:55,228 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-06 14:54:55,228 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-06 14:54:55,229 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-06 14:54:55,229 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-06 14:54:55,230 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-06 14:54:55,231 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-06 14:54:55,231 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-06 14:54:55,232 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-06 14:54:55,233 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-06 14:54:55,233 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-06 14:54:55,236 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-06 14:54:55,239 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-06 14:54:55,239 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-06 14:54:55,240 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-06 14:54:55,417 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 14:54:55,418 INFO root waitress-0 : is_face_valid=true
-2023-05-06 14:54:55,425 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-06 14:54:55,426 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 14:54:55,426 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 14:54:55,427 INFO root waitress-0 : >>----->>> END:UUID:=dcbfc4c3-ebef-11ed-a57a-005056c00008 <<<-----<<
-2023-05-06 14:55:28,591 INFO root waitress-1 : /validateImage....
-2023-05-06 14:55:28,591 INFO root waitress-1 : >>----->>> START:UUID:=f0aca559-ebef-11ed-8d0d-005056c00008 <<<-----<<
-2023-05-06 14:55:28,592 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
-2023-05-06 14:55:28,592 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 14:55:28,593 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 14:55:28,597 INFO root waitress-1 : Actual sign Dim=height=139 width=526
-2023-05-06 14:55:28,597 INFO root waitress-1 : Required sign Dim=height=400 width=1000
-2023-05-06 14:55:28,598 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-06 14:55:28,598 INFO root waitress-1 : >>----->>> END:UUID:=f0aca559-ebef-11ed-8d0d-005056c00008 <<<-----<<
-2023-05-06 15:01:42,493 INFO root waitress-2 : /validateImage....
-2023-05-06 15:01:42,493 INFO root waitress-2 : >>----->>> START:UUID:=cf89a1a4-ebf0-11ed-bd24-005056c00008 <<<-----<<
-2023-05-06 15:01:42,494 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
-2023-05-06 15:01:42,495 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-06 15:01:42,495 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-06 15:01:42,499 INFO root waitress-2 : Actual sign Dim=height=139 width=526
-2023-05-06 15:01:42,499 INFO root waitress-2 : Required sign Dim=height=400 width=1000
-2023-05-06 15:01:42,499 INFO root waitress-2 : _isblur1_=false isvalidface=true
-2023-05-06 15:01:42,500 INFO root waitress-2 : >>----->>> END:UUID:=cf89a1a4-ebf0-11ed-bd24-005056c00008 <<<-----<<
-2023-05-06 15:02:04,778 INFO root waitress-3 : /validateImage....
-2023-05-06 15:02:04,778 INFO root waitress-3 : >>----->>> START:UUID:=dcd211bd-ebf0-11ed-8e48-005056c00008 <<<-----<<
-2023-05-06 15:02:04,780 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 15:02:04,780 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-06 15:02:04,781 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-06 15:02:04,792 INFO root waitress-3 : is_face_valid:isurl=false
-2023-05-06 15:02:04,980 INFO root waitress-3 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 15:02:04,981 INFO root waitress-3 : is_face_valid=true
-2023-05-06 15:02:04,988 INFO root waitress-3 : Actual face Dim=height=700 width=467
-2023-05-06 15:02:04,989 INFO root waitress-3 : Required face Dim=height=1000 width=1000
-2023-05-06 15:02:04,989 INFO root waitress-3 : _isblur1_=false isvalidface=true
-2023-05-06 15:02:04,989 INFO root waitress-3 : >>----->>> END:UUID:=dcd211bd-ebf0-11ed-8e48-005056c00008 <<<-----<<
-2023-05-06 17:57:05,415 INFO root MainThread : Started
-2023-05-06 17:57:05,443 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-06 18:01:35,524 INFO root waitress-2 : /validateImage....
-2023-05-06 18:01:35,526 INFO root waitress-2 : >>----->>> START:UUID:=f0afcc63-ec09-11ed-8468-005056c00008 <<<-----<<
-2023-05-06 18:01:35,529 ERROR app waitress-2 : Exception on /validateImage [POST]
+2023-05-24 22:16:51,438 INFO root MainThread : Started
+2023-05-24 22:16:51,454 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:19:45,094 INFO root waitress-0 : /validateImage....
+2023-05-24 22:19:45,096 INFO root waitress-0 : >>----->>> START:UUID:=fca025b9-fa52-11ed-867b-161333e62825 <<<-----<<
+2023-05-24 22:19:45,097 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:19:45,353 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:19:45,354 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:19:45,604 DEBUG root waitress-0 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:19:45,606 DEBUG root waitress-0 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:19:45,868 DEBUG root waitress-0 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:19:45,870 ERROR app waitress-0 : Exception on /validateImage [POST]
 Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 51, in validateImage
-    data = json.loads(request.data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\json\__init__.py", line 212, in loads
-    return app.json.loads(s, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\json\provider.py", line 255, in loads
-    return json.loads(s, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
-    obj, end = self.scan_once(s, idx)
-               ^^^^^^^^^^^^^^^^^^^^^^
-json.decoder.JSONDecodeError: Expecting ',' delimiter: line 6 column 5 (char 174)
-2023-05-06 18:03:04,131 INFO root waitress-0 : /validateImage....
-2023-05-06 18:03:04,133 INFO root waitress-0 : >>----->>> START:UUID:=2580116a-ec0a-11ed-a3f7-005056c00008 <<<-----<<
-2023-05-06 18:03:04,135 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 18:03:04,136 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-06 18:03:04,137 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-06 18:03:04,196 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-06 18:03:04,228 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-06 18:03:04,232 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-06 18:03:04,233 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-06 18:03:04,236 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-06 18:03:04,240 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-06 18:03:04,244 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-06 18:03:04,247 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-06 18:03:04,284 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-06 18:03:04,287 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-06 18:03:04,291 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-06 18:03:04,293 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-06 18:03:04,297 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-06 18:03:04,298 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-06 18:03:04,301 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-06 18:03:04,305 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-06 18:03:04,306 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-06 18:03:04,308 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-06 18:03:04,311 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-06 18:03:04,319 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-06 18:03:04,321 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-06 18:03:04,325 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-06 18:03:04,329 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-06 18:03:04,333 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-06 18:03:04,334 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-06 18:03:04,334 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-06 18:03:04,337 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-06 18:03:04,340 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-06 18:03:04,341 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-06 18:03:04,344 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-06 18:03:04,356 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-06 18:03:04,360 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-06 18:03:04,364 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-06 18:03:04,368 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-06 18:03:04,369 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-06 18:03:04,383 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-06 18:03:04,386 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-06 18:03:04,387 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-06 18:03:04,388 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-06 18:03:04,392 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-06 18:03:04,393 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-06 18:03:04,397 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-06 18:03:04,400 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-06 18:03:04,402 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-06 18:03:04,404 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-06 18:03:04,405 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-06 18:03:04,416 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-06 18:03:04,419 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-06 18:03:04,423 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-06 18:03:04,426 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-06 18:03:04,863 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 18:03:04,864 INFO root waitress-0 : is_face_valid=true
-2023-05-06 18:03:04,881 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-06 18:03:04,883 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-06 18:03:04,885 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-06 18:03:04,886 INFO root waitress-0 : >>----->>> END:UUID:=2580116a-ec0a-11ed-a3f7-005056c00008 <<<-----<<
-2023-05-06 18:03:19,255 INFO root waitress-3 : /validateImage....
-2023-05-06 18:03:19,256 INFO root waitress-3 : >>----->>> START:UUID:=2e83bde2-ec0a-11ed-9daf-005056c00008 <<<-----<<
-2023-05-06 18:03:19,258 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 18:03:19,259 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-06 18:03:19,262 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-06 18:03:19,285 INFO root waitress-3 : is_face_valid:isurl=false
-2023-05-06 18:03:19,694 INFO root waitress-3 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 18:03:19,695 INFO root waitress-3 : is_face_valid=true
-2023-05-06 18:03:19,714 INFO root waitress-3 : Actual face Dim=height=700 width=467
-2023-05-06 18:03:19,714 INFO root waitress-3 : Required face Dim=height=1000 width=1000
-2023-05-06 18:03:19,715 INFO root waitress-3 : _isblur1_=false isvalidface=true
-2023-05-06 18:03:19,716 INFO root waitress-3 : >>----->>> END:UUID:=2e83bde2-ec0a-11ed-9daf-005056c00008 <<<-----<<
-2023-05-06 18:03:25,310 INFO root waitress-1 : /validateImage....
-2023-05-06 18:03:25,311 INFO root waitress-1 : >>----->>> START:UUID:=321fb0f9-ec0a-11ed-b062-005056c00008 <<<-----<<
-2023-05-06 18:03:25,314 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-06 18:03:25,315 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-06 18:03:25,315 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-06 18:03:25,336 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-06 18:03:25,729 INFO root waitress-1 : Face Locations=[(166, 265, 255, 175)]
-2023-05-06 18:03:25,731 INFO root waitress-1 : is_face_valid=true
-2023-05-06 18:03:25,749 INFO root waitress-1 : Actual face Dim=height=700 width=467
-2023-05-06 18:03:25,750 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-06 18:03:25,751 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-06 18:03:25,752 INFO root waitress-1 : >>----->>> END:UUID:=321fb0f9-ec0a-11ed-b062-005056c00008 <<<-----<<
-2023-05-10 22:11:04,406 INFO root MainThread : Started
-2023-05-10 22:11:04,421 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-10 22:11:26,438 INFO root waitress-0 : /validateImage....
-2023-05-10 22:11:26,440 INFO root waitress-0 : >>----->>> START:UUID:=819e909a-ef51-11ed-a456-005056c00008 <<<-----<<
-2023-05-10 22:11:26,441 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-10 22:11:26,443 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-10 22:11:26,443 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-10 22:11:26,497 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-10 22:11:26,525 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-10 22:11:26,529 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-10 22:11:26,530 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-10 22:11:26,533 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-10 22:11:26,535 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-10 22:11:26,539 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-10 22:11:26,541 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-10 22:11:26,568 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-10 22:11:26,571 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-10 22:11:26,574 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-10 22:11:26,575 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-10 22:11:26,578 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-10 22:11:26,579 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-10 22:11:26,582 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-10 22:11:26,584 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-10 22:11:26,585 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-10 22:11:26,588 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-10 22:11:26,590 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-10 22:11:26,596 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-10 22:11:26,600 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-10 22:11:26,602 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-10 22:11:26,605 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-10 22:11:26,608 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-10 22:11:26,609 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-10 22:11:26,609 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-10 22:11:26,612 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-10 22:11:26,615 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-10 22:11:26,616 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-10 22:11:26,617 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-10 22:11:26,628 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-10 22:11:26,631 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-10 22:11:26,635 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-10 22:11:26,638 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-10 22:11:26,639 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-10 22:11:26,650 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-10 22:11:26,652 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-10 22:11:26,654 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-10 22:11:26,654 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-10 22:11:26,657 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-10 22:11:26,660 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-10 22:11:26,662 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-10 22:11:26,665 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-10 22:11:26,667 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-10 22:11:26,669 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-10 22:11:26,670 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-10 22:11:26,681 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-10 22:11:26,684 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-10 22:11:26,687 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-10 22:11:26,690 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-10 22:11:27,045 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-10 22:11:27,046 INFO root waitress-0 : is_face_valid=true
-2023-05-10 22:11:27,060 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-10 22:11:27,061 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-10 22:11:27,062 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-10 22:11:27,063 INFO root waitress-0 : >>----->>> END:UUID:=819e909a-ef51-11ed-a456-005056c00008 <<<-----<<
-2023-05-10 22:18:34,121 INFO root waitress-1 : /validateImage....
-2023-05-10 22:18:34,123 INFO root waitress-1 : >>----->>> START:UUID:=808a00a5-ef52-11ed-980a-005056c00008 <<<-----<<
-2023-05-10 22:18:34,125 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-10 22:18:34,126 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-10 22:18:34,127 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-10 22:18:34,146 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-10 22:18:34,464 INFO root waitress-1 : Face Locations=[(166, 265, 255, 175)]
-2023-05-10 22:18:34,467 INFO root waitress-1 : is_face_valid=true
-2023-05-10 22:18:34,481 INFO root waitress-1 : Actual face Dim=height=700 width=467
-2023-05-10 22:18:34,482 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-10 22:18:34,484 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-10 22:18:34,485 INFO root waitress-1 : >>----->>> END:UUID:=808a00a5-ef52-11ed-980a-005056c00008 <<<-----<<
-2023-05-19 07:29:52,838 INFO root MainThread : Started
-2023-05-19 07:29:52,856 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-19 07:30:03,051 INFO root waitress-0 : /validateImage....
-2023-05-19 07:30:03,051 INFO root waitress-0 : >>----->>> START:UUID:=de61b724-f5e8-11ed-b695-161333e62825 <<<-----<<
-2023-05-19 07:30:03,053 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-19 07:30:03,054 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-19 07:30:03,055 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-19 07:30:03,103 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-19 07:30:03,127 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-19 07:30:03,130 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-19 07:30:03,130 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-19 07:30:03,132 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-19 07:30:03,135 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-19 07:30:03,137 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-19 07:30:03,139 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-19 07:30:03,161 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-19 07:30:03,164 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-19 07:30:03,166 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-19 07:30:03,168 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-19 07:30:03,171 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-19 07:30:03,171 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-19 07:30:03,174 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-19 07:30:03,176 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-19 07:30:03,176 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-19 07:30:03,178 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-19 07:30:03,180 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-19 07:30:03,186 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-19 07:30:03,188 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-19 07:30:03,190 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-19 07:30:03,192 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-19 07:30:03,194 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-19 07:30:03,196 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-19 07:30:03,196 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-19 07:30:03,198 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-19 07:30:03,200 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-19 07:30:03,200 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-19 07:30:03,203 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-19 07:30:03,211 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-19 07:30:03,213 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-19 07:30:03,219 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-19 07:30:03,220 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-19 07:30:03,221 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-19 07:30:03,232 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-19 07:30:03,234 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-19 07:30:03,234 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-19 07:30:03,235 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-19 07:30:03,239 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-19 07:30:03,241 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-19 07:30:03,242 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-19 07:30:03,245 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-19 07:30:03,246 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-19 07:30:03,247 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-19 07:30:03,248 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-19 07:30:03,257 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-19 07:30:03,260 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-19 07:30:03,263 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-19 07:30:03,264 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-19 07:30:03,611 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-19 07:30:03,613 INFO root waitress-0 : is_face_valid=true
-2023-05-19 07:30:03,625 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-19 07:30:03,626 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-19 07:30:03,626 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-19 07:30:03,627 INFO root waitress-0 : >>----->>> END:UUID:=de61b724-f5e8-11ed-b695-161333e62825 <<<-----<<
-2023-05-19 07:30:03,628 ERROR app waitress-0 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 63, in validateImage
-    print('Duration: {}'.format(end_time - cur_datetime))
-                                ~~~~~~~~~^~~~~~~~~~~~~~
-TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
-2023-05-19 07:30:18,302 INFO root waitress-1 : /validateImage....
-2023-05-19 07:30:18,303 INFO root waitress-1 : >>----->>> START:UUID:=e778f720-f5e8-11ed-a239-161333e62825 <<<-----<<
-2023-05-19 07:30:18,304 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-19 07:30:18,305 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-19 07:30:18,306 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-19 07:30:18,325 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-19 07:30:18,629 INFO root waitress-1 : Face Locations=[(166, 265, 255, 175)]
-2023-05-19 07:30:18,631 INFO root waitress-1 : is_face_valid=true
-2023-05-19 07:30:18,643 INFO root waitress-1 : Actual face Dim=height=700 width=467
-2023-05-19 07:30:18,644 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-19 07:30:18,645 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-19 07:30:18,646 INFO root waitress-1 : >>----->>> END:UUID:=e778f720-f5e8-11ed-a239-161333e62825 <<<-----<<
-2023-05-19 07:30:18,646 ERROR app waitress-1 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 63, in validateImage
-    print('Duration: {}'.format(end_time - cur_datetime))
-                                ~~~~~~~~~^~~~~~~~~~~~~~
-TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
-2023-05-19 07:31:01,113 INFO root waitress-2 : /validateImage....
-2023-05-19 07:31:01,115 INFO root waitress-2 : >>----->>> START:UUID:=00fd8e17-f5e9-11ed-a71f-161333e62825 <<<-----<<
-2023-05-19 07:31:01,117 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-19 07:31:01,117 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-19 07:31:01,118 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-19 07:31:01,139 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-19 07:31:01,433 INFO root waitress-2 : Face Locations=[(166, 265, 255, 175)]
-2023-05-19 07:31:01,434 INFO root waitress-2 : is_face_valid=true
-2023-05-19 07:31:01,447 INFO root waitress-2 : Actual face Dim=height=700 width=467
-2023-05-19 07:31:01,448 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-19 07:31:01,449 INFO root waitress-2 : _isblur1_=false isvalidface=true
-2023-05-19 07:31:01,450 INFO root waitress-2 : >>----->>> END:UUID:=00fd8e17-f5e9-11ed-a71f-161333e62825 <<<-----<<
-2023-05-19 07:31:01,451 ERROR app waitress-2 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 63, in validateImage
-    print('Duration: {}'.format(end_time - cur_datetime))
-                                ~~~~~~~~~^~~~~~~~~~~~~~
-TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
-2023-05-19 07:32:00,273 INFO root MainThread : Started
-2023-05-19 07:32:00,286 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-19 07:32:10,992 INFO root waitress-0 : /validateImage....
-2023-05-19 07:32:10,995 INFO root waitress-0 : >>----->>> START:UUID:=2aa41c8f-f5e9-11ed-be1d-161333e62825 <<<-----<<
-2023-05-19 07:32:10,996 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-19 07:32:10,997 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-19 07:32:10,998 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-19 07:32:11,022 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-19 07:32:11,044 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-19 07:32:11,047 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-19 07:32:11,048 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-19 07:32:11,050 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-19 07:32:11,052 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-19 07:32:11,054 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-19 07:32:11,057 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-19 07:32:11,086 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-19 07:32:11,088 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-19 07:32:11,090 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-19 07:32:11,092 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-19 07:32:11,095 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-19 07:32:11,096 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-19 07:32:11,097 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-19 07:32:11,100 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-19 07:32:11,100 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-19 07:32:11,102 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-19 07:32:11,103 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-19 07:32:11,108 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-19 07:32:11,110 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-19 07:32:11,112 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-19 07:32:11,114 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-19 07:32:11,116 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-19 07:32:11,117 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-19 07:32:11,117 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-19 07:32:11,119 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-19 07:32:11,121 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-19 07:32:11,122 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-19 07:32:11,124 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-19 07:32:11,132 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-19 07:32:11,135 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-19 07:32:11,137 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-19 07:32:11,139 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-19 07:32:11,140 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-19 07:32:11,150 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-19 07:32:11,154 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-19 07:32:11,155 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-19 07:32:11,155 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-19 07:32:11,157 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-19 07:32:11,158 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-19 07:32:11,160 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-19 07:32:11,162 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-19 07:32:11,164 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-19 07:32:11,166 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-19 07:32:11,167 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-19 07:32:11,172 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-19 07:32:11,174 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-19 07:32:11,177 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-19 07:32:11,178 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-19 07:32:11,511 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-19 07:32:11,512 INFO root waitress-0 : is_face_valid=true
-2023-05-19 07:32:11,525 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-19 07:32:11,526 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-19 07:32:11,527 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-19 07:32:11,528 INFO root waitress-0 : >>----->>> END:UUID:=2aa41c8f-f5e9-11ed-be1d-161333e62825 <<<-----<<
-2023-05-19 07:32:53,388 INFO root waitress-1 : /validateImage....
-2023-05-19 07:32:53,389 INFO root waitress-1 : >>----->>> START:UUID:=43e94596-f5e9-11ed-9c68-161333e62825 <<<-----<<
-2023-05-19 07:32:53,390 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-19 07:32:53,391 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-19 07:32:53,392 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-19 07:32:53,415 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-19 07:32:53,729 INFO root waitress-1 : Face Locations=[(166, 265, 255, 175)]
-2023-05-19 07:32:53,730 INFO root waitress-1 : is_face_valid=true
-2023-05-19 07:32:53,743 INFO root waitress-1 : Actual face Dim=height=700 width=467
-2023-05-19 07:32:53,743 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-19 07:32:53,744 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-19 07:32:53,746 INFO root waitress-1 : >>----->>> END:UUID:=43e94596-f5e9-11ed-9c68-161333e62825 <<<-----<<
-2023-05-20 14:03:57,902 INFO root MainThread : Started
-2023-05-20 14:03:57,913 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:05:24,168 INFO root waitress-0 : /validateImage....
-2023-05-20 14:05:24,169 INFO root waitress-0 : >>----->>> START:UUID:=43aed74e-f6e9-11ed-b851-161333e62825 <<<-----<<
-2023-05-20 14:05:24,170 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg img_type=face
-2023-05-20 14:05:24,171 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:05:24,171 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:05:24,209 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-20 14:05:24,228 DEBUG PIL.Image waitress-0 : Importing BlpImagePlugin
-2023-05-20 14:05:24,230 DEBUG PIL.Image waitress-0 : Importing BmpImagePlugin
-2023-05-20 14:05:24,232 DEBUG PIL.Image waitress-0 : Importing BufrStubImagePlugin
-2023-05-20 14:05:24,233 DEBUG PIL.Image waitress-0 : Importing CurImagePlugin
-2023-05-20 14:05:24,234 DEBUG PIL.Image waitress-0 : Importing DcxImagePlugin
-2023-05-20 14:05:24,238 DEBUG PIL.Image waitress-0 : Importing DdsImagePlugin
-2023-05-20 14:05:24,239 DEBUG PIL.Image waitress-0 : Importing EpsImagePlugin
-2023-05-20 14:05:24,254 DEBUG PIL.Image waitress-0 : Importing FitsImagePlugin
-2023-05-20 14:05:24,256 DEBUG PIL.Image waitress-0 : Importing FitsStubImagePlugin
-2023-05-20 14:05:24,258 DEBUG PIL.Image waitress-0 : Importing FliImagePlugin
-2023-05-20 14:05:24,259 DEBUG PIL.Image waitress-0 : Importing FpxImagePlugin
-2023-05-20 14:05:24,261 DEBUG PIL.Image waitress-0 : Image: failed to import FpxImagePlugin: No module named 'olefile'
-2023-05-20 14:05:24,261 DEBUG PIL.Image waitress-0 : Importing FtexImagePlugin
-2023-05-20 14:05:24,263 DEBUG PIL.Image waitress-0 : Importing GbrImagePlugin
-2023-05-20 14:05:24,264 DEBUG PIL.Image waitress-0 : Importing GifImagePlugin
-2023-05-20 14:05:24,264 DEBUG PIL.Image waitress-0 : Importing GribStubImagePlugin
-2023-05-20 14:05:24,266 DEBUG PIL.Image waitress-0 : Importing Hdf5StubImagePlugin
-2023-05-20 14:05:24,267 DEBUG PIL.Image waitress-0 : Importing IcnsImagePlugin
-2023-05-20 14:05:24,271 DEBUG PIL.Image waitress-0 : Importing IcoImagePlugin
-2023-05-20 14:05:24,272 DEBUG PIL.Image waitress-0 : Importing ImImagePlugin
-2023-05-20 14:05:24,274 DEBUG PIL.Image waitress-0 : Importing ImtImagePlugin
-2023-05-20 14:05:24,276 DEBUG PIL.Image waitress-0 : Importing IptcImagePlugin
-2023-05-20 14:05:24,277 DEBUG PIL.Image waitress-0 : Importing JpegImagePlugin
-2023-05-20 14:05:24,277 DEBUG PIL.Image waitress-0 : Importing Jpeg2KImagePlugin
-2023-05-20 14:05:24,278 DEBUG PIL.Image waitress-0 : Importing McIdasImagePlugin
-2023-05-20 14:05:24,279 DEBUG PIL.Image waitress-0 : Importing MicImagePlugin
-2023-05-20 14:05:24,280 DEBUG PIL.Image waitress-0 : Image: failed to import MicImagePlugin: No module named 'olefile'
-2023-05-20 14:05:24,282 DEBUG PIL.Image waitress-0 : Importing MpegImagePlugin
-2023-05-20 14:05:24,283 DEBUG PIL.Image waitress-0 : Importing MpoImagePlugin
-2023-05-20 14:05:24,290 DEBUG PIL.Image waitress-0 : Importing MspImagePlugin
-2023-05-20 14:05:24,291 DEBUG PIL.Image waitress-0 : Importing PalmImagePlugin
-2023-05-20 14:05:24,294 DEBUG PIL.Image waitress-0 : Importing PcdImagePlugin
-2023-05-20 14:05:24,296 DEBUG PIL.Image waitress-0 : Importing PcxImagePlugin
-2023-05-20 14:05:24,296 DEBUG PIL.Image waitress-0 : Importing PdfImagePlugin
-2023-05-20 14:05:24,303 DEBUG PIL.Image waitress-0 : Importing PixarImagePlugin
-2023-05-20 14:05:24,305 DEBUG PIL.Image waitress-0 : Importing PngImagePlugin
-2023-05-20 14:05:24,305 DEBUG PIL.Image waitress-0 : Importing PpmImagePlugin
-2023-05-20 14:05:24,305 DEBUG PIL.Image waitress-0 : Importing PsdImagePlugin
-2023-05-20 14:05:24,307 DEBUG PIL.Image waitress-0 : Importing QoiImagePlugin
-2023-05-20 14:05:24,307 DEBUG PIL.Image waitress-0 : Importing SgiImagePlugin
-2023-05-20 14:05:24,310 DEBUG PIL.Image waitress-0 : Importing SpiderImagePlugin
-2023-05-20 14:05:24,311 DEBUG PIL.Image waitress-0 : Importing SunImagePlugin
-2023-05-20 14:05:24,312 DEBUG PIL.Image waitress-0 : Importing TgaImagePlugin
-2023-05-20 14:05:24,314 DEBUG PIL.Image waitress-0 : Importing TiffImagePlugin
-2023-05-20 14:05:24,315 DEBUG PIL.Image waitress-0 : Importing WebPImagePlugin
-2023-05-20 14:05:24,318 DEBUG PIL.Image waitress-0 : Importing WmfImagePlugin
-2023-05-20 14:05:24,321 DEBUG PIL.Image waitress-0 : Importing XbmImagePlugin
-2023-05-20 14:05:24,324 DEBUG PIL.Image waitress-0 : Importing XpmImagePlugin
-2023-05-20 14:05:24,325 DEBUG PIL.Image waitress-0 : Importing XVThumbImagePlugin
-2023-05-20 14:05:24,526 INFO root waitress-0 : Face Locations=[(166, 265, 255, 175)]
-2023-05-20 14:05:24,527 INFO root waitress-0 : is_face_valid=true
-2023-05-20 14:05:24,536 INFO root waitress-0 : Actual face Dim=height=700 width=467
-2023-05-20 14:05:24,537 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-20 14:05:24,538 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-20 14:05:24,538 INFO root waitress-0 : >>----->>> END:UUID:=43aed74e-f6e9-11ed-b851-161333e62825 <<<-----<<
-2023-05-20 14:06:04,940 INFO root waitress-1 : /validateImage....
-2023-05-20 14:06:04,941 INFO root waitress-1 : >>----->>> START:UUID:=5bfc1b5a-f6e9-11ed-94e9-161333e62825 <<<-----<<
-2023-05-20 14:06:04,942 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=face
-2023-05-20 14:06:04,942 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:06:04,943 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:06:04,969 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-20 14:06:05,256 INFO root waitress-1 : Face Locations=[]
-2023-05-20 14:06:05,257 INFO root waitress-1 : is_face_valid=false
-2023-05-20 14:06:05,266 INFO root waitress-1 : Actual face Dim=height=797 width=689
-2023-05-20 14:06:05,267 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-20 14:06:05,269 INFO root waitress-1 : _isblur1_=true isvalidface=false
-2023-05-20 14:06:05,269 INFO root waitress-1 : >>----->>> END:UUID:=5bfc1b5a-f6e9-11ed-94e9-161333e62825 <<<-----<<
-2023-05-20 14:21:11,259 INFO root waitress-2 : /validateImage....
-2023-05-20 14:21:11,259 INFO root waitress-2 : >>----->>> START:UUID:=78314d59-f6eb-11ed-b7b6-161333e62825 <<<-----<<
-2023-05-20 14:21:11,260 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0001.jpg img_type=face
-2023-05-20 14:21:11,260 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:21:11,262 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:21:11,268 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-20 14:21:11,393 INFO root waitress-2 : Face Locations=[(133, 287, 288, 132)]
-2023-05-20 14:21:11,394 INFO root waitress-2 : is_face_valid=true
-2023-05-20 14:21:11,398 INFO root waitress-2 : Actual face Dim=height=491 width=409
-2023-05-20 14:21:11,398 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-20 14:21:11,399 INFO root waitress-2 : _isblur1_=true isvalidface=false
-2023-05-20 14:21:11,399 INFO root waitress-2 : >>----->>> END:UUID:=78314d59-f6eb-11ed-b7b6-161333e62825 <<<-----<<
-2023-05-20 14:21:28,946 INFO root MainThread : Started
-2023-05-20 14:21:28,956 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:21:48,920 INFO root MainThread : Started
-2023-05-20 14:21:48,929 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:22:59,691 INFO root waitress-0 : /validateImage....
-2023-05-20 14:22:59,692 INFO root waitress-0 : >>----->>> START:UUID:=b8d2db8b-f6eb-11ed-8409-161333e62825 <<<-----<<
-2023-05-20 14:22:59,693 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0001.jpg img_type=face
-2023-05-20 14:22:59,694 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:22:59,694 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:22:59,702 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-20 14:22:59,824 INFO root waitress-0 : Face Locations=[(133, 287, 288, 132)]
-2023-05-20 14:22:59,824 INFO root waitress-0 : is_face_valid=true
-2023-05-20 14:22:59,827 INFO root waitress-0 : Actual face Dim=height=491 width=409
-2023-05-20 14:22:59,827 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-20 14:22:59,828 INFO root waitress-0 : _isblur1_=true isvalidface=false
-2023-05-20 14:22:59,828 INFO root waitress-0 : >>----->>> END:UUID:=b8d2db8b-f6eb-11ed-8409-161333e62825 <<<-----<<
-2023-05-20 14:30:04,884 INFO root waitress-1 : /validateImage....
-2023-05-20 14:30:04,885 INFO root waitress-1 : >>----->>> START:UUID:=b6422e89-f6ec-11ed-8c62-161333e62825 <<<-----<<
-2023-05-20 14:30:04,886 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/error-sign.jpg img_type=face
-2023-05-20 14:30:04,887 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:30:04,887 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:30:04,888 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-20 14:30:04,903 INFO root waitress-1 : Face Locations=[]
-2023-05-20 14:30:04,904 INFO root waitress-1 : is_face_valid=false
-2023-05-20 14:30:04,905 INFO root waitress-1 : Actual face Dim=height=80 width=344
-2023-05-20 14:30:04,906 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-20 14:30:04,906 INFO root waitress-1 : _isblur1_=false isvalidface=false
-2023-05-20 14:30:04,906 INFO root waitress-1 : >>----->>> END:UUID:=b6422e89-f6ec-11ed-8c62-161333e62825 <<<-----<<
-2023-05-20 14:30:45,838 INFO root waitress-2 : /validateImage....
-2023-05-20 14:30:45,839 INFO root waitress-2 : >>----->>> START:UUID:=ceab353a-f6ec-11ed-a400-161333e62825 <<<-----<<
-2023-05-20 14:30:45,839 INFO root waitress-2 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 14:30:46,101 INFO root waitress-2 : validate_input_file:isfile=True isurl=True
-2023-05-20 14:30:46,101 INFO root waitress-2 : validate_input_file2:isfile=True isurl=True
-2023-05-20 14:30:46,352 DEBUG root waitress-2 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:30:46,592 DEBUG root waitress-2 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:30:46,846 ERROR app waitress-2 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 59, in process_image
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
     isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 140, in validate_sign_params
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
     sign_hi, sign_wi = get_resolution(image_file_path)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\commons.py", line 52, in get_resolution
-    h, w, c = im.shape
-    ^^^^^^^
-ValueError: not enough values to unpack (expected 3, got 2)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
-    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
-    logging.debug("process_image:Exception="+e)
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "ValueError") to str
-2023-05-20 14:35:43,675 INFO root waitress-3 : /validateImage....
-2023-05-20 14:35:43,676 INFO root waitress-3 : >>----->>> START:UUID:=8031771d-f6ed-11ed-af17-161333e62825 <<<-----<<
-2023-05-20 14:35:43,677 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/error-sign.jpg img_type=sign
-2023-05-20 14:35:43,679 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:35:43,680 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:35:43,683 INFO root waitress-3 : Actual sign Dim=height=80 width=344
-2023-05-20 14:35:43,684 INFO root waitress-3 : Required sign Dim=height=400 width=1000
-2023-05-20 14:35:43,684 INFO root waitress-3 : _isblur1_=false isvalidface=true
-2023-05-20 14:35:43,685 INFO root waitress-3 : >>----->>> END:UUID:=8031771d-f6ed-11ed-af17-161333e62825 <<<-----<<
-2023-05-20 14:44:46,743 INFO root waitress-0 : /validateImage....
-2023-05-20 14:44:46,744 INFO root waitress-0 : >>----->>> START:UUID:=c3e32e9a-f6ee-11ed-8dfe-161333e62825 <<<-----<<
-2023-05-20 14:44:46,746 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 14:44:46,943 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 14:44:46,944 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 14:44:47,178 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:44:47,413 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:44:47,628 ERROR app waitress-0 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 59, in process_image
-    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 140, in validate_sign_params
-    sign_hi, sign_wi = get_resolution(image_file_path)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\commons.py", line 52, in get_resolution
-    h, w, c = im.shape
-    ^^^^^^^
-ValueError: not enough values to unpack (expected 3, got 2)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
-    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
-    logging.debug("process_image:Exception="+e)
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "ValueError") to str
-2023-05-20 14:49:29,431 INFO root MainThread : Started
-2023-05-20 14:49:29,442 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:49:33,426 INFO root waitress-0 : /validateImage....
-2023-05-20 14:49:33,426 INFO root waitress-0 : >>----->>> START:UUID:=6ec36528-f6ef-11ed-a9e1-161333e62825 <<<-----<<
-2023-05-20 14:49:33,427 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 14:49:33,648 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 14:49:33,648 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 14:49:33,889 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:49:34,133 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:49:34,370 ERROR app waitress-0 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 59, in process_image
-    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 140, in validate_sign_params
-    sign_hi, sign_wi = get_resolution(image_file_path)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\commons.py", line 54, in get_resolution
-    h, w, c = im.shape
-    ^^^^^^^
-ValueError: not enough values to unpack (expected 3, got 2)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
-    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
-    logging.debug("process_image:Exception="+e)
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "ValueError") to str
-2023-05-20 14:50:41,544 INFO root MainThread : Started
-2023-05-20 14:50:41,553 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:50:45,484 INFO root waitress-0 : /validateImage....
-2023-05-20 14:50:45,485 INFO root waitress-0 : >>----->>> START:UUID:=99b6b01f-f6ef-11ed-933d-161333e62825 <<<-----<<
-2023-05-20 14:50:45,486 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 14:50:45,701 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 14:50:45,702 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 14:50:45,959 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:50:46,187 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:50:46,424 ERROR app waitress-0 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 59, in process_image
-    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 140, in validate_sign_params
-    sign_hi, sign_wi = get_resolution(image_file_path)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\commons.py", line 57, in get_resolution
-    raise e
-  File "D:\Projects\py-ValidateImageAPI\commons.py", line 55, in get_resolution
-    h, w, c = im.shape
-    ^^^^^^^
-ValueError: not enough values to unpack (expected 3, got 2)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
-    resp = make_response(f(*args, **kwargs))
-                         ^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
-    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
-    logging.debug("process_image:Exception="+e)
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "ValueError") to str
-2023-05-20 14:51:06,832 INFO root MainThread : Started
-2023-05-20 14:51:06,842 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:51:10,943 INFO root waitress-0 : /validateImage....
-2023-05-20 14:51:10,943 INFO root waitress-0 : >>----->>> START:UUID:=a8e3431e-f6ef-11ed-b5f0-161333e62825 <<<-----<<
-2023-05-20 14:51:10,944 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 14:51:11,152 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 14:51:11,153 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 14:51:11,395 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:51:11,643 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:51:11,865 ERROR app waitress-0 : Exception on /validateImage [POST]
-Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 59, in process_image
-    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 140, in validate_sign_params
-    sign_hi, sign_wi = get_resolution(image_file_path)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\commons.py", line 58, in get_resolution
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 70, in get_resolution
     return (h, w)
             ^
 UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
@@ -1405,37 +42,45 @@ Traceback (most recent call last):
   File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
     logging.debug("process_image:Exception="+e)
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
 TypeError: can only concatenate str (not "UnboundLocalError") to str
-2023-05-20 14:51:39,108 INFO root MainThread : Started
-2023-05-20 14:51:39,127 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 14:51:55,258 INFO root waitress-0 : /validateImage....
-2023-05-20 14:51:55,259 INFO root waitress-0 : >>----->>> START:UUID:=c34d50c3-f6ef-11ed-9715-161333e62825 <<<-----<<
-2023-05-20 14:51:55,260 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 14:51:55,463 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 14:51:55,464 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 14:51:55,704 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:51:55,937 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 14:51:56,190 INFO root waitress-0 : Actual sign Dim=height=80 width=344
-2023-05-20 14:51:56,191 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-20 14:51:56,192 ERROR app waitress-0 : Exception on /validateImage [POST]
+2023-05-24 22:20:27,143 INFO root MainThread : Started
+2023-05-24 22:20:27,161 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:20:34,800 INFO root waitress-0 : /validateImage....
+2023-05-24 22:20:34,801 INFO root waitress-0 : >>----->>> START:UUID:=1a4086fe-fa53-11ed-ba40-161333e62825 <<<-----<<
+2023-05-24 22:20:34,803 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:20:35,061 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:20:35,062 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:20:35,293 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:20:35,485 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:20:35,786 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:20:36,096 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:20:36,154 INFO root waitress-0 : Actual sign Dim=height=153 width=96
+2023-05-24 22:20:36,155 INFO root waitress-0 : Required sign Dim=height=400 width=1000
+2023-05-24 22:20:36,156 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:20:36,157 INFO root waitress-0 : >>----->>> END:UUID:=1a4086fe-fa53-11ed-ba40-161333e62825 <<<-----<<
+2023-05-24 22:20:46,329 INFO root waitress-1 : /validateImage....
+2023-05-24 22:20:46,331 INFO root waitress-1 : >>----->>> START:UUID:=211fd8d6-fa53-11ed-aa75-161333e62825 <<<-----<<
+2023-05-24 22:20:46,332 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:20:46,525 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:20:46,526 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:20:46,762 DEBUG root waitress-1 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:20:46,764 DEBUG root waitress-1 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:20:47,016 DEBUG root waitress-1 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:20:47,018 ERROR app waitress-1 : Exception on /validateImage [POST]
 Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 61, in process_image
-    logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
-                 ~~~~~~~~~~~~^~~~~~~~
-TypeError: can only concatenate str (not "NoneType") to str
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 70, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
 
 During handling of the above exception, another exception occurred:
 
@@ -1458,121 +103,45 @@ Traceback (most recent call last):
   File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
     logging.debug("process_image:Exception="+e)
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "TypeError") to str
-2023-05-20 14:57:38,607 INFO root waitress-1 : /validateImage....
-2023-05-20 14:57:38,607 INFO root waitress-1 : >>----->>> START:UUID:=8ff409b8-f6f0-11ed-99fd-161333e62825 <<<-----<<
-2023-05-20 14:57:38,608 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0003.jpg img_type=face
-2023-05-20 14:57:38,608 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:57:38,609 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:57:38,643 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-20 14:57:39,180 INFO root waitress-1 : Face Locations=[(247, 632, 632, 247)]
-2023-05-20 14:57:39,181 INFO root waitress-1 : is_face_valid=true
-2023-05-20 14:57:39,189 INFO root waitress-1 : Actual face Dim=height=1160 width=928
-2023-05-20 14:57:39,190 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-20 14:57:39,190 INFO root waitress-1 : _isblur1_=true isvalidface=false
-2023-05-20 14:57:39,192 INFO root waitress-1 : >>----->>> END:UUID:=8ff409b8-f6f0-11ed-99fd-161333e62825 <<<-----<<
-2023-05-20 14:58:56,881 INFO root waitress-2 : /validateImage....
-2023-05-20 14:58:56,882 INFO root waitress-2 : >>----->>> START:UUID:=be9be4b2-f6f0-11ed-8486-161333e62825 <<<-----<<
-2023-05-20 14:58:56,883 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0005.jpg img_type=face
-2023-05-20 14:58:56,884 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:58:56,884 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:58:56,890 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-20 14:58:57,087 INFO root waitress-2 : Face Locations=[(167, 390, 390, 167)]
-2023-05-20 14:58:57,088 INFO root waitress-2 : is_face_valid=true
-2023-05-20 14:58:57,093 INFO root waitress-2 : Actual face Dim=height=726 width=535
-2023-05-20 14:58:57,093 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-20 14:58:57,094 INFO root waitress-2 : _isblur1_=true isvalidface=false
-2023-05-20 14:58:57,095 INFO root waitress-2 : >>----->>> END:UUID:=be9be4b2-f6f0-11ed-8486-161333e62825 <<<-----<<
-2023-05-20 14:59:23,222 INFO root waitress-3 : /validateImage....
-2023-05-20 14:59:23,222 INFO root waitress-3 : >>----->>> START:UUID:=ce4eff19-f6f0-11ed-9709-161333e62825 <<<-----<<
-2023-05-20 14:59:23,223 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=face
-2023-05-20 14:59:23,223 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-20 14:59:23,224 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-20 14:59:23,246 INFO root waitress-3 : is_face_valid:isurl=false
-2023-05-20 14:59:23,534 INFO root waitress-3 : Face Locations=[]
-2023-05-20 14:59:23,535 INFO root waitress-3 : is_face_valid=false
-2023-05-20 14:59:23,542 INFO root waitress-3 : Actual face Dim=height=797 width=689
-2023-05-20 14:59:23,543 INFO root waitress-3 : Required face Dim=height=1000 width=1000
-2023-05-20 14:59:23,543 INFO root waitress-3 : _isblur1_=true isvalidface=false
-2023-05-20 14:59:23,544 INFO root waitress-3 : >>----->>> END:UUID:=ce4eff19-f6f0-11ed-9709-161333e62825 <<<-----<<
-2023-05-20 15:05:21,177 INFO root MainThread : Started
-2023-05-20 15:05:21,186 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 15:05:23,690 INFO root waitress-0 : /validateImage....
-2023-05-20 15:05:23,690 INFO root waitress-0 : >>----->>> START:UUID:=a52a20a4-f6f1-11ed-b268-161333e62825 <<<-----<<
-2023-05-20 15:05:23,691 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=face
-2023-05-20 15:05:23,691 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:05:23,693 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:05:23,709 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-20 15:05:23,991 INFO root waitress-0 : Face Locations=[]
-2023-05-20 15:05:23,992 INFO root waitress-0 : is_face_valid=false
-2023-05-20 15:05:24,000 INFO root waitress-0 : Actual face Dim=height=797 width=689
-2023-05-20 15:05:24,000 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-20 15:05:24,001 INFO root waitress-0 : _isblur1_=true isvalidface=false
-2023-05-20 15:05:24,001 INFO root waitress-0 : >>----->>> END:UUID:=a52a20a4-f6f1-11ed-b268-161333e62825 <<<-----<<
-2023-05-20 15:05:32,975 INFO root waitress-1 : /validateImage....
-2023-05-20 15:05:32,976 INFO root waitress-1 : >>----->>> START:UUID:=aab31964-f6f1-11ed-a5d2-161333e62825 <<<-----<<
-2023-05-20 15:05:32,977 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0003.jpg img_type=face
-2023-05-20 15:05:32,977 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:05:32,978 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:05:33,002 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-20 15:05:33,556 INFO root waitress-1 : Face Locations=[(247, 632, 632, 247)]
-2023-05-20 15:05:33,557 INFO root waitress-1 : is_face_valid=true
-2023-05-20 15:05:33,567 INFO root waitress-1 : Actual face Dim=height=1160 width=928
-2023-05-20 15:05:33,568 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-20 15:05:33,568 INFO root waitress-1 : _isblur1_=false isvalidface=false
-2023-05-20 15:05:33,568 INFO root waitress-1 : >>----->>> END:UUID:=aab31964-f6f1-11ed-a5d2-161333e62825 <<<-----<<
-2023-05-20 15:07:34,354 INFO root waitress-2 : /validateImage....
-2023-05-20 15:07:34,355 INFO root waitress-2 : >>----->>> START:UUID:=f30c1384-f6f1-11ed-adf8-161333e62825 <<<-----<<
-2023-05-20 15:07:34,356 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_002.jpg img_type=face
-2023-05-20 15:07:34,357 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:07:34,357 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:07:34,370 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-20 15:07:34,672 INFO root waitress-2 : Face Locations=[]
-2023-05-20 15:07:34,673 INFO root waitress-2 : is_face_valid=false
-2023-05-20 15:07:34,680 INFO root waitress-2 : Actual face Dim=height=797 width=689
-2023-05-20 15:07:34,681 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-20 15:07:34,681 INFO root waitress-2 : _isblur1_=true isvalidface=false
-2023-05-20 15:07:34,682 INFO root waitress-2 : >>----->>> END:UUID:=f30c1384-f6f1-11ed-adf8-161333e62825 <<<-----<<
-2023-05-20 15:07:41,022 INFO root waitress-3 : /validateImage....
-2023-05-20 15:07:41,023 INFO root waitress-3 : >>----->>> START:UUID:=f705796c-f6f1-11ed-bb58-161333e62825 <<<-----<<
-2023-05-20 15:07:41,024 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0003.jpg img_type=face
-2023-05-20 15:07:41,024 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:07:41,026 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:07:41,045 INFO root waitress-3 : is_face_valid:isurl=false
-2023-05-20 15:07:41,583 INFO root waitress-3 : Face Locations=[(247, 632, 632, 247)]
-2023-05-20 15:07:41,584 INFO root waitress-3 : is_face_valid=true
-2023-05-20 15:07:41,594 INFO root waitress-3 : Actual face Dim=height=1160 width=928
-2023-05-20 15:07:41,594 INFO root waitress-3 : Required face Dim=height=1000 width=1000
-2023-05-20 15:07:41,595 INFO root waitress-3 : _isblur1_=false isvalidface=false
-2023-05-20 15:07:41,595 INFO root waitress-3 : >>----->>> END:UUID:=f705796c-f6f1-11ed-bb58-161333e62825 <<<-----<<
-2023-05-20 15:08:01,718 INFO root waitress-0 : /validateImage....
-2023-05-20 15:08:01,718 INFO root waitress-0 : >>----->>> START:UUID:=035b3cbe-f6f2-11ed-b0d2-161333e62825 <<<-----<<
-2023-05-20 15:08:01,719 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:08:01,934 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:08:01,935 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:08:02,185 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 15:08:02,444 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 15:08:02,681 INFO root waitress-0 : Actual sign Dim=height=80 width=344
-2023-05-20 15:08:02,681 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-20 15:08:02,682 ERROR app waitress-0 : Exception on /validateImage [POST]
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:21:53,072 INFO root MainThread : Started
+2023-05-24 22:21:53,089 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:21:54,339 INFO root waitress-0 : /validateImage....
+2023-05-24 22:21:54,342 INFO root waitress-0 : >>----->>> START:UUID:=49a95324-fa53-11ed-91e9-161333e62825 <<<-----<<
+2023-05-24 22:21:54,343 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:22:15,746 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:22:15,748 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:22:16,049 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:22:16,260 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:22:16,577 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:22:16,783 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:22:17,285 INFO root waitress-0 : Actual sign Dim=height=153 width=96
+2023-05-24 22:22:17,286 INFO root waitress-0 : Required sign Dim=height=400 width=1000
+2023-05-24 22:22:17,287 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:22:17,288 INFO root waitress-0 : >>----->>> END:UUID:=49a95324-fa53-11ed-91e9-161333e62825 <<<-----<<
+2023-05-24 22:22:33,778 INFO root waitress-1 : /validateImage....
+2023-05-24 22:22:33,779 INFO root waitress-1 : >>----->>> START:UUID:=612aff58-fa53-11ed-9f7c-161333e62825 <<<-----<<
+2023-05-24 22:22:33,781 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:22:34,010 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:22:34,012 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:22:34,254 DEBUG root waitress-1 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:22:34,255 DEBUG root waitress-1 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:22:34,497 DEBUG root waitress-1 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:22:34,498 ERROR app waitress-1 : Exception on /validateImage [POST]
 Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 61, in process_image
-    logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
-                 ~~~~~~~~~~~~^~~~~~~~
-TypeError: can only concatenate str (not "NoneType") to str
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 71, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
 
 During handling of the above exception, another exception occurred:
 
@@ -1595,37 +164,32 @@ Traceback (most recent call last):
   File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
     logging.debug("process_image:Exception="+e)
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "TypeError") to str
-2023-05-20 15:15:10,183 INFO root MainThread : Started
-2023-05-20 15:15:10,192 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 15:15:12,169 INFO root waitress-0 : /validateImage....
-2023-05-20 15:15:12,170 INFO root waitress-0 : >>----->>> START:UUID:=03ed1251-f6f3-11ed-acad-161333e62825 <<<-----<<
-2023-05-20 15:15:12,171 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:15:12,466 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:15:12,467 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:15:12,703 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 15:15:12,969 DEBUG root waitress-0 : Xception@do_blur_detection=OpenCV(4.7.0) d:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<3,4,-1>,struct cv::impl::A0x981fb336::Set<1,-1,-1>,struct cv::impl::A0x981fb336::Set<0,2,5>,2>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'
-> Invalid number of channels in input image:
->     'VScn::contains(scn)'
-> where
->     'scn' is 1
-
-2023-05-20 15:15:13,231 INFO root waitress-0 : Actual sign Dim=height=80 width=344
-2023-05-20 15:15:13,232 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-20 15:15:13,233 ERROR app waitress-0 : Exception on /validateImage [POST]
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:24:56,315 INFO root MainThread : Started
+2023-05-24 22:24:56,332 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:24:57,763 INFO root waitress-0 : /validateImage....
+2023-05-24 22:24:57,764 INFO root waitress-0 : >>----->>> START:UUID:=b6fd76e5-fa53-11ed-b344-161333e62825 <<<-----<<
+2023-05-24 22:24:57,767 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:24:58,004 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:24:58,006 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:24:58,355 DEBUG root waitress-0 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:24:58,357 DEBUG root waitress-0 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:24:58,593 DEBUG root waitress-0 : Exception@get_image=The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-05-24 22:24:58,595 ERROR app waitress-0 : Exception on /validateImage [POST]
 Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 61, in process_image
-    logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
-                 ~~~~~~~~~~~~^~~~~~~~
-TypeError: can only concatenate str (not "NoneType") to str
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 72, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
 
 During handling of the above exception, another exception occurred:
 
@@ -1648,27 +212,39 @@ Traceback (most recent call last):
   File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
     logging.debug("process_image:Exception="+e)
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "TypeError") to str
-2023-05-20 15:18:23,593 INFO root MainThread : Started
-2023-05-20 15:18:23,602 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 15:18:26,966 INFO root waitress-0 : /validateImage....
-2023-05-20 15:18:26,967 INFO root waitress-0 : >>----->>> START:UUID:=7808b8f7-f6f3-11ed-9dfa-161333e62825 <<<-----<<
-2023-05-20 15:18:26,968 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:18:27,260 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:18:27,261 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:18:27,503 DEBUG root waitress-0 : Xception@do_blur_detection=can only concatenate str (not "int") to str
-2023-05-20 15:18:27,728 DEBUG root waitress-0 : Xception@do_blur_detection=can only concatenate str (not "int") to str
-2023-05-20 15:18:27,948 INFO root waitress-0 : Actual sign Dim=height=80 width=344
-2023-05-20 15:18:27,949 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-20 15:18:27,949 ERROR app waitress-0 : Exception on /validateImage [POST]
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:26:28,042 INFO root MainThread : Started
+2023-05-24 22:26:28,059 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:26:29,661 INFO root waitress-0 : /validateImage....
+2023-05-24 22:26:29,662 INFO root waitress-0 : >>----->>> START:UUID:=edc3fed1-fa53-11ed-973a-161333e62825 <<<-----<<
+2023-05-24 22:26:29,665 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:26:29,905 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:26:29,907 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:26:30,438 INFO root waitress-0 : Actual sign Dim=height=80 width=344
+2023-05-24 22:26:30,439 INFO root waitress-0 : Required sign Dim=height=400 width=1000
+2023-05-24 22:26:30,441 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:26:30,441 INFO root waitress-0 : >>----->>> END:UUID:=edc3fed1-fa53-11ed-973a-161333e62825 <<<-----<<
+2023-05-24 22:26:35,446 INFO root waitress-1 : /validateImage....
+2023-05-24 22:26:35,447 INFO root waitress-1 : >>----->>> START:UUID:=f136b20f-fa53-11ed-8aaf-161333e62825 <<<-----<<
+2023-05-24 22:26:35,448 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:26:35,690 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:26:35,691 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:26:35,909 DEBUG root waitress-1 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:26:36,155 ERROR app waitress-1 : Exception on /validateImage [POST]
 Traceback (most recent call last):
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 61, in process_image
-    logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
-                 ~~~~~~~~~~~~^~~~~~~~
-TypeError: can only concatenate str (not "NoneType") to str
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 72, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
 
 During handling of the above exception, another exception occurred:
 
@@ -1691,85 +267,372 @@ Traceback (most recent call last):
   File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
     data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 90, in process_image
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
     logging.debug("process_image:Exception="+e)
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-TypeError: can only concatenate str (not "TypeError") to str
-2023-05-20 15:19:15,504 INFO root MainThread : Started
-2023-05-20 15:19:15,515 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 15:19:18,222 INFO root waitress-0 : /validateImage....
-2023-05-20 15:19:18,223 INFO root waitress-0 : >>----->>> START:UUID:=9695b6d0-f6f3-11ed-94b7-161333e62825 <<<-----<<
-2023-05-20 15:19:18,223 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:19:18,427 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:19:18,427 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:19:19,190 INFO root waitress-0 : Actual sign Dim=height=80 width=344
-2023-05-20 15:19:19,191 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-20 15:19:19,191 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-20 15:19:19,191 INFO root waitress-0 : >>----->>> END:UUID:=9695b6d0-f6f3-11ed-94b7-161333e62825 <<<-----<<
-2023-05-20 15:26:27,833 INFO root waitress-1 : /validateImage....
-2023-05-20 15:26:27,833 INFO root waitress-1 : >>----->>> START:UUID:=96a6ff9b-f6f4-11ed-805e-161333e62825 <<<-----<<
-2023-05-20 15:26:27,834 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0003.jpg img_type=face
-2023-05-20 15:26:27,834 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:26:27,835 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:26:27,857 INFO root waitress-1 : is_face_valid:isurl=false
-2023-05-20 15:26:28,385 INFO root waitress-1 : Face Locations=[(247, 632, 632, 247)]
-2023-05-20 15:26:28,386 INFO root waitress-1 : is_face_valid=true
-2023-05-20 15:26:28,394 INFO root waitress-1 : Actual face Dim=height=1160 width=928
-2023-05-20 15:26:28,395 INFO root waitress-1 : Required face Dim=height=1000 width=1000
-2023-05-20 15:26:28,395 INFO root waitress-1 : _isblur1_=false isvalidface=false
-2023-05-20 15:26:28,396 INFO root waitress-1 : >>----->>> END:UUID:=96a6ff9b-f6f4-11ed-805e-161333e62825 <<<-----<<
-2023-05-20 15:27:48,995 INFO root waitress-2 : /validateImage....
-2023-05-20 15:27:48,996 INFO root waitress-2 : >>----->>> START:UUID:=c7079742-f6f4-11ed-9922-161333e62825 <<<-----<<
-2023-05-20 15:27:48,998 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0006.jpg img_type=face
-2023-05-20 15:27:48,998 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:27:48,999 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:27:49,021 INFO root waitress-2 : is_face_valid:isurl=false
-2023-05-20 15:27:49,559 INFO root waitress-2 : Face Locations=[(290, 632, 675, 247)]
-2023-05-20 15:27:49,560 INFO root waitress-2 : is_face_valid=true
-2023-05-20 15:27:49,569 INFO root waitress-2 : Actual face Dim=height=1198 width=944
-2023-05-20 15:27:49,571 INFO root waitress-2 : Required face Dim=height=1000 width=1000
-2023-05-20 15:27:49,572 INFO root waitress-2 : _isblur1_=false isvalidface=false
-2023-05-20 15:27:49,572 INFO root waitress-2 : >>----->>> END:UUID:=c7079742-f6f4-11ed-9922-161333e62825 <<<-----<<
-2023-05-20 15:28:00,951 INFO root MainThread : Started
-2023-05-20 15:28:00,962 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 15:28:03,317 INFO root waitress-0 : /validateImage....
-2023-05-20 15:28:03,318 INFO root waitress-0 : >>----->>> START:UUID:=cf90e28a-f6f4-11ed-85f9-161333e62825 <<<-----<<
-2023-05-20 15:28:03,319 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0006.jpg img_type=face
-2023-05-20 15:28:03,320 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
-2023-05-20 15:28:03,320 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
-2023-05-20 15:28:03,347 INFO root waitress-0 : is_face_valid:isurl=false
-2023-05-20 15:28:03,914 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
-2023-05-20 15:28:03,915 INFO root waitress-0 : is_face_valid=true
-2023-05-20 15:28:03,924 INFO root waitress-0 : Actual face Dim=height=1198 width=944
-2023-05-20 15:28:03,925 INFO root waitress-0 : Required face Dim=height=1000 width=1000
-2023-05-20 15:28:03,925 INFO root waitress-0 : _isblur1_=false isvalidface=false
-2023-05-20 15:28:03,926 INFO root waitress-0 : >>----->>> END:UUID:=cf90e28a-f6f4-11ed-85f9-161333e62825 <<<-----<<
-2023-05-20 15:31:49,216 INFO root waitress-1 : /validateImage....
-2023-05-20 15:31:49,218 INFO root waitress-1 : >>----->>> START:UUID:=5636683c-f6f5-11ed-bfa4-161333e62825 <<<-----<<
-2023-05-20 15:31:49,218 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:31:49,308 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:31:49,309 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:31:49,421 INFO root waitress-1 : Actual sign Dim=height=80 width=344
-2023-05-20 15:31:49,421 INFO root waitress-1 : Required sign Dim=height=400 width=1000
-2023-05-20 15:31:49,422 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-20 15:31:49,423 INFO root waitress-1 : >>----->>> END:UUID:=5636683c-f6f5-11ed-bfa4-161333e62825 <<<-----<<
-2023-05-20 15:47:53,852 INFO root MainThread : Started
-2023-05-20 15:47:53,862 INFO waitress MainThread : Serving on http://0.0.0.0:5001
-2023-05-20 15:48:09,385 INFO root waitress-0 : /validateImage....
-2023-05-20 15:48:09,386 INFO root waitress-0 : >>----->>> START:UUID:=9e7046d4-f6f7-11ed-b458-161333e62825 <<<-----<<
-2023-05-20 15:48:09,387 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:48:09,456 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:48:09,457 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:48:09,565 INFO root waitress-0 : Actual sign Dim=height=80 width=344
-2023-05-20 15:48:09,566 INFO root waitress-0 : Required sign Dim=height=400 width=1000
-2023-05-20 15:48:09,566 INFO root waitress-0 : _isblur1_=false isvalidface=true
-2023-05-20 15:48:09,567 INFO root waitress-0 : >>----->>> END:UUID:=9e7046d4-f6f7-11ed-b458-161333e62825 <<<-----<<
-2023-05-20 15:48:11,968 INFO root waitress-1 : /validateImage....
-2023-05-20 15:48:11,969 INFO root waitress-1 : >>----->>> START:UUID:=9ffa6496-f6f7-11ed-923b-161333e62825 <<<-----<<
-2023-05-20 15:48:11,969 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
-2023-05-20 15:48:12,021 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
-2023-05-20 15:48:12,022 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
-2023-05-20 15:48:12,133 INFO root waitress-1 : Actual sign Dim=height=80 width=344
-2023-05-20 15:48:12,134 INFO root waitress-1 : Required sign Dim=height=400 width=1000
-2023-05-20 15:48:12,135 INFO root waitress-1 : _isblur1_=false isvalidface=true
-2023-05-20 15:48:12,135 INFO root waitress-1 : >>----->>> END:UUID:=9ffa6496-f6f7-11ed-923b-161333e62825 <<<-----<<
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:27:23,883 INFO root MainThread : Started
+2023-05-24 22:27:23,901 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:27:25,394 INFO root waitress-0 : /validateImage....
+2023-05-24 22:27:25,395 INFO root waitress-0 : >>----->>> START:UUID:=0efc1320-fa54-11ed-b2b5-161333e62825 <<<-----<<
+2023-05-24 22:27:25,397 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:27:25,619 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:27:25,620 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:27:25,849 DEBUG root waitress-0 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:27:26,080 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 73, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:27:38,374 INFO root waitress-1 : /validateImage....
+2023-05-24 22:27:38,375 INFO root waitress-1 : >>----->>> START:UUID:=16b8bd7d-fa54-11ed-aabc-161333e62825 <<<-----<<
+2023-05-24 22:27:38,378 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:27:38,599 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:27:38,600 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:27:39,112 INFO root waitress-1 : Actual sign Dim=height=80 width=344
+2023-05-24 22:27:39,114 INFO root waitress-1 : Required sign Dim=height=400 width=1000
+2023-05-24 22:27:39,114 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-24 22:27:39,115 INFO root waitress-1 : >>----->>> END:UUID:=16b8bd7d-fa54-11ed-aabc-161333e62825 <<<-----<<
+2023-05-24 22:27:55,189 INFO root waitress-2 : /validateImage....
+2023-05-24 22:27:55,190 INFO root waitress-2 : >>----->>> START:UUID:=20be8566-fa54-11ed-b353-161333e62825 <<<-----<<
+2023-05-24 22:27:55,193 INFO root waitress-2 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:27:55,414 INFO root waitress-2 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:27:55,415 INFO root waitress-2 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:27:55,647 DEBUG root waitress-2 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:27:55,872 ERROR app waitress-2 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 73, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:30:31,675 INFO root MainThread : Started
+2023-05-24 22:30:31,692 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:30:32,935 INFO root waitress-0 : /validateImage....
+2023-05-24 22:30:32,937 INFO root waitress-0 : >>----->>> START:UUID:=7ec4d743-fa54-11ed-86b4-161333e62825 <<<-----<<
+2023-05-24 22:30:32,940 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:30:33,164 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:30:33,165 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:30:33,398 DEBUG root waitress-0 : Exception@get_image='str' object is not callable
+2023-05-24 22:30:33,399 DEBUG root waitress-0 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:30:33,628 DEBUG root waitress-0 : Exception@get_image='str' object is not callable
+2023-05-24 22:30:33,630 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 74, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:30:38,513 INFO root waitress-1 : /validateImage....
+2023-05-24 22:30:38,515 INFO root waitress-1 : >>----->>> START:UUID:=8217e077-fa54-11ed-ab4b-161333e62825 <<<-----<<
+2023-05-24 22:30:38,517 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:30:38,716 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:30:38,717 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:30:38,953 DEBUG root waitress-1 : Exception@get_image='str' object is not callable
+2023-05-24 22:30:38,955 DEBUG root waitress-1 : Xception@do_blur_detection='NoneType' object has no attribute 'shape'
+2023-05-24 22:30:39,192 DEBUG root waitress-1 : Exception@get_image='str' object is not callable
+2023-05-24 22:30:39,194 ERROR app waitress-1 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 62, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 143, in validate_sign_params
+    sign_hi, sign_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 74, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 93, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-24 22:31:24,826 INFO root MainThread : Started
+2023-05-24 22:31:24,843 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:31:28,376 INFO root waitress-0 : /validateImage....
+2023-05-24 22:31:28,378 INFO root waitress-0 : >>----->>> START:UUID:=9fd06a55-fa54-11ed-b469-161333e62825 <<<-----<<
+2023-05-24 22:31:28,379 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:31:28,591 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:31:28,591 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:31:28,838 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:31:29,054 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:31:29,363 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:31:29,573 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:31:29,627 INFO root waitress-0 : Actual sign Dim=height=153 width=96
+2023-05-24 22:31:29,628 INFO root waitress-0 : Required sign Dim=height=400 width=1000
+2023-05-24 22:31:29,629 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:31:29,630 INFO root waitress-0 : >>----->>> END:UUID:=9fd06a55-fa54-11ed-b469-161333e62825 <<<-----<<
+2023-05-24 22:31:38,022 INFO root waitress-1 : /validateImage....
+2023-05-24 22:31:38,023 INFO root waitress-1 : >>----->>> START:UUID:=a59024e4-fa54-11ed-b4f8-161333e62825 <<<-----<<
+2023-05-24 22:31:38,024 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:31:38,248 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:31:38,248 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:31:38,725 INFO root waitress-1 : Actual sign Dim=height=80 width=344
+2023-05-24 22:31:38,726 INFO root waitress-1 : Required sign Dim=height=400 width=1000
+2023-05-24 22:31:38,728 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-24 22:31:38,729 INFO root waitress-1 : >>----->>> END:UUID:=a59024e4-fa54-11ed-b4f8-161333e62825 <<<-----<<
+2023-05-24 22:32:12,173 INFO root waitress-2 : /validateImage....
+2023-05-24 22:32:12,174 INFO root waitress-2 : >>----->>> START:UUID:=b9eb2f2d-fa54-11ed-ace8-161333e62825 <<<-----<<
+2023-05-24 22:32:12,177 INFO root waitress-2 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:32:12,387 INFO root waitress-2 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:32:12,388 INFO root waitress-2 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:32:12,881 INFO root waitress-2 : Actual sign Dim=height=80 width=344
+2023-05-24 22:32:12,882 INFO root waitress-2 : Required sign Dim=height=400 width=1000
+2023-05-24 22:32:12,883 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-24 22:32:12,883 INFO root waitress-2 : >>----->>> END:UUID:=b9eb2f2d-fa54-11ed-ace8-161333e62825 <<<-----<<
+2023-05-24 22:32:22,944 INFO root waitress-3 : /validateImage....
+2023-05-24 22:32:22,945 INFO root waitress-3 : >>----->>> START:UUID:=c056a970-fa54-11ed-affe-161333e62825 <<<-----<<
+2023-05-24 22:32:22,949 INFO root waitress-3 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=sign
+2023-05-24 22:32:23,182 INFO root waitress-3 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:32:23,183 INFO root waitress-3 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:32:23,430 DEBUG urllib3.connectionpool waitress-3 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:32:23,636 DEBUG urllib3.connectionpool waitress-3 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:32:23,938 DEBUG urllib3.connectionpool waitress-3 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:32:24,163 DEBUG urllib3.connectionpool waitress-3 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:32:24,220 INFO root waitress-3 : Actual sign Dim=height=153 width=96
+2023-05-24 22:32:24,221 INFO root waitress-3 : Required sign Dim=height=400 width=1000
+2023-05-24 22:32:24,222 INFO root waitress-3 : _isblur1_=false isvalidface=true
+2023-05-24 22:32:24,223 INFO root waitress-3 : >>----->>> END:UUID:=c056a970-fa54-11ed-affe-161333e62825 <<<-----<<
+2023-05-24 22:32:31,672 INFO root waitress-0 : /validateImage....
+2023-05-24 22:32:31,674 INFO root waitress-0 : >>----->>> START:UUID:=c58a8fa0-fa54-11ed-a40e-161333e62825 <<<-----<<
+2023-05-24 22:32:31,675 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=face
+2023-05-24 22:32:31,903 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:32:31,904 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:32:32,164 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:32:32,409 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:32:32,467 INFO root waitress-0 : is_face_valid:isurl=true
+2023-05-24 22:32:32,472 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:32:32,674 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:32:32,766 INFO root waitress-0 : Face Locations=[(32, 78, 84, 26)]
+2023-05-24 22:32:32,768 INFO root waitress-0 : is_face_valid=true
+2023-05-24 22:32:33,022 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:32:33,250 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:32:33,352 INFO root waitress-0 : Actual face Dim=height=153 width=96
+2023-05-24 22:32:33,353 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-24 22:32:33,354 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:32:33,355 INFO root waitress-0 : >>----->>> END:UUID:=c58a8fa0-fa54-11ed-a40e-161333e62825 <<<-----<<
+2023-05-24 22:32:47,970 INFO root waitress-1 : /validateImage....
+2023-05-24 22:32:47,973 INFO root waitress-1 : >>----->>> START:UUID:=cf418e76-fa54-11ed-b82e-161333e62825 <<<-----<<
+2023-05-24 22:32:47,975 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=face
+2023-05-24 22:32:48,201 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:32:48,202 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:32:48,452 INFO root waitress-1 : is_face_valid:isurl=true
+2023-05-24 22:32:48,457 DEBUG urllib3.connectionpool waitress-1 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:32:48,657 DEBUG urllib3.connectionpool waitress-1 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:32:48,730 INFO root waitress-1 : Face Locations=[]
+2023-05-24 22:32:48,733 INFO root waitress-1 : is_face_valid=false
+2023-05-24 22:32:48,965 INFO root waitress-1 : Actual face Dim=height=80 width=344
+2023-05-24 22:32:48,968 INFO root waitress-1 : Required face Dim=height=1000 width=1000
+2023-05-24 22:32:48,968 INFO root waitress-1 : _isblur1_=false isvalidface=false
+2023-05-24 22:32:48,969 INFO root waitress-1 : >>----->>> END:UUID:=cf418e76-fa54-11ed-b82e-161333e62825 <<<-----<<
+2023-05-24 22:33:27,069 INFO root waitress-2 : /validateImage....
+2023-05-24 22:33:27,070 INFO root waitress-2 : >>----->>> START:UUID:=e68f6040-fa54-11ed-b5ff-161333e62825 <<<-----<<
+2023-05-24 22:33:27,073 INFO root waitress-2 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:33:27,319 INFO root waitress-2 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:33:27,320 INFO root waitress-2 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:33:27,866 INFO root waitress-2 : Actual sign Dim=height=80 width=344
+2023-05-24 22:33:27,868 INFO root waitress-2 : Required sign Dim=height=400 width=1000
+2023-05-24 22:33:27,870 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-24 22:33:27,871 INFO root waitress-2 : >>----->>> END:UUID:=e68f6040-fa54-11ed-b5ff-161333e62825 <<<-----<<
+2023-05-24 22:35:12,937 INFO root waitress-3 : /validateImage....
+2023-05-24 22:35:12,939 INFO root waitress-3 : >>----->>> START:UUID:=25a9b3bc-fa55-11ed-aeb4-161333e62825 <<<-----<<
+2023-05-24 22:35:12,940 INFO root waitress-3 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=face
+2023-05-24 22:35:13,152 INFO root waitress-3 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:35:13,154 INFO root waitress-3 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:35:13,397 DEBUG urllib3.connectionpool waitress-3 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:35:13,594 DEBUG urllib3.connectionpool waitress-3 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:35:13,645 INFO root waitress-3 : is_face_valid:isurl=true
+2023-05-24 22:35:13,648 DEBUG urllib3.connectionpool waitress-3 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:35:13,849 DEBUG urllib3.connectionpool waitress-3 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:35:13,912 INFO root waitress-3 : Face Locations=[(32, 78, 84, 26)]
+2023-05-24 22:35:13,915 INFO root waitress-3 : is_face_valid=true
+2023-05-24 22:35:14,155 DEBUG urllib3.connectionpool waitress-3 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:35:14,358 DEBUG urllib3.connectionpool waitress-3 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:35:14,410 INFO root waitress-3 : Actual face Dim=height=153 width=96
+2023-05-24 22:35:14,411 INFO root waitress-3 : Required face Dim=height=1000 width=1000
+2023-05-24 22:35:14,412 INFO root waitress-3 : _isblur1_=false isvalidface=true
+2023-05-24 22:35:14,413 INFO root waitress-3 : >>----->>> END:UUID:=25a9b3bc-fa55-11ed-aeb4-161333e62825 <<<-----<<
+2023-05-24 22:36:03,737 INFO root MainThread : Started
+2023-05-24 22:36:03,753 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:36:04,876 INFO root waitress-0 : /validateImage....
+2023-05-24 22:36:04,878 INFO root waitress-0 : >>----->>> START:UUID:=449ee255-fa55-11ed-bb9b-161333e62825 <<<-----<<
+2023-05-24 22:36:04,880 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=face
+2023-05-24 22:36:05,115 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:36:05,116 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:36:05,391 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:36:05,626 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:36:07,416 INFO root waitress-0 : is_face_valid:isurl=true
+2023-05-24 22:36:07,421 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:36:07,633 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:36:07,694 INFO root waitress-0 : Face Locations=[(32, 78, 84, 26)]
+2023-05-24 22:36:07,695 INFO root waitress-0 : is_face_valid=true
+2023-05-24 22:36:07,961 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:36:08,193 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:36:09,028 INFO root waitress-0 : Actual face Dim=height=153 width=96
+2023-05-24 22:36:09,031 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-24 22:36:09,033 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:36:09,034 INFO root waitress-0 : >>----->>> END:UUID:=449ee255-fa55-11ed-bb9b-161333e62825 <<<-----<<
+2023-05-24 22:36:15,929 INFO root waitress-1 : /validateImage....
+2023-05-24 22:36:15,931 INFO root waitress-1 : >>----->>> START:UUID:=4b357813-fa55-11ed-aafe-161333e62825 <<<-----<<
+2023-05-24 22:36:15,932 INFO root waitress-1 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/SIGN/SIGN_JPG62267/3113350824.jpg&filePath=basePath img_type=sign
+2023-05-24 22:36:16,136 INFO root waitress-1 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:36:16,137 INFO root waitress-1 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:36:23,022 INFO root waitress-1 : Actual sign Dim=height=80 width=344
+2023-05-24 22:36:23,024 INFO root waitress-1 : Required sign Dim=height=400 width=1000
+2023-05-24 22:36:23,032 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-24 22:36:23,034 INFO root waitress-1 : >>----->>> END:UUID:=4b357813-fa55-11ed-aafe-161333e62825 <<<-----<<
+2023-05-24 22:40:09,978 INFO root waitress-2 : /validateImage....
+2023-05-24 22:40:09,979 INFO root waitress-2 : >>----->>> START:UUID:=d6b6571c-fa55-11ed-b96f-161333e62825 <<<-----<<
+2023-05-24 22:40:09,981 INFO root waitress-2 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=face
+2023-05-24 22:40:10,214 INFO root waitress-2 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:40:10,215 INFO root waitress-2 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:40:10,813 DEBUG urllib3.connectionpool waitress-2 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:40:11,021 DEBUG urllib3.connectionpool waitress-2 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:40:16,252 INFO root waitress-2 : is_face_valid:isurl=true
+2023-05-24 22:40:16,256 DEBUG urllib3.connectionpool waitress-2 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:40:16,493 DEBUG urllib3.connectionpool waitress-2 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:40:16,562 INFO root waitress-2 : Face Locations=[(32, 78, 84, 26)]
+2023-05-24 22:40:16,563 INFO root waitress-2 : is_face_valid=true
+2023-05-24 22:40:16,792 DEBUG urllib3.connectionpool waitress-2 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:40:17,016 DEBUG urllib3.connectionpool waitress-2 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:40:19,160 INFO root waitress-2 : Actual face Dim=height=153 width=96
+2023-05-24 22:40:19,163 INFO root waitress-2 : Required face Dim=height=1000 width=1000
+2023-05-24 22:40:19,170 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-24 22:40:19,171 INFO root waitress-2 : >>----->>> END:UUID:=d6b6571c-fa55-11ed-b96f-161333e62825 <<<-----<<
+2023-05-24 22:40:34,293 INFO root MainThread : Started
+2023-05-24 22:40:34,310 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-24 22:40:35,622 INFO root waitress-0 : /validateImage....
+2023-05-24 22:40:35,624 INFO root waitress-0 : >>----->>> START:UUID:=e5ff6c8c-fa55-11ed-833b-161333e62825 <<<-----<<
+2023-05-24 22:40:35,626 INFO root waitress-0 : process_image:image_file_path=https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath img_type=face
+2023-05-24 22:40:35,870 INFO root waitress-0 : validate_input_file:isfile=True isurl=True
+2023-05-24 22:40:35,871 INFO root waitress-0 : validate_input_file2:isfile=True isurl=True
+2023-05-24 22:40:36,127 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:40:36,332 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:40:36,402 INFO root waitress-0 : is_face_valid:isurl=true
+2023-05-24 22:40:36,407 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:40:36,626 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:40:36,698 INFO root waitress-0 : Face Locations=[(32, 78, 84, 26)]
+2023-05-24 22:40:36,700 INFO root waitress-0 : is_face_valid=true
+2023-05-24 22:40:37,017 DEBUG urllib3.connectionpool waitress-0 : Starting new HTTPS connection (1): tspsconetimereg.tspsc.gov.in:443
+2023-05-24 22:40:37,247 DEBUG urllib3.connectionpool waitress-0 : https://tspsconetimereg.tspsc.gov.in:443 "GET /preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG4/20467315081988.jpg&filePath=basePath HTTP/1.1" 200 None
+2023-05-24 22:40:37,307 INFO root waitress-0 : Actual face Dim=height=153 width=96
+2023-05-24 22:40:37,308 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-24 22:40:37,309 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-24 22:40:37,311 INFO root waitress-0 : >>----->>> END:UUID:=e5ff6c8c-fa55-11ed-833b-161333e62825 <<<-----<<

@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageSequence
 import requests
 import cv2
 import urllib.request
@@ -7,10 +7,18 @@ from datetime import datetime
 import uuid
 import configparser
 import logging
+import urllib.request as ur
 
 config = configparser.RawConfigParser()
 config.read('static/config/config.properties')
 
+
+def get_gif_img(url, im):
+	im = Image.open(requests.get(url, stream=True).raw)
+	print(im)
+	im = np.array([np.array(im.copy().convert('RGB').getdata(),dtype=np.uint8).reshape(im.size[1],im.size[0],3) for im in ImageSequence.Iterator(im)])
+	im = im[0]
+	return im
 
 '''
 	get image from url/path
@@ -30,9 +38,11 @@ def get_image(url, type):
 		if(isurl=='false' and type=='cv2'):
 			im = cv2.imread(url)
 		if(isurl=='true' and type=='cv2'):
-			req = urllib.request.urlopen(url)
+			req = ur.urlopen(url)
 			arr = np.asarray(bytearray(req.read()), dtype=np.uint8)
 			im = cv2.imdecode(arr, -1)
+			if(im is None):
+				im = get_gif_img(url, im)
 
 		# show image
 		# if(type=='cv2'):
