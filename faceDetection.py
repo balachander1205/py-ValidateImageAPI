@@ -4,17 +4,12 @@ import requests
 from io import BytesIO
 import logging
 import cv2
-from helpers import FACIAL_LANDMARKS_68_IDXS
-from helpers import FACIAL_LANDMARKS_5_IDXS
-from helpers import shape_to_np
-import itertools
 import numpy as np
 
 imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg'
 # imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG23/116371708041978.jpg&filePath=basePath'
 # imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG62/314868719111993.jpg&filePath=basePath'
 # imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0001.jpg'
-
 
 eye_cascade = cv2.CascadeClassifier('static/haarcascade_eye.xml')
 
