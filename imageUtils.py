@@ -141,7 +141,7 @@ def validate_sign_params(image_file_path, isblur1):
 	remarks = ""
 	sign_h, sign_w = get_sign_img_dim()
 	sign_hi, sign_wi = get_resolution(image_file_path)
-	print("validate_sign_params::Actual sign Dim=",sign_hi, sign_wi)
+	print("validate_sign_params::Actual sign Dim=height:{}",sign_hi, sign_wi)
 	print("validate_sign_params::Required sign Dim=",sign_h, sign_w)
 	logging.info("Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
 	logging.info("Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
@@ -150,12 +150,18 @@ def validate_sign_params(image_file_path, isblur1):
 			isvalidimage = "false"
 			remarks = config.get('signature', 'blur_sign')
 		if(isblur1=="false"):
-			if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
-				isvalidimage = "true"
-				remarks = config.get('signature', 'valid_sign')
-			elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
+			# image height <= width which means landscape
+			if(int(sign_hi)<=int(sign_wi)):
+				if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+					isvalidimage = "true"
+					remarks = config.get('signature', 'valid_sign')
+				elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
+					isvalidimage = "false"
+					remarks = config.get('signature', 'full_scan_sign')
+			# image width <= height which means portrait
+			if(int(sign_wi)<=int(sign_hi)):
 				isvalidimage = "false"
-				remarks = config.get('signature', 'full_scan_sign')
+				remarks = config.get('signature', 'invalid_sign')
 		print("validate_sign_params::remarks=",remarks)
 		return isvalidimage, remarks
 	except Exception as e:

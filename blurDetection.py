@@ -28,14 +28,14 @@ def do_blur_detection(imagePath):
 			gray = image
 		if(len(image.shape)>2):
 			gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-		fm = variance_of_laplacian(gray)
+		score = variance_of_laplacian(gray)
 		text = "false"
-		print("blurness value=",str(fm))
+		print("blurness value=",str(score))
 		# if the focus measure is less than the supplied threshold,
 		# then the image should be considered "blur"
 		start = config.get('image', 'blurness_threshold_start')
 		end = config.get('image', 'blurness_threshold_end')
-		if int(start) < fm < int(end):
+		if int(start) < score < int(end):
 			text = "true"
 		print("isblur=",text)
 		return text
