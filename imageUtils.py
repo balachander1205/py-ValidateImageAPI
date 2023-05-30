@@ -3,6 +3,7 @@ from flask import Flask,render_template, request,json,Response
 from blurDetection import do_blur_detection
 from faceDetection import is_face_valid
 from binarizeImage import binarize
+from signature_extractor import signature_extractor
 import os
 from urllib.request import urlopen
 from commons import get_sign_img_dim, get_face_img_dim, get_resolution
@@ -141,8 +142,8 @@ def validate_sign_params(image_file_path, isblur1):
 	remarks = ""
 	sign_h, sign_w = get_sign_img_dim()
 	sign_hi, sign_wi = get_resolution(image_file_path)
-	print("validate_sign_params::Actual sign Dim=height:{}",sign_hi, sign_wi)
-	print("validate_sign_params::Required sign Dim=",sign_h, sign_w)
+	print("validate_sign_params::Actual sign Dim=height::width=",sign_hi, sign_wi)
+	print("validate_sign_params::Required sign Dim=height::width=",sign_h, sign_w)
 	logging.info("Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
 	logging.info("Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
 	try:
@@ -152,9 +153,13 @@ def validate_sign_params(image_file_path, isblur1):
 		if(isblur1=="false"):
 			# image height <= width which means landscape
 			if(int(sign_hi)<=int(sign_wi)):
-				if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+				signature, average = signature_extractor(image_file_path)
+				if((int(signature)>0 or int(average)>0) and ((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
 					isvalidimage = "true"
 					remarks = config.get('signature', 'valid_sign')
+				elif((int(signature)<=0 or int(average)<=0) and ((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+					isvalidimage = "false"
+					remarks = config.get('signature', 'invalid_sign')
 				elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
 					isvalidimage = "false"
 					remarks = config.get('signature', 'full_scan_sign')
@@ -165,4 +170,5 @@ def validate_sign_params(image_file_path, isblur1):
 		print("validate_sign_params::remarks=",remarks)
 		return isvalidimage, remarks
 	except Exception as e:
+		print(e)
 		logging.debug("Xception:validate_sign_params="+e)

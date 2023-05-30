@@ -13,7 +13,6 @@ imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result
 
 eye_cascade = cv2.CascadeClassifier('static/haarcascade_eye.xml')
 
-
 def validate_face_alignment(image, face_locations):
 	angle = 0
 	try:
