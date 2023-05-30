@@ -16823,3 +16823,186 @@ TypeError: can only concatenate str (not "KeyError") to str
 2023-05-30 11:16:57,308 INFO root waitress-2 : Required sign Dim=height=800 width=1000
 2023-05-30 11:16:57,903 INFO root waitress-2 : _isblur1_=false isvalidface=true
 2023-05-30 11:16:57,904 INFO root waitress-2 : >>----->>> END:UUID:=63a12e71-fead-11ed-94ee-161333e62825 <<<-----<<
+2023-05-30 11:26:42,966 INFO root MainThread : Started
+2023-05-30 11:26:42,987 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:26:44,472 INFO root waitress-0 : /validateImage....
+2023-05-30 11:26:44,473 INFO root waitress-0 : >>----->>> START:UUID:=c1a1fe23-feae-11ed-812a-161333e62825 <<<-----<<
+2023-05-30 11:26:44,475 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Without signature -4.jpg img_type=sign
+2023-05-30 11:26:44,476 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:26:44,478 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:26:44,526 INFO root waitress-0 : Actual sign Dim=height=670 width=966
+2023-05-30 11:26:44,527 INFO root waitress-0 : Required sign Dim=height=800 width=1000
+2023-05-30 11:26:45,175 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-30 11:26:45,176 INFO root waitress-0 : >>----->>> END:UUID:=c1a1fe23-feae-11ed-812a-161333e62825 <<<-----<<
+2023-05-30 11:27:23,209 INFO root MainThread : Started
+2023-05-30 11:27:23,228 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:27:24,718 INFO root waitress-0 : /validateImage....
+2023-05-30 11:27:24,720 INFO root waitress-0 : >>----->>> START:UUID:=d99f32ae-feae-11ed-b67e-161333e62825 <<<-----<<
+2023-05-30 11:27:24,722 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Without signature -4.jpg img_type=sign
+2023-05-30 11:27:24,723 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:27:24,724 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:27:25,908 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 63, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 149, in validate_sign_params
+    colors, pixel_count = get_colors(image_file_path)
+    ^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "TypeError") to str
+2023-05-30 11:28:46,738 INFO root MainThread : Started
+2023-05-30 11:28:46,756 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:28:48,242 INFO root waitress-0 : /validateImage....
+2023-05-30 11:28:48,245 INFO root waitress-0 : >>----->>> START:UUID:=0b67f51e-feaf-11ed-8927-161333e62825 <<<-----<<
+2023-05-30 11:28:48,246 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Without signature -4.jpg img_type=sign
+2023-05-30 11:28:48,248 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:28:48,248 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:28:49,377 INFO root waitress-0 : Actual sign Dim=height=670 width=966
+2023-05-30 11:28:49,380 INFO root waitress-0 : Required sign Dim=height=800 width=1000
+2023-05-30 11:28:49,954 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-30 11:28:49,955 INFO root waitress-0 : >>----->>> END:UUID:=0b67f51e-feaf-11ed-8927-161333e62825 <<<-----<<
+2023-05-30 11:29:09,964 INFO root waitress-1 : /validateImage....
+2023-05-30 11:29:09,965 INFO root waitress-1 : >>----->>> START:UUID:=185a5305-feaf-11ed-8fb0-161333e62825 <<<-----<<
+2023-05-30 11:29:09,967 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_005.jpg img_type=sign
+2023-05-30 11:29:09,969 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:29:09,970 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:29:10,985 INFO root waitress-1 : Actual sign Dim=height=1080 width=1050
+2023-05-30 11:29:10,986 INFO root waitress-1 : Required sign Dim=height=800 width=1000
+2023-05-30 11:29:10,989 INFO root waitress-1 : _isblur1_=false isvalidface=false
+2023-05-30 11:29:10,990 INFO root waitress-1 : >>----->>> END:UUID:=185a5305-feaf-11ed-8fb0-161333e62825 <<<-----<<
+2023-05-30 11:29:38,480 INFO root waitress-2 : /validateImage....
+2023-05-30 11:29:38,481 INFO root waitress-2 : >>----->>> START:UUID:=2959734e-feaf-11ed-bc0c-161333e62825 <<<-----<<
+2023-05-30 11:29:38,483 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
+2023-05-30 11:29:38,484 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:29:38,485 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:29:38,590 INFO root waitress-2 : Actual sign Dim=height=139 width=526
+2023-05-30 11:29:38,592 INFO root waitress-2 : Required sign Dim=height=800 width=1000
+2023-05-30 11:29:38,661 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-30 11:29:38,664 INFO root waitress-2 : >>----->>> END:UUID:=2959734e-feaf-11ed-bc0c-161333e62825 <<<-----<<
+2023-05-30 11:33:56,768 INFO root MainThread : Started
+2023-05-30 11:33:56,788 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:33:59,045 INFO root waitress-0 : /validateImage....
+2023-05-30 11:33:59,047 INFO root waitress-0 : >>----->>> START:UUID:=c4a89926-feaf-11ed-bf63-161333e62825 <<<-----<<
+2023-05-30 11:33:59,049 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
+2023-05-30 11:33:59,051 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:33:59,052 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:33:59,242 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 63, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 149, in validate_sign_params
+    colors = get_colors(image_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 97, in get_colors
+    data_frame = color_to_df(colors)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 88, in color_to_df
+    df_color_up = [rgb2hex(int(i.split(", ")[0].replace("(","")),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 88, in <listcomp>
+    df_color_up = [rgb2hex(int(i.split(", ")[0].replace("(","")),
+                   ^^^^^^^
+NameError: name 'rgb2hex' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "NameError") to str
+2023-05-30 11:36:47,665 INFO root MainThread : Started
+2023-05-30 11:36:47,684 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:36:49,275 INFO root waitress-0 : /validateImage....
+2023-05-30 11:36:49,277 INFO root waitress-0 : >>----->>> START:UUID:=2a1fb5e0-feb0-11ed-b601-161333e62825 <<<-----<<
+2023-05-30 11:36:49,278 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_006.jpg img_type=sign
+2023-05-30 11:36:49,280 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:36:49,281 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:36:49,481 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 63, in process_image
+    isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 149, in validate_sign_params
+    colors = get_colors(image_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 98, in get_colors
+    data_frame = color_to_df(colors)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 92, in color_to_df
+    df = pd.DataFrame(zip(df_color_up, df_percent), columns = ['c_code','occurence'])
+         ^^
+NameError: name 'pd' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "NameError") to str
+2023-05-30 11:38:28,677 INFO root MainThread : Started
+2023-05-30 11:38:28,697 INFO waitress MainThread : Serving on http://0.0.0.0:5001

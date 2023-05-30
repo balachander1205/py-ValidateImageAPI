@@ -70,15 +70,6 @@ def get_resolution(image):
 		print(e)		
 	return (h, w)
 
-def get_dpi(image):
-	try:
-		img = get_image(image, 'pil')
-		print("dpi=",img.info['dpi'])
-		return img.info['dpi']
-	except Exception as e:
-		raise e
-		print(e)
-
 def get_uuid():
 	now_1 = datetime.now()
 	cur_datetime = now_1.strftime("%Y-%m-%d %H:%M")
