@@ -118,6 +118,9 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 	try:
 		brightness = get_brightness(image_file_path)
 		print("brightness=",brightness)
+		brightness_threshold = int(config.get('image', 'brightness_threshold'))
+		if(int(brightness)>brightness_threshold):
+			isblur1 = "true"
 		# Blur Image
 		if(isblur1=="true"):
 			isvalidimage = "false"
