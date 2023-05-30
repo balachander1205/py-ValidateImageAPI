@@ -131,6 +131,10 @@ def get_face_img_dim():
 	face_width = config.get('face', 'face_width')
 	return face_height, face_width
 
+def get_brightness(img_path):
+	img = get_image(img_path, "cv2")
+	hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+	return hsv[...,2].mean()
 
 # url = 'https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg'
 #print(get_face_img_dim())

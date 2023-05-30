@@ -6,7 +6,7 @@ from binarizeImage import binarize
 from signature_extractor import signature_extractor
 import os
 from urllib.request import urlopen
-from commons import get_sign_img_dim, get_face_img_dim, get_resolution, get_colors
+from commons import get_sign_img_dim, get_face_img_dim, get_resolution, get_colors, get_brightness
 import configparser
 from checkfullscan import is_full_scan
 
@@ -116,6 +116,8 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 	# logging.info("Actual face Dim=height="+str(face_hi)+ " width="+str(face_wi))
 	# logging.info("Required face Dim=height="+str(face_h)+ " width="+str(face_w))
 	try:
+		brightness = get_brightness(image_file_path)
+		print("brightness=",brightness)
 		# Blur Image
 		if(isblur1=="true"):
 			isvalidimage = "false"
@@ -125,7 +127,7 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 			isvalidimage = "false"
 			remarks = config.get('face', 'invalid_image')
 		if(validate_face1=="true" and isblur1=="false"):
-			isfullscan = is_full_scan(image_file_path, "face")
+			isfullscan = is_full_scan(image_file_path, "face")			
 			print("isfullscan=",isfullscan)
 			if(isfullscan==True):
 				isvalidimage = "false"
