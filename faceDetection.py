@@ -6,7 +6,7 @@ import logging
 import cv2
 import numpy as np
 
-imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg'
+# imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg'
 # imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG23/116371708041978.jpg&filePath=basePath'
 # imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG62/314868719111993.jpg&filePath=basePath'
 # imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0001.jpg'
@@ -28,7 +28,7 @@ def validate_face_alignment(image, face_locations):
 		    count = 0
 		    leftEyeCenter = 0
 		    rightEyeCenter = 0		    
-		    print("Eyes length=",len(eyes))
+		    # print("Eyes length=",len(eyes))
 		    for (ex,ey,ew,eh) in eyes:
 		    	cv2.rectangle(image,(ex,ey),(ex+ew,ey+eh),(0,255,255),2)
 		    	eye_centerX = (ex+(ex+ew))/2
@@ -43,9 +43,9 @@ def validate_face_alignment(image, face_locations):
 		    		rightEyeCenter = nparray2.mean(axis=0).astype("int")
 		    		dY = rightEyeCenter[1] - leftEyeCenter[1]
 		    		dX = rightEyeCenter[0] - leftEyeCenter[0]
-		    		print("actual angle=",np.degrees(np.arctan2(dY, dX)))
+		    		# print("actual angle=",np.degrees(np.arctan2(dY, dX)))
 		    		angle = np.degrees(np.arctan2(dY, dX)) - 180
-		    		print("angle=",angle)
+		    		# print("angle=",angle)
 		    		count=0
 		    	count+=1
 		    	# cv2.line(image, (int(eye_centerX), int(eye_centerY)), (int(eye_centerX), int(eye_centerY)), (0,255,255), 1)
@@ -84,8 +84,8 @@ def is_face_valid(imagePath):
 		logging.info("Face Locations="+str(face_locations))
 		is_valid_face = 'false'
 		if(len(face_locations)>0):
-			angle = validate_face_alignment(image, face_locations)
-			print("Face angle=",str(angle))
+			# angle = validate_face_alignment(image, face_locations)
+			# print("Face angle=",str(angle))
 			is_valid_face = 'true'
 		print("is_valid_face=",is_valid_face)
 		logging.info("is_face_valid="+is_valid_face)

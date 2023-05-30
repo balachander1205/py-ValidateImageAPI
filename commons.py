@@ -8,6 +8,9 @@ import uuid
 import configparser
 import logging
 import urllib.request as ur
+import extcolors
+from colormap import rgb2hex
+import pandas as pd
 
 config = configparser.RawConfigParser()
 config.read('static/config/config.properties')
@@ -52,6 +55,7 @@ def get_image(url, type):
 			# im.show()
 		return im		
 	except Exception as e:
+		print(e)
 		logging.debug("Exception@get_image="+str(e))
 
 '''
@@ -60,15 +64,50 @@ def get_image(url, type):
 def get_resolution(image):
 	try:
 		im = get_image(image, "cv2")
-		print("im.shape value..")
-		print(im.shape)
 		if(len(im.shape)<=2):
 			h,w = im.shape
 		if(len(im.shape)>2):
 			h, w, c = im.shape
 	except Exception as e:
-		print(e)		
+		print(e)
+		logging.debug("Exception:get_resolution="+str(e))		
 	return (h, w)
+
+def get_dpi(image):
+	try:
+		img = get_image(image, 'pil')
+		print("dpi=",img.info['dpi'])
+		return img.info['dpi']
+	except Exception as e:
+		raise e
+		print(e)
+
+def color_to_df(input):
+    colors_pre_list = str(input).replace('([(','').split(', (')[0:-1]
+    df_rgb = [i.split('), ')[0] + ')' for i in colors_pre_list]
+    df_percent = [i.split('), ')[1].replace(')','') for i in colors_pre_list]    
+    #convert RGB to HEX code
+    df_color_up = [rgb2hex(int(i.split(", ")[0].replace("(","")),
+                          int(i.split(", ")[1]),
+                          int(i.split(", ")[2].replace(")",""))) for i in df_rgb]    
+    # df = pd.DataFrame(zip(df_color_up, df_percent), columns = ['c_code','occurence'])
+    list_color = list(df_color_up)
+    list_precent = [int(i) for i in list(df_percent)]
+    # text_c = [c + ' ' + str(round(p*100/sum(list_precent),1)) +'%' for c, p in zip(list_color, list_precent)]
+    text_c = [str(round(p*100/sum(list_precent),1)) for c, p in zip(list_color, list_precent)]
+    df = pd.DataFrame(zip(df_color_up, df_percent, text_c), columns = ['c_code','pixels','percent'])
+    print(df)
+    return list(text_c)
+
+def get_colors(image):
+	try:
+	  img = get_image(image, "pil")
+	  colors = extcolors.extract_from_image(img)
+	  data_frame = color_to_df(colors)
+	  return data_frame
+	except Exception as e:
+		print(e)
+		logging.debug("Exception:get_colors="+str(e))
 
 def get_uuid():
 	now_1 = datetime.now()
