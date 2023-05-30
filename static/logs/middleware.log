@@ -16344,3 +16344,482 @@ TypeError: can only concatenate str (not "TypeError") to str
 2023-05-30 08:46:45,863 INFO root waitress-0 : Required sign Dim=height=800 width=1000
 2023-05-30 08:46:46,114 INFO root waitress-0 : _isblur1_=false isvalidface=true
 2023-05-30 08:46:46,116 INFO root waitress-0 : >>----->>> END:UUID:=68661b19-fe98-11ed-b10d-161333e62825 <<<-----<<
+2023-05-30 10:44:34,220 INFO root MainThread : Started
+2023-05-30 10:44:34,263 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 10:45:27,435 INFO root waitress-0 : /validateImage....
+2023-05-30 10:45:27,438 INFO root waitress-0 : >>----->>> START:UUID:=fd3428c8-fea8-11ed-85a8-161333e62825 <<<-----<<
+2023-05-30 10:45:27,440 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-1.jpg img_type=face
+2023-05-30 10:45:27,441 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:45:27,442 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:45:27,508 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 10:45:28,220 INFO root waitress-0 : Face Locations=[(247, 461, 632, 76)]
+2023-05-30 10:45:30,200 INFO root waitress-0 : is_face_valid=true
+2023-05-30 10:45:30,220 INFO root waitress-0 : Actual face Dim=height=944 width=596
+2023-05-30 10:45:30,221 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-30 10:45:30,223 INFO root waitress-0 : _isblur1_=true isvalidface=false
+2023-05-30 10:45:30,224 INFO root waitress-0 : >>----->>> END:UUID:=fd3428c8-fea8-11ed-85a8-161333e62825 <<<-----<<
+2023-05-30 10:46:29,086 INFO root waitress-1 : /validateImage....
+2023-05-30 10:46:29,087 INFO root waitress-1 : >>----->>> START:UUID:=21f33c11-fea9-11ed-8ebd-161333e62825 <<<-----<<
+2023-05-30 10:46:29,089 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-2.jpg img_type=face
+2023-05-30 10:46:29,090 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:46:29,091 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:46:29,192 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-30 10:46:32,033 INFO root waitress-1 : Face Locations=[(295, 972, 850, 418)]
+2023-05-30 10:46:32,177 INFO root waitress-1 : is_face_valid=true
+2023-05-30 10:46:32,217 INFO root waitress-1 : Actual face Dim=height=1745 width=1364
+2023-05-30 10:46:32,218 INFO root waitress-1 : Required face Dim=height=1000 width=1000
+2023-05-30 10:46:32,219 INFO root waitress-1 : _isblur1_=true isvalidface=false
+2023-05-30 10:46:32,221 INFO root waitress-1 : >>----->>> END:UUID:=21f33c11-fea9-11ed-8ebd-161333e62825 <<<-----<<
+2023-05-30 10:46:58,499 INFO root waitress-2 : /validateImage....
+2023-05-30 10:46:58,502 INFO root waitress-2 : >>----->>> START:UUID:=337b9d00-fea9-11ed-9a7d-161333e62825 <<<-----<<
+2023-05-30 10:46:58,504 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-3.jpg img_type=face
+2023-05-30 10:46:58,506 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:46:58,506 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:46:58,615 INFO root waitress-2 : is_face_valid:isurl=false
+2023-05-30 10:47:01,434 INFO root waitress-2 : Face Locations=[(418, 972, 973, 418)]
+2023-05-30 10:47:01,555 INFO root waitress-2 : is_face_valid=true
+2023-05-30 10:47:01,592 INFO root waitress-2 : Actual face Dim=height=1798 width=1364
+2023-05-30 10:47:01,594 INFO root waitress-2 : Required face Dim=height=1000 width=1000
+2023-05-30 10:47:01,595 INFO root waitress-2 : _isblur1_=true isvalidface=false
+2023-05-30 10:47:01,596 INFO root waitress-2 : >>----->>> END:UUID:=337b9d00-fea9-11ed-9a7d-161333e62825 <<<-----<<
+2023-05-30 10:47:43,548 INFO root MainThread : Started
+2023-05-30 10:47:43,571 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 10:47:47,971 INFO root waitress-0 : /validateImage....
+2023-05-30 10:47:47,974 INFO root waitress-0 : >>----->>> START:UUID:=50f84a08-fea9-11ed-95b7-161333e62825 <<<-----<<
+2023-05-30 10:47:47,976 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-3.jpg img_type=face
+2023-05-30 10:47:47,977 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:47:47,978 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:47:48,097 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 10:47:51,012 INFO root waitress-0 : Face Locations=[(418, 972, 973, 418)]
+2023-05-30 10:47:52,868 INFO root waitress-0 : is_face_valid=true
+2023-05-30 10:47:52,906 INFO root waitress-0 : Actual face Dim=height=1798 width=1364
+2023-05-30 10:47:52,907 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-30 10:47:52,908 INFO root waitress-0 : _isblur1_=false isvalidface=false
+2023-05-30 10:47:52,909 INFO root waitress-0 : >>----->>> END:UUID:=50f84a08-fea9-11ed-95b7-161333e62825 <<<-----<<
+2023-05-30 10:48:32,195 INFO root waitress-1 : /validateImage....
+2023-05-30 10:48:32,197 INFO root waitress-1 : >>----->>> START:UUID:=6b546933-fea9-11ed-9a35-161333e62825 <<<-----<<
+2023-05-30 10:48:32,200 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 10:48:32,200 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:48:32,202 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:48:32,263 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-30 10:48:33,597 INFO root waitress-1 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 10:48:33,677 INFO root waitress-1 : is_face_valid=true
+2023-05-30 10:48:33,695 INFO root waitress-1 : Actual face Dim=height=1198 width=944
+2023-05-30 10:48:33,696 INFO root waitress-1 : Required face Dim=height=1000 width=1000
+2023-05-30 10:48:33,697 INFO root waitress-1 : _isblur1_=false isvalidface=false
+2023-05-30 10:48:33,698 INFO root waitress-1 : >>----->>> END:UUID:=6b546933-fea9-11ed-9a35-161333e62825 <<<-----<<
+2023-05-30 10:49:56,616 INFO root MainThread : Started
+2023-05-30 10:49:56,636 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 10:49:59,707 INFO root waitress-0 : /validateImage....
+2023-05-30 10:49:59,709 INFO root waitress-0 : >>----->>> START:UUID:=9f7d7c1c-fea9-11ed-a31f-161333e62825 <<<-----<<
+2023-05-30 10:49:59,711 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 10:49:59,713 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:49:59,713 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:49:59,768 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 10:50:01,168 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 10:50:02,983 INFO root waitress-0 : is_face_valid=true
+2023-05-30 10:50:03,013 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 60, in process_image
+    isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 112, in validate_face_params
+    face_hi, face_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 72, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-30 10:59:01,952 INFO root MainThread : Started
+2023-05-30 10:59:01,971 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 10:59:04,657 INFO root waitress-0 : /validateImage....
+2023-05-30 10:59:04,658 INFO root waitress-0 : >>----->>> START:UUID:=e44e4a0b-feaa-11ed-931e-161333e62825 <<<-----<<
+2023-05-30 10:59:04,660 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 10:59:04,661 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 10:59:04,662 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 10:59:04,720 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 10:59:06,168 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 10:59:08,012 INFO root waitress-0 : is_face_valid=true
+2023-05-30 10:59:08,033 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 60, in process_image
+    isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 112, in validate_face_params
+    face_hi, face_wi = get_resolution(image_file_path)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 72, in get_resolution
+    return (h, w)
+            ^
+UnboundLocalError: cannot access local variable 'h' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-30 11:00:13,842 INFO root MainThread : Started
+2023-05-30 11:00:13,860 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:00:16,070 INFO root waitress-0 : /validateImage....
+2023-05-30 11:00:16,073 INFO root waitress-0 : >>----->>> START:UUID:=0edf2745-feab-11ed-aac9-161333e62825 <<<-----<<
+2023-05-30 11:00:16,074 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 11:00:16,076 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:00:16,076 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:00:16,124 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:00:17,686 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 11:00:19,489 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:00:19,510 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 60, in process_image
+    isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 113, in validate_face_params
+    dpi = get_dpi(image_file_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 78, in get_dpi
+    raise e
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 75, in get_dpi
+    img = get_image(img, 'pil')
+                    ^^^
+UnboundLocalError: cannot access local variable 'img' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "UnboundLocalError") to str
+2023-05-30 11:01:45,920 INFO root MainThread : Started
+2023-05-30 11:01:45,940 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:01:49,980 INFO root waitress-0 : /validateImage....
+2023-05-30 11:01:49,984 INFO root waitress-0 : >>----->>> START:UUID:=46d8d041-feab-11ed-a093-161333e62825 <<<-----<<
+2023-05-30 11:01:49,985 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 11:01:49,986 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:01:49,987 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:01:50,041 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:01:51,386 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 11:01:53,230 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:01:53,249 ERROR app waitress-0 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 60, in process_image
+    isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 113, in validate_face_params
+    dpi = get_dpi(image_file_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 78, in get_dpi
+    raise e
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 76, in get_dpi
+    print(im.info['dpi'])
+          ^^
+NameError: name 'im' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "NameError") to str
+2023-05-30 11:02:48,837 INFO root MainThread : Started
+2023-05-30 11:02:48,858 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:03:09,718 INFO root waitress-0 : /validateImage....
+2023-05-30 11:03:09,721 INFO root waitress-0 : >>----->>> START:UUID:=765fe094-feab-11ed-8837-161333e62825 <<<-----<<
+2023-05-30 11:03:09,722 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 11:03:09,724 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:03:09,725 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:03:09,775 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:03:11,143 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 11:03:13,067 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:03:13,092 INFO root waitress-0 : Actual face Dim=height=1198 width=944
+2023-05-30 11:03:13,093 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-30 11:03:13,094 INFO root waitress-0 : _isblur1_=false isvalidface=false
+2023-05-30 11:03:13,095 INFO root waitress-0 : >>----->>> END:UUID:=765fe094-feab-11ed-8837-161333e62825 <<<-----<<
+2023-05-30 11:06:44,704 INFO root MainThread : Started
+2023-05-30 11:06:44,724 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:06:46,630 INFO root waitress-0 : /validateImage....
+2023-05-30 11:06:46,632 INFO root waitress-0 : >>----->>> START:UUID:=f7a9c92a-feab-11ed-b61f-161333e62825 <<<-----<<
+2023-05-30 11:06:46,633 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 11:06:46,634 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:06:46,635 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:06:46,693 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:06:48,280 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 11:06:50,150 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:06:50,170 INFO root waitress-0 : Actual face Dim=height=1198 width=944
+2023-05-30 11:06:50,171 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-30 11:06:50,172 INFO root waitress-0 : _isblur1_=false isvalidface=false
+2023-05-30 11:06:50,173 INFO root waitress-0 : >>----->>> END:UUID:=f7a9c92a-feab-11ed-b61f-161333e62825 <<<-----<<
+2023-05-30 11:08:38,191 INFO root MainThread : Started
+2023-05-30 11:08:38,218 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:08:40,261 INFO root waitress-0 : /validateImage....
+2023-05-30 11:08:40,263 INFO root waitress-0 : >>----->>> START:UUID:=3b64ae61-feac-11ed-819d-161333e62825 <<<-----<<
+2023-05-30 11:08:40,266 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 11:08:40,267 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:08:40,268 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:08:40,318 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:08:41,926 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 11:08:43,748 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:08:43,769 INFO root waitress-0 : Actual face Dim=height=1198 width=944
+2023-05-30 11:08:43,770 INFO root waitress-0 : Required face Dim=height=1000 width=1000
+2023-05-30 11:08:43,771 INFO root waitress-0 : _isblur1_=false isvalidface=false
+2023-05-30 11:08:43,772 INFO root waitress-0 : >>----->>> END:UUID:=3b64ae61-feac-11ed-819d-161333e62825 <<<-----<<
+2023-05-30 11:10:19,597 INFO root MainThread : Started
+2023-05-30 11:10:19,617 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:10:24,599 INFO root waitress-0 : /validateImage....
+2023-05-30 11:10:24,602 INFO root waitress-0 : >>----->>> START:UUID:=7995483d-feac-11ed-a9dd-161333e62825 <<<-----<<
+2023-05-30 11:10:24,603 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-1.jpg img_type=face
+2023-05-30 11:10:24,604 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:10:24,605 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:10:24,659 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:10:25,974 INFO root waitress-0 : Face Locations=[(290, 632, 675, 247)]
+2023-05-30 11:10:27,799 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:10:27,820 INFO root waitress-0 : Actual face Dim=height=1198 width=944
+2023-05-30 11:10:27,821 INFO root waitress-0 : Required face Dim=height=1800 width=1800
+2023-05-30 11:10:27,822 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-30 11:10:27,823 INFO root waitress-0 : >>----->>> END:UUID:=7995483d-feac-11ed-a9dd-161333e62825 <<<-----<<
+2023-05-30 11:10:43,381 INFO root waitress-1 : /validateImage....
+2023-05-30 11:10:43,382 INFO root waitress-1 : >>----->>> START:UUID:=84c72379-feac-11ed-ad4d-161333e62825 <<<-----<<
+2023-05-30 11:10:43,384 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-2.jpg img_type=face
+2023-05-30 11:10:43,386 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:10:43,387 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:10:43,444 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-30 11:10:44,531 INFO root waitress-1 : Face Locations=[(241, 598, 562, 277)]
+2023-05-30 11:10:44,612 INFO root waitress-1 : is_face_valid=true
+2023-05-30 11:10:44,632 ERROR app waitress-1 : Exception on /validateImage [POST]
+Traceback (most recent call last):
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 60, in process_image
+    isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 113, in validate_face_params
+    dpi = get_dpi(image_file_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 79, in get_dpi
+    raise e
+  File "D:\Projects\py-ValidateImageAPI\commons.py", line 76, in get_dpi
+    print("dpi=",img.info['dpi'])
+                 ~~~~~~~~^^^^^^^
+KeyError: 'dpi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\balac\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\crossdomain.py", line 30, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\app.py", line 61, in validateImage
+    data = process_image(image_file_path, img_type, app_id, id, uid, cur_datetime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\py-ValidateImageAPI\imageUtils.py", line 94, in process_image
+    logging.debug("process_image:Exception="+e)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+TypeError: can only concatenate str (not "KeyError") to str
+2023-05-30 11:12:09,681 INFO root MainThread : Started
+2023-05-30 11:12:09,700 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:12:11,591 INFO root waitress-0 : /validateImage....
+2023-05-30 11:12:11,593 INFO root waitress-0 : >>----->>> START:UUID:=b95aef74-feac-11ed-af62-161333e62825 <<<-----<<
+2023-05-30 11:12:11,595 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-2.jpg img_type=face
+2023-05-30 11:12:11,596 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:12:11,597 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:12:11,640 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:12:12,872 INFO root waitress-0 : Face Locations=[(241, 598, 562, 277)]
+2023-05-30 11:12:14,705 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:12:14,721 INFO root waitress-0 : Actual face Dim=height=1049 width=850
+2023-05-30 11:12:14,722 INFO root waitress-0 : Required face Dim=height=1800 width=1800
+2023-05-30 11:12:14,724 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-30 11:12:14,725 INFO root waitress-0 : >>----->>> END:UUID:=b95aef74-feac-11ed-af62-161333e62825 <<<-----<<
+2023-05-30 11:12:25,993 INFO root waitress-1 : /validateImage....
+2023-05-30 11:12:25,995 INFO root waitress-1 : >>----->>> START:UUID:=c1f0a923-feac-11ed-9f7a-161333e62825 <<<-----<<
+2023-05-30 11:12:25,998 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-3.jpg img_type=face
+2023-05-30 11:12:25,999 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:12:25,999 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:12:26,046 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-30 11:12:27,154 INFO root waitress-1 : Face Locations=[(277, 562, 598, 241)]
+2023-05-30 11:12:27,237 INFO root waitress-1 : is_face_valid=true
+2023-05-30 11:12:27,252 INFO root waitress-1 : Actual face Dim=height=1080 width=856
+2023-05-30 11:12:27,253 INFO root waitress-1 : Required face Dim=height=1800 width=1800
+2023-05-30 11:12:27,254 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-30 11:12:27,255 INFO root waitress-1 : >>----->>> END:UUID:=c1f0a923-feac-11ed-9f7a-161333e62825 <<<-----<<
+2023-05-30 11:12:35,731 INFO root waitress-2 : /validateImage....
+2023-05-30 11:12:35,732 INFO root waitress-2 : >>----->>> START:UUID:=c7be64b0-feac-11ed-bd2c-161333e62825 <<<-----<<
+2023-05-30 11:12:35,736 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-4.jpg img_type=face
+2023-05-30 11:12:35,737 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:12:35,738 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:12:35,856 INFO root waitress-2 : is_face_valid:isurl=false
+2023-05-30 11:12:38,865 INFO root waitress-2 : Face Locations=[(295, 911, 850, 356)]
+2023-05-30 11:12:38,973 INFO root waitress-2 : is_face_valid=true
+2023-05-30 11:12:39,010 INFO root waitress-2 : Actual face Dim=height=1998 width=1265
+2023-05-30 11:12:39,012 INFO root waitress-2 : Required face Dim=height=1800 width=1800
+2023-05-30 11:12:39,013 INFO root waitress-2 : _isblur1_=false isvalidface=false
+2023-05-30 11:12:39,014 INFO root waitress-2 : >>----->>> END:UUID:=c7be64b0-feac-11ed-bd2c-161333e62825 <<<-----<<
+2023-05-30 11:13:27,764 INFO root MainThread : Started
+2023-05-30 11:13:27,785 INFO waitress MainThread : Serving on http://0.0.0.0:5001
+2023-05-30 11:13:29,092 INFO root waitress-0 : /validateImage....
+2023-05-30 11:13:29,094 INFO root waitress-0 : >>----->>> START:UUID:=e78cb54c-feac-11ed-986d-161333e62825 <<<-----<<
+2023-05-30 11:13:29,096 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/full scan-4.jpg img_type=face
+2023-05-30 11:13:29,097 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:13:29,098 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:13:29,195 INFO root waitress-0 : is_face_valid:isurl=false
+2023-05-30 11:13:32,426 INFO root waitress-0 : Face Locations=[(295, 911, 850, 356)]
+2023-05-30 11:13:34,260 INFO root waitress-0 : is_face_valid=true
+2023-05-30 11:13:34,295 INFO root waitress-0 : Actual face Dim=height=1998 width=1265
+2023-05-30 11:13:34,297 INFO root waitress-0 : Required face Dim=height=2400 width=2400
+2023-05-30 11:13:34,298 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-30 11:13:34,299 INFO root waitress-0 : >>----->>> END:UUID:=e78cb54c-feac-11ed-986d-161333e62825 <<<-----<<
+2023-05-30 11:14:54,482 INFO root waitress-1 : /validateImage....
+2023-05-30 11:14:54,484 INFO root waitress-1 : >>----->>> START:UUID:=1a720f56-fead-11ed-bab6-161333e62825 <<<-----<<
+2023-05-30 11:14:54,485 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-1.jpg img_type=face
+2023-05-30 11:14:54,487 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:14:54,488 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:14:54,526 INFO root waitress-1 : is_face_valid:isurl=false
+2023-05-30 11:14:55,234 INFO root waitress-1 : Face Locations=[(247, 461, 632, 76)]
+2023-05-30 11:14:55,317 INFO root waitress-1 : is_face_valid=true
+2023-05-30 11:14:55,333 INFO root waitress-1 : Actual face Dim=height=944 width=596
+2023-05-30 11:14:55,334 INFO root waitress-1 : Required face Dim=height=2400 width=2400
+2023-05-30 11:14:55,335 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-30 11:14:55,336 INFO root waitress-1 : >>----->>> END:UUID:=1a720f56-fead-11ed-bab6-161333e62825 <<<-----<<
+2023-05-30 11:15:44,880 INFO root waitress-2 : /validateImage....
+2023-05-30 11:15:44,881 INFO root waitress-2 : >>----->>> START:UUID:=387c3dce-fead-11ed-865b-161333e62825 <<<-----<<
+2023-05-30 11:15:44,883 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-2.jpg img_type=face
+2023-05-30 11:15:44,885 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:15:44,886 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:15:44,984 INFO root waitress-2 : is_face_valid:isurl=false
+2023-05-30 11:15:47,799 INFO root waitress-2 : Face Locations=[(295, 972, 850, 418)]
+2023-05-30 11:15:47,930 INFO root waitress-2 : is_face_valid=true
+2023-05-30 11:15:47,963 INFO root waitress-2 : Actual face Dim=height=1745 width=1364
+2023-05-30 11:15:47,965 INFO root waitress-2 : Required face Dim=height=2400 width=2400
+2023-05-30 11:15:47,966 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-30 11:15:47,967 INFO root waitress-2 : >>----->>> END:UUID:=387c3dce-fead-11ed-865b-161333e62825 <<<-----<<
+2023-05-30 11:15:55,604 INFO root waitress-3 : /validateImage....
+2023-05-30 11:15:55,606 INFO root waitress-3 : >>----->>> START:UUID:=3ee0b0b8-fead-11ed-b675-161333e62825 <<<-----<<
+2023-05-30 11:15:55,607 INFO root waitress-3 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Blurr-3.jpg img_type=face
+2023-05-30 11:15:55,609 INFO root waitress-3 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:15:55,610 INFO root waitress-3 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:15:55,714 INFO root waitress-3 : is_face_valid:isurl=false
+2023-05-30 11:15:58,501 INFO root waitress-3 : Face Locations=[(418, 972, 973, 418)]
+2023-05-30 11:15:58,618 INFO root waitress-3 : is_face_valid=true
+2023-05-30 11:15:58,654 INFO root waitress-3 : Actual face Dim=height=1798 width=1364
+2023-05-30 11:15:58,656 INFO root waitress-3 : Required face Dim=height=2400 width=2400
+2023-05-30 11:15:58,658 INFO root waitress-3 : _isblur1_=false isvalidface=true
+2023-05-30 11:15:58,659 INFO root waitress-3 : >>----->>> END:UUID:=3ee0b0b8-fead-11ed-b675-161333e62825 <<<-----<<
+2023-05-30 11:16:16,912 INFO root waitress-0 : /validateImage....
+2023-05-30 11:16:16,915 INFO root waitress-0 : >>----->>> START:UUID:=4b94242c-fead-11ed-b6fb-161333e62825 <<<-----<<
+2023-05-30 11:16:16,916 INFO root waitress-0 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Without signature -1.jpg img_type=sign
+2023-05-30 11:16:16,917 INFO root waitress-0 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:16:16,918 INFO root waitress-0 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:16:16,941 INFO root waitress-0 : Actual sign Dim=height=431 width=800
+2023-05-30 11:16:16,944 INFO root waitress-0 : Required sign Dim=height=800 width=1000
+2023-05-30 11:16:17,299 INFO root waitress-0 : _isblur1_=false isvalidface=true
+2023-05-30 11:16:17,302 INFO root waitress-0 : >>----->>> END:UUID:=4b94242c-fead-11ed-b6fb-161333e62825 <<<-----<<
+2023-05-30 11:16:45,400 INFO root waitress-1 : /validateImage....
+2023-05-30 11:16:45,402 INFO root waitress-1 : >>----->>> START:UUID:=5c8ef375-fead-11ed-9ea8-161333e62825 <<<-----<<
+2023-05-30 11:16:45,403 INFO root waitress-1 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Without signature -2.jpg img_type=sign
+2023-05-30 11:16:45,404 INFO root waitress-1 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:16:45,406 INFO root waitress-1 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:16:45,434 INFO root waitress-1 : Actual sign Dim=height=626 width=690
+2023-05-30 11:16:45,437 INFO root waitress-1 : Required sign Dim=height=800 width=1000
+2023-05-30 11:16:45,816 INFO root waitress-1 : _isblur1_=false isvalidface=true
+2023-05-30 11:16:45,818 INFO root waitress-1 : >>----->>> END:UUID:=5c8ef375-fead-11ed-9ea8-161333e62825 <<<-----<<
+2023-05-30 11:16:57,264 INFO root waitress-2 : /validateImage....
+2023-05-30 11:16:57,265 INFO root waitress-2 : >>----->>> START:UUID:=63a12e71-fead-11ed-94ee-161333e62825 <<<-----<<
+2023-05-30 11:16:57,267 INFO root waitress-2 : process_image:image_file_path=D:/Projects/py-ValidateImageAPI/static/images/30-05-2023/Without signature -4.jpg img_type=sign
+2023-05-30 11:16:57,269 INFO root waitress-2 : validate_input_file:isfile=True isurl=False
+2023-05-30 11:16:57,270 INFO root waitress-2 : validate_input_file2:isfile=True isurl=False
+2023-05-30 11:16:57,306 INFO root waitress-2 : Actual sign Dim=height=670 width=966
+2023-05-30 11:16:57,308 INFO root waitress-2 : Required sign Dim=height=800 width=1000
+2023-05-30 11:16:57,903 INFO root waitress-2 : _isblur1_=false isvalidface=true
+2023-05-30 11:16:57,904 INFO root waitress-2 : >>----->>> END:UUID:=63a12e71-fead-11ed-94ee-161333e62825 <<<-----<<

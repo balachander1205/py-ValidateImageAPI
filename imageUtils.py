@@ -6,7 +6,7 @@ from binarizeImage import binarize
 from signature_extractor import signature_extractor
 import os
 from urllib.request import urlopen
-from commons import get_sign_img_dim, get_face_img_dim, get_resolution
+from commons import get_sign_img_dim, get_face_img_dim, get_resolution, get_dpi
 import configparser
 
 config = configparser.RawConfigParser()
@@ -110,6 +110,8 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 	remarks = ""
 	face_h, face_w = get_face_img_dim()
 	face_hi, face_wi = get_resolution(image_file_path)
+	# dpi = get_dpi(image_file_path)
+	# print("validate_face_params::DPI=",dpi[0])
 	print("validate_face_params::Actual face Dim=",face_hi, face_wi)
 	print("validate_face_params::Required face Dim=",face_h, face_w)
 	logging.info("Actual face Dim=height="+str(face_hi)+ " width="+str(face_wi))
