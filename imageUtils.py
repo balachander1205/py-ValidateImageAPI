@@ -151,8 +151,6 @@ def validate_sign_params(image_file_path, isblur1):
 	remarks = ""
 	sign_h, sign_w = get_sign_img_dim()
 	sign_hi, sign_wi = get_resolution(image_file_path)
-	colors = get_colors(image_file_path)
-	print("colors=",colors)
 	print("validate_sign_params::Actual sign Dim=height::width=",sign_hi, sign_wi)
 	print("validate_sign_params::Required sign Dim=height::width=",sign_h, sign_w)
 	logging.info("Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
@@ -165,19 +163,30 @@ def validate_sign_params(image_file_path, isblur1):
 			signature, average = signature_extractor(image_file_path)
 			isfullscan = is_full_scan(image_file_path, "sign")
 			print("sign:isfullscan=",isfullscan)
-			# image height <= width which means landscape
-			if(int(sign_hi)<=int(sign_wi)):
-				# signature, average = signature_extractor(image_file_path)
-				# isfullscan = is_full_scan(image_file_path)				
-				if((int(signature)>0 or int(average)>0) and ((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
-					isvalidimage = "true"
-					remarks = config.get('signature', 'valid_sign')
-				elif((int(signature)<=0 or int(average)<=0) and ((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+			if((int(signature)>0 or int(average)>0) and isfullscan==True):
+				isvalidimage = "false"
+				remarks = config.get('signature', 'full_scan_sign')
+			if((int(signature)>0 or int(average)>0) and isfullscan==False):
+				if(int(sign_wi)<=int(sign_hi)):
 					isvalidimage = "false"
 					remarks = config.get('signature', 'invalid_sign')
-				elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
-					isvalidimage = "false"
-					remarks = config.get('signature', 'full_scan_sign')
+				else:
+					isvalidimage = "true"
+					remarks = config.get('signature', 'valid_sign')
+				
+			# image height <= width which means landscape
+			# if(int(sign_hi)<=int(sign_wi)):
+				# signature, average = signature_extractor(image_file_path)
+				# isfullscan = is_full_scan(image_file_path)				
+				# if((int(signature)>0 or int(average)>0) and ((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+					# isvalidimage = "true"
+					# remarks = config.get('signature', 'valid_sign')
+				# elif((int(signature)<=0 or int(average)<=0) and ((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+					# isvalidimage = "false"
+					# remarks = config.get('signature', 'invalid_sign')
+				# elif(((int(sign_hi) >= int(sign_h)) or (int(sign_wi) >= int(sign_w)))):
+					# isvalidimage = "false"
+					# remarks = config.get('signature', 'full_scan_sign')
 			# image width <= height which means portrait
 			if(int(sign_wi)<=int(sign_hi)):
 				isvalidimage = "false"

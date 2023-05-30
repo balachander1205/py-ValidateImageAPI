@@ -9,20 +9,24 @@ def is_full_scan(image_file_path, type):
 	remarks = False
 	fullscan_start = int(config.get('fullscan', 'fullscan_start'))
 	fullscan_end = int(config.get('fullscan', 'fullscan_end'))
+	fullscan_sign_start = int(config.get('fullscan', 'fullscan_sign_start'))
+	fullscan_sign_end = int(config.get('fullscan', 'fullscan_sign_end'))
 	try:
 		colors = get_colors(image_file_path)
 		print("colors=",colors)
 		if(type=="face"):
-			if len(colors)==0:
+			if len(colors)==1:
 				remarks = True
 			if len(colors)>0:
 				if(int(float(colors[0]))==fullscan_end or (fullscan_start <= int(float(colors[0])) <=fullscan_end)):
 					remarks = True
 		if(type=="sign"):
-			if (len(colors)==0 or (len(colors)==1 and int(float(colors[0]))==fullscan_end)):
+			if (len(colors)==0 or len(colors)==1 or int(float(colors[0]))==fullscan_sign_end):
 				remarks = True
-			if len(colors)>0:
-				if(int(float(colors[0]))==fullscan_end or (fullscan_start <= int(float(colors[0])) <=fullscan_end)):
+			if (len(colors)>=2 and (fullscan_sign_start <= int(float(colors[0])) <=fullscan_sign_end)):
+				remarks = True
+			if len(colors)>2:
+				if(int(float(colors[0]))==fullscan_sign_end or (fullscan_sign_start <= int(float(colors[0])) <=fullscan_sign_end)):
 					remarks = True
 		return remarks			
 	except Exception as e:
