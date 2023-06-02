@@ -63,7 +63,7 @@ def is_face_valid(imagePath):
 		if ('http://' in imagePath) or ('https://' in imagePath):
 			isurl = 'true'
 		# print("is_face_valid:isurl=",isurl)
-		logging.info("is_face_valid:isurl="+isurl)
+		logging.info("face:face:is_face_valid:isurl="+isurl)
 		if(isurl=='true'):
 			response = requests.get(imagePath)
 			imagePath = BytesIO(response.content)
@@ -80,14 +80,16 @@ def is_face_valid(imagePath):
 		    	# cv2.rectangle(image,(ex,ey),(ex+ew,ey+eh),(0,255,255),2)
 		# cv2.imshow("Image", image)
 		# cv2.waitKey(0)		
-		print("Face Locations=",face_locations)
+		print("face:Face Locations=",face_locations)
 		logging.info("Face Locations="+str(face_locations))
 		is_valid_face = 'false'
-		if(len(face_locations)>0):
+		if(len(face_locations)==1):
 			# angle = validate_face_alignment(image, face_locations)
 			# print("Face angle=",str(angle))
 			is_valid_face = 'true'
-		print("is_valid_face=",is_valid_face)
+		if(len(face_locations)==2):
+			is_valid_face = 'false'
+		print("face:is_valid_face=",is_valid_face)
 		logging.info("is_face_valid="+is_valid_face)
 		return is_valid_face
 	except Exception as e:

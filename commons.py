@@ -11,6 +11,7 @@ import urllib.request as ur
 import extcolors
 from colormap import rgb2hex
 import pandas as pd
+from PIL.ExifTags import TAGS
 
 config = configparser.RawConfigParser()
 config.read('static/config/config.properties')
@@ -58,15 +59,37 @@ def get_image(url, type):
 		print(e)
 		logging.debug("Exception@get_image="+str(e))
 
+def get_img_meta_data(image):
+	is_meta_data = True
+	try:
+		im = get_image(image, "pil")
+		exifdata = im.getexif()
+		if(len(exifdata)==0):
+			is_meta_data = False
+		return is_meta_data
+		# looping through all the tags present in exifdata
+		# for tagid in exifdata:
+			# tagname = TAGS.get(tagid, tagid)
+			# value = exifdata.get(tagid)
+			# if isinstance(value, bytes):
+				# data = value.decode()
+			# print(f"{tagname}: {value}")
+	except Exception as e:
+		print(e)
+		logging.debug("Exception@get_img_meta_data="+str(e))
+
 '''
 	get image resolution
 '''
 def get_resolution(image):
 	try:
 		im = get_image(image, "cv2")
+		get_img_meta_data(image)
 		if(len(im.shape)<=2):
+			print("get_resolution=2")
 			h,w = im.shape
 		if(len(im.shape)>2):
+			print("get_resolution>2")
 			h, w, c = im.shape
 	except Exception as e:
 		print(e)
@@ -97,17 +120,39 @@ def color_to_df(input):
     text_c = [str(round(p*100/sum(list_precent),1)) for c, p in zip(list_color, list_precent)]
     df = pd.DataFrame(zip(df_color_up, df_percent, text_c), columns = ['c_code','pixels','percent'])
     print(df)
-    return list(text_c)
+    return list(text_c), list(df['c_code'])
 
 def get_colors(image):
 	try:
 	  img = get_image(image, "pil")
 	  colors = extcolors.extract_from_image(img)
-	  data_frame = color_to_df(colors)
-	  return data_frame
+	  data_frame, c_code = color_to_df(colors)
+	  return data_frame, c_code
 	except Exception as e:
 		print(e)
 		logging.debug("Exception:get_colors="+str(e))
+
+'''
+checking image for black and white
+'''
+def is_binary_image(image):
+	is_binary_image = False
+	try:
+		colors, c_code = get_colors(image)
+		if len(c_code)==2:
+			print("Image is black & white")
+			is_binary_image = True
+			# if(("#FFF".lower() in c_code[0].lower() or "#000".lower() in c_code[0].lower())
+				# and ("#FFF".lower() in c_code[1].lower() or "#000".lower() in c_code[1].lower())):
+				# print("Image is black & white")
+				# is_binary_image = True
+		logging.info("is_binary_image="+str(is_binary_image))
+		return is_binary_image
+	except Exception as e:
+		print("Exception:is_binary_image=",e)
+		logging.debug("Exception|is_binary_image="+str(e))
+		return is_binary_image
+
 
 def get_uuid():
 	now_1 = datetime.now()

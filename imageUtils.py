@@ -6,7 +6,7 @@ from binarizeImage import binarize
 from signature_extractor import signature_extractor
 import os
 from urllib.request import urlopen
-from commons import get_sign_img_dim, get_face_img_dim, get_resolution, get_colors, get_brightness
+from commons import get_sign_img_dim, get_face_img_dim, get_resolution, get_colors, get_brightness, is_binary_image, get_img_meta_data
 import configparser
 from checkfullscan import is_full_scan
 
@@ -109,35 +109,53 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 def validate_face_params(image_file_path, isblur1, validate_face1):
 	isvalidimage = "false"
 	remarks = ""
-	# face_h, face_w = get_face_img_dim()
-	# face_hi, face_wi = get_resolution(image_file_path)
-	# print("validate_face_params::Actual face Dim=",face_hi, face_wi)
-	# print("validate_face_params::Required face Dim=",face_h, face_w)
-	# logging.info("Actual face Dim=height="+str(face_hi)+ " width="+str(face_wi))
-	# logging.info("Required face Dim=height="+str(face_h)+ " width="+str(face_w))
+	face_h, face_w = get_face_img_dim()
+	face_hi, face_wi = get_resolution(image_file_path)
+	print("face:Actual face Dim=",face_hi, face_wi)
+	print("face:Required face Dim=",face_h, face_w)
+	logging.info("Actual face Dim=height="+str(face_hi)+ " width="+str(face_wi))
+	logging.info("Required face Dim=height="+str(face_h)+ " width="+str(face_w))
 	try:
-		brightness = get_brightness(image_file_path)
-		print("brightness=",brightness)
+		# brightness = get_brightness(image_file_path)
+		isbinaryimage = is_binary_image(image_file_path)
+		is_meta_data = get_img_meta_data(image_file_path)
+		# print("brightness=",brightness)
+		print("face:isbinaryimage=",isbinaryimage)
+		print("face:is_meta_data=",is_meta_data)
 		brightness_threshold = int(config.get('image', 'brightness_threshold'))
-		if(int(brightness)>brightness_threshold):
-			isblur1 = "true"
+		# if(int(brightness)>brightness_threshold):
+			# isblur1 = "true"
 		# Blur Image
 		if(isblur1=="true"):
+			print("face:if1....")
 			isvalidimage = "false"
 			remarks = config.get('face', 'blur_image')
-		# Invalid Image
-		if(validate_face1=="false" and isblur1=="false"):
+			return isvalidimage, remarks
+		if(isblur1=="false" and isbinaryimage==True):
+			print("face:if2....")
 			isvalidimage = "false"
 			remarks = config.get('face', 'invalid_image')
-		if(validate_face1=="true" and isblur1=="false"):
+			return isvalidimage, remarks
+		# Invalid Image
+		if(validate_face1=="false" and isblur1=="false"):
+			print("face:if3....")
+			isvalidimage = "false"
+			remarks = config.get('face', 'invalid_image')
+			return isvalidimage, remarks
+		if(validate_face1=="true" and isblur1=="false" and isbinaryimage==False):
+			print("face:if4....")
 			isfullscan = is_full_scan(image_file_path, "face")			
-			print("isfullscan=",isfullscan)
+			print("face:isfullscan=",isfullscan)
 			if(isfullscan==True):
+				print("face:if5....")
 				isvalidimage = "false"
 				remarks = config.get('face', 'full_scan_image')
+				return isvalidimage, remarks
 			if(isfullscan==False):
+				print("face:if6....")
 				isvalidimage = "true"
 				remarks = config.get('face', 'valid_image')
+				return isvalidimage, remarks
 			# Valid Image
 			# if(((int(face_hi) <= int(face_h)) and (int(face_wi) <= int(face_w))) and isfullscan==False):
 				# isvalidimage = "true"
@@ -156,28 +174,38 @@ def validate_sign_params(image_file_path, isblur1):
 	remarks = ""
 	sign_h, sign_w = get_sign_img_dim()
 	sign_hi, sign_wi = get_resolution(image_file_path)
-	print("validate_sign_params::Actual sign Dim=height::width=",sign_hi, sign_wi)
-	print("validate_sign_params::Required sign Dim=height::width=",sign_h, sign_w)
-	logging.info("Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
-	logging.info("Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
+	print("sign:Actual sign Dim=height::width=",sign_hi, sign_wi)
+	print("sign:Required sign Dim=height::width=",sign_h, sign_w)
+	logging.info("sign:Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
+	logging.info("sign:Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
 	try:
 		if(isblur1=="true"):
 			isvalidimage = "false"
 			remarks = config.get('signature', 'blur_sign')
+			return isvalidimage, remarks
 		if(isblur1=="false"):
 			signature, average = signature_extractor(image_file_path)
 			isfullscan = is_full_scan(image_file_path, "sign")
+			is_meta_data = get_img_meta_data(image_file_path)
 			print("sign:isfullscan=",isfullscan)
+			print("sign:is_meta_data=",is_meta_data)
+			if(is_meta_data==False):
+				isvalidimage = "false"
+				remarks = config.get('signature', 'invalid_sign')
+				return isvalidimage, remarks
 			if((int(signature)>0 or int(average)>0) and isfullscan==True):
 				isvalidimage = "false"
 				remarks = config.get('signature', 'full_scan_sign')
+				return isvalidimage, remarks
 			if((int(signature)>0 or int(average)>0) and isfullscan==False):
 				if(int(sign_wi)<=int(sign_hi)):
 					isvalidimage = "false"
 					remarks = config.get('signature', 'invalid_sign')
+					return isvalidimage, remarks
 				else:
 					isvalidimage = "true"
 					remarks = config.get('signature', 'valid_sign')
+					return isvalidimage, remarks
 				
 			# image height <= width which means landscape
 			# if(int(sign_hi)<=int(sign_wi)):
@@ -196,7 +224,8 @@ def validate_sign_params(image_file_path, isblur1):
 			if(int(sign_wi)<=int(sign_hi)):
 				isvalidimage = "false"
 				remarks = config.get('signature', 'invalid_sign')
-		print("validate_sign_params::remarks=",remarks)
+				return isvalidimage, remarks
+		print("sign:remarks=",remarks)
 		return isvalidimage, remarks
 	except Exception as e:
 		print(e)

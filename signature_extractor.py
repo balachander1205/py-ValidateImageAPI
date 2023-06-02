@@ -36,8 +36,8 @@ def signature_extractor(image):
                 if (region.area > the_biggest_component):
                     the_biggest_component = region.area
         average = (total_area/counter)
-        print("signature:biggest_component: " + str(the_biggest_component))
-        print("signature:average: " + str(round(average, 2)))
+        print("sign:biggest_component: " + str(the_biggest_component))
+        print("sign:average: " + str(round(average, 2)))
         return the_biggest_component, round(average, 2)      
     except Exception as e:
         print("Exception:signature_extractor=",e)

@@ -12,7 +12,7 @@ def is_full_scan(image_file_path, type):
 	fullscan_sign_start = int(config.get('fullscan', 'fullscan_sign_start'))
 	fullscan_sign_end = int(config.get('fullscan', 'fullscan_sign_end'))
 	try:
-		colors = get_colors(image_file_path)
+		colors, c_code = get_colors(image_file_path)
 		print("colors=",colors)
 		if(type=="face"):
 			if len(colors)==1:
