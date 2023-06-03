@@ -11,7 +11,6 @@ import urllib.request as ur
 import extcolors
 from colormap import rgb2hex
 import pandas as pd
-from PIL.ExifTags import TAGS
 
 config = configparser.RawConfigParser()
 config.read('static/config/config.properties')
@@ -59,32 +58,12 @@ def get_image(url, type):
 		print(e)
 		logging.debug("Exception@get_image="+str(e))
 
-def get_img_meta_data(image):
-	is_meta_data = True
-	try:
-		im = get_image(image, "pil")
-		exifdata = im.getexif()
-		if(len(exifdata)==0):
-			is_meta_data = False
-		return is_meta_data
-		# looping through all the tags present in exifdata
-		# for tagid in exifdata:
-			# tagname = TAGS.get(tagid, tagid)
-			# value = exifdata.get(tagid)
-			# if isinstance(value, bytes):
-				# data = value.decode()
-			# print(f"{tagname}: {value}")
-	except Exception as e:
-		print(e)
-		logging.debug("Exception@get_img_meta_data="+str(e))
-
 '''
 	get image resolution
 '''
 def get_resolution(image):
 	try:
 		im = get_image(image, "cv2")
-		get_img_meta_data(image)
 		if(len(im.shape)<=2):
 			print("get_resolution=2")
 			h,w = im.shape
@@ -153,6 +132,29 @@ def is_binary_image(image):
 		logging.debug("Exception|is_binary_image="+str(e))
 		return is_binary_image
 
+
+def binarize(img, type):
+  is_valid_img = "true"
+  try:
+    img = get_image(img, 'pil')
+    #initialize threshold
+    thresh=100
+    #convert image to greyscale
+    img=img.convert('L')
+    width,height=img.size
+    #traverse through pixels 
+    for x in range(width):
+      for y in range(height):
+        #if intensity less than threshold, assign white
+        if img.getpixel((x,y)) < thresh:
+          img.putpixel((x,y),0)
+          return img
+        #if intensity > threshold, assign black 
+        else:
+          img.putpixel((x,y),255)
+          return img
+  except Exception as e:
+   	print(e)
 
 def get_uuid():
 	now_1 = datetime.now()

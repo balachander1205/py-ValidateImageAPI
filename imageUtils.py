@@ -6,9 +6,11 @@ from binarizeImage import binarize
 from signature_extractor import signature_extractor
 import os
 from urllib.request import urlopen
-from commons import get_sign_img_dim, get_face_img_dim, get_resolution, get_colors, get_brightness, is_binary_image, get_img_meta_data
+from commons import *
 import configparser
 from checkfullscan import is_full_scan
+from getimagemetadata import *
+from numpy import asarray
 
 config = configparser.RawConfigParser()
 config.read('static/config/config.properties')
@@ -59,12 +61,14 @@ def process_image(image_file_path, img_type, app_id, id, uid, cur_datetime):
 				# validate face
 				validate_face1 = is_face_valid(image_file_path)		
 				isvalidimage, remarks = validate_face_params(image_file_path, isblur1, validate_face1)
+				print("face:_isblur1_=",isblur1," isvalidface=",isvalidimage," remarks=",remarks)
+				logging.info("face:_isblur1_="+isblur1+" isvalidface="+isvalidimage+" remarks="+remarks)
 			# signature		
 			if(img_type=="sign"):
 				isvalidimage, remarks = validate_sign_params(image_file_path, isblur1)
-			print("process_image::_isblur1_=",isblur1," isvalidface=",isvalidimage)
-			logging.info("_isblur1_="+isblur1+" isvalidface="+isvalidimage)
-
+				print("sign:_isblur1_=",isblur1," isvalidsign=",isvalidimage," remarks=",remarks)
+				logging.info("sign:_isblur1_="+isblur1+" isvalidsign="+isvalidimage+" remarks="+remarks)
+			
 			data = {
 			'status':'OK',
 			'imagefile':image_file_path,
@@ -175,9 +179,9 @@ def validate_sign_params(image_file_path, isblur1):
 	sign_h, sign_w = get_sign_img_dim()
 	sign_hi, sign_wi = get_resolution(image_file_path)
 	print("sign:Actual sign Dim=height::width=",sign_hi, sign_wi)
-	print("sign:Required sign Dim=height::width=",sign_h, sign_w)
+	print("sign:Requir sign Dim=height::width=",sign_h, sign_w)
 	logging.info("sign:Actual sign Dim=height="+str(sign_hi)+ " width="+str(sign_wi))
-	logging.info("sign:Required sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
+	logging.info("sign:Requir sign Dim=height="+str(sign_h)+ " width="+str(sign_w))
 	try:
 		if(isblur1=="true"):
 			isvalidimage = "false"
@@ -187,22 +191,36 @@ def validate_sign_params(image_file_path, isblur1):
 			signature, average = signature_extractor(image_file_path)
 			isfullscan = is_full_scan(image_file_path, "sign")
 			is_meta_data = get_img_meta_data(image_file_path)
+			img = binarize(image_file_path, "sign")
+			# numpydata = asarray(img)
+			# cv2.imshow("Image", numpydata)
+			# cv2.waitKey(0)
 			print("sign:isfullscan=",isfullscan)
 			print("sign:is_meta_data=",is_meta_data)
-			if(is_meta_data==False):
+			# if(is_meta_data==False):
+				# print("sign:if1...")
+				# isvalidimage = "false"
+				# remarks = config.get('signature', 'invalid_sign')
+				# return isvalidimage, remarks
+			if(int(sign_wi)<=int(sign_hi) and isfullscan==True):
+				print("sign:if1...")
 				isvalidimage = "false"
-				remarks = config.get('signature', 'invalid_sign')
+				remarks = config.get('signature', 'full_scan_sign')
 				return isvalidimage, remarks
 			if((int(signature)>0 or int(average)>0) and isfullscan==True):
+				print("sign:if2...")
 				isvalidimage = "false"
 				remarks = config.get('signature', 'full_scan_sign')
 				return isvalidimage, remarks
 			if((int(signature)>0 or int(average)>0) and isfullscan==False):
+				print("sign:if3...")
 				if(int(sign_wi)<=int(sign_hi)):
+					print("sign:if4...")
 					isvalidimage = "false"
 					remarks = config.get('signature', 'invalid_sign')
 					return isvalidimage, remarks
 				else:
+					print("sign:if5...")
 					isvalidimage = "true"
 					remarks = config.get('signature', 'valid_sign')
 					return isvalidimage, remarks
