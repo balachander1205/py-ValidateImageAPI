@@ -118,13 +118,10 @@ def is_binary_image(image):
 	is_binary_image = False
 	try:
 		colors, c_code = get_colors(image)
-		if len(c_code)==2:
-			print("Image is black & white")
-			is_binary_image = True
-			# if(("#FFF".lower() in c_code[0].lower() or "#000".lower() in c_code[0].lower())
-				# and ("#FFF".lower() in c_code[1].lower() or "#000".lower() in c_code[1].lower())):
-				# print("Image is black & white")
-				# is_binary_image = True
+		if(len(c_code)==2 and ("#FFFFFF".lower() in c_code[0].lower() and "#000000".lower() in c_code[1].lower())
+				or ("#FFFFFF".lower() in c_code[1].lower() and "#000000".lower() in c_code[0].lower())):
+				print("Image is black & white")
+				is_binary_image = True
 		logging.info("is_binary_image="+str(is_binary_image))
 		return is_binary_image
 	except Exception as e:

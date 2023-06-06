@@ -1,15 +1,17 @@
 import face_recognition
-from commons import get_image
+from commons import *
 import requests
 from io import BytesIO
 import logging
 import cv2
 import numpy as np
+from getimagemetadata import *
 
 # imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_004.jpg'
 # imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG23/116371708041978.jpg&filePath=basePath'
 # imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG62/314868719111993.jpg&filePath=basePath'
 # imagePath = 'D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0001.jpg'
+imagePath = 'https://tspsconetimereg.tspsc.gov.in/preview.tspsc?fileName=Documents/JPG/PHOTO/PHOTO_JPG69/346941625041983.jpg&filePath=basePath'
 
 eye_cascade = cv2.CascadeClassifier('static/haarcascade_eye.xml')
 
@@ -67,6 +69,8 @@ def is_face_valid(imagePath):
 		if(isurl=='true'):
 			response = requests.get(imagePath)
 			imagePath = BytesIO(response.content)
+		# meta_data = get_img_meta_data(imagePath)
+		# print(meta_data)
 
 		image = face_recognition.load_image_file(imagePath)
 		face_locations = face_recognition.face_locations(image)
@@ -83,12 +87,12 @@ def is_face_valid(imagePath):
 		print("face:Face Locations=",face_locations)
 		logging.info("Face Locations="+str(face_locations))
 		is_valid_face = 'false'
-		if(len(face_locations)==1):
+		if(len(face_locations)>=1):
 			# angle = validate_face_alignment(image, face_locations)
 			# print("Face angle=",str(angle))
 			is_valid_face = 'true'
-		if(len(face_locations)==2):
-			is_valid_face = 'false'
+		# if(len(face_locations)==2):
+			# is_valid_face = 'false'
 		print("face:is_valid_face=",is_valid_face)
 		logging.info("is_face_valid="+is_valid_face)
 		return is_valid_face

@@ -122,10 +122,10 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 	try:
 		# brightness = get_brightness(image_file_path)
 		isbinaryimage = is_binary_image(image_file_path)
-		is_meta_data = get_img_meta_data(image_file_path)
+		# is_meta_data = get_img_meta_data(image_file_path)
 		# print("brightness=",brightness)
 		print("face:isbinaryimage=",isbinaryimage)
-		print("face:is_meta_data=",is_meta_data)
+		# print("face:is_meta_data=",is_meta_data)
 		brightness_threshold = int(config.get('image', 'brightness_threshold'))
 		# if(int(brightness)>brightness_threshold):
 			# isblur1 = "true"
@@ -151,10 +151,16 @@ def validate_face_params(image_file_path, isblur1, validate_face1):
 			isfullscan = is_full_scan(image_file_path, "face")			
 			print("face:isfullscan=",isfullscan)
 			if(isfullscan==True):
-				print("face:if5....")
-				isvalidimage = "false"
-				remarks = config.get('face', 'full_scan_image')
-				return isvalidimage, remarks
+				if((len(str(face_hi))<=3) and (len(str(face_hi))<=3)):
+					print("face:if5....")
+					isvalidimage = "true"
+					remarks = config.get('face', 'valid_image')
+					return isvalidimage, remarks
+				else:
+					print("face:if5.1....")
+					isvalidimage = "false"
+					remarks = config.get('face', 'full_scan_image')
+					return isvalidimage, remarks
 			if(isfullscan==False):
 				print("face:if6....")
 				isvalidimage = "true"
@@ -190,13 +196,13 @@ def validate_sign_params(image_file_path, isblur1):
 		if(isblur1=="false"):
 			signature, average = signature_extractor(image_file_path)
 			isfullscan = is_full_scan(image_file_path, "sign")
-			is_meta_data = get_img_meta_data(image_file_path)
-			img = binarize(image_file_path, "sign")
+			# is_meta_data = get_img_meta_data(image_file_path)
+			# img = binarize(image_file_path, "sign")
 			# numpydata = asarray(img)
 			# cv2.imshow("Image", numpydata)
 			# cv2.waitKey(0)
 			print("sign:isfullscan=",isfullscan)
-			print("sign:is_meta_data=",is_meta_data)
+			# print("sign:is_meta_data=",is_meta_data)
 			# if(is_meta_data==False):
 				# print("sign:if1...")
 				# isvalidimage = "false"
@@ -208,10 +214,16 @@ def validate_sign_params(image_file_path, isblur1):
 				remarks = config.get('signature', 'full_scan_sign')
 				return isvalidimage, remarks
 			if((int(signature)>0 or int(average)>0) and isfullscan==True):
-				print("sign:if2...")
-				isvalidimage = "false"
-				remarks = config.get('signature', 'full_scan_sign')
-				return isvalidimage, remarks
+				if(((int(sign_hi) <= int(sign_h)) and (int(sign_wi) <= int(sign_w)))):
+					print("sign:if2...")
+					isvalidimage = "true"
+					remarks = config.get('signature', 'valid_sign')
+					return isvalidimage, remarks
+				else:
+					print("sign:if2.1...")
+					isvalidimage = "false"
+					remarks = config.get('signature', 'full_scan_sign')
+					return isvalidimage, remarks
 			if((int(signature)>0 or int(average)>0) and isfullscan==False):
 				print("sign:if3...")
 				if(int(sign_wi)<=int(sign_hi)):

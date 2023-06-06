@@ -38,7 +38,7 @@ def is_sepia(img):
 
 # "Sepia kernel" for filtering; https://amin-ahmadi.com/2016/03/24/sepia-filter-opencv/
 
-img = 'D:/Projects/py-ValidateImageAPI/static/images/detecting_blur_result_003.jpg'
+img = 'D:/Projects/py-ValidateImageAPI/static/images/IMG-20230520-WA0003.jpg'
 # Read image via Pillow; processing using OpenCV; sepia filtering
 image_pil = get_image(img, 'pil')
 image = np.flip(np.array(image_pil), 2)
@@ -50,13 +50,13 @@ plt.subplot(2, 2, 1), plt.imshow(np.flip(image, 2)), plt.title('Original image')
 plt.subplot(2, 2, 2), plt.imshow(sepia_mask(image), cmap='gray')
 perc = cv2.countNonZero(sepia_mask(image)) / np.prod(image.shape[:2])
 print("original Image | Sepia mask=",perc)
-print("original Image | Sepia mask=",round(perc))
+print("original Image | Sepia mask=",round(perc, 2))
 plt.title('Sepia mask [' + str(perc) + ']')
 plt.subplot(2, 2, 3), plt.imshow(np.flip(sepia, 2)), plt.title('Sepia filtered image')
 plt.subplot(2, 2, 4), plt.imshow(sepia_mask(sepia), cmap='gray')
 perc = cv2.countNonZero(sepia_mask(sepia)) / np.prod(sepia.shape[:2])
 print("Sepia Image | Sepia mask=",perc)
-print("Sepia Image | Sepia mask=",round(perc))
+print("Sepia Image | Sepia mask=",round(perc, 2))
 plt.title('Sepia mask [' + str(perc) + ']')
 plt.tight_layout()
 plt.show()
