@@ -2,6 +2,12 @@ venv
 __pycache__
 /__pycache__
 /venv
+static/logs/
+/static/logs
 static/logs/middleware.log
 /static/logs/middleware.log
 middleware.log
+/static/images
+static/images
+/backup
+backup
